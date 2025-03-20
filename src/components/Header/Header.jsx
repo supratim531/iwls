@@ -46,7 +46,7 @@ const Header = (props) => {
       </div>
 
       <nav
-        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-85` : ""}`}
+        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-95` : ""}`}
       >
         <Container
           data-aos="fade-up"

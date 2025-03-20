@@ -26,7 +26,7 @@ const Hero = (props) => {
           </p>
         </Container>
 
-        <div className="absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent shadow-[0_5px_12px_-2px_black]">
+        <div className="absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent">
           <video
             className="h-full w-full object-cover brightness-[0.5]"
             src={HeroVideo}

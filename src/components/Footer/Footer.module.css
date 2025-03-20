@@ -1,0 +1,33 @@
+.others,
+.quickLinks {
+  & > li {
+    margin-bottom: 16px;
+  }
+
+  & > li::before {
+    content: "~";
+    margin-right: 16px;
+    position: relative;
+
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--bg-secondary);
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.socialIcon {
+  & > a {
+    @media (max-width: 767px) {
+      width: 2rem;
+      height: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 9999px;
+      background-color: var(--bg-primary-light);
+    }
+  }
+}
