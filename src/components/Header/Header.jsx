@@ -48,7 +48,10 @@ const Header = (props) => {
       <nav
         className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-85` : ""}`}
       >
-        <Container className="flex items-center justify-between">
+        <Container
+          data-aos="fade-up"
+          className="flex items-center justify-between"
+        >
           <div className="text-2xl">Logo</div>
 
           <ul className="hidden items-center gap-10 text-xl md:flex">
