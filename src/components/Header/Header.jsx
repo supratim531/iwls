@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "../../components";
 
 import css from "./Header.module.css";
+import { BrandLogo } from "../../assets";
 
 const Header = (props) => {
   const [scrolled, setScrolled] = useState(false);
@@ -52,7 +53,13 @@ const Header = (props) => {
           data-aos="fade-up"
           className="flex items-center justify-between"
         >
-          <div className="text-2xl">Logo</div>
+          <div className="text-2xl">
+            <img
+              src={BrandLogo}
+              alt="INNERWORK LEGAL SERVICES"
+              className="w-40"
+            />
+          </div>
 
           <ul className="hidden items-center gap-10 text-xl md:flex">
             <li>Home</li>
