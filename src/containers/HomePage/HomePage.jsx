@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Hero } from "../../components";
+import { Hero, Team, Testimonial } from "../../components";
 
 const HomePage = (props) => {
   return (
     <main>
       <Hero />
+      <Team />
+      <Testimonial />
     </main>
   );
 };
