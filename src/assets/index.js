@@ -1,4 +1,5 @@
 export { default as team } from "./json/team.json";
+export { default as services } from "./json/services.json";
 export { default as preloader } from "./lottie/preloader.json";
 export { default as testimonials } from "./json/testimonials.json";
 export { default as BrandLogo } from "./logo/brand.png";

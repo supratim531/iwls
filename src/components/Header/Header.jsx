@@ -23,7 +23,7 @@ const Header = (props) => {
 
   return (
     <header>
-      <div className="bg-primary-dark fixed top-0 z-[100] flex h-[42px] w-full items-center">
+      <div className="fixed top-0 z-[100] flex h-[42px] w-full items-center bg-primary-dark">
         <Container className="flex h-full items-center justify-center gap-7 md:justify-end">
           <ul className="flex items-center gap-7 text-white">
             <a href="https://github.com/supratim531">
@@ -40,7 +40,7 @@ const Header = (props) => {
             </a>
           </ul>
 
-          <div className="bg-secondary hidden h-full items-center px-4 font-semibold text-white md:flex">
+          <div className="hidden h-full items-center bg-secondary px-4 font-semibold text-white md:flex">
             <span>24x7 Emergency: 9073672051 | 9073932051</span>
           </div>
         </Container>
@@ -62,10 +62,18 @@ const Header = (props) => {
           </div>
 
           <ul className="hidden items-center gap-10 text-xl md:flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-            <li>Contact Us</li>
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#service">Service</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Us</a>
+            </li>
           </ul>
 
           <button className="block md:hidden">

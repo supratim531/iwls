@@ -19,16 +19,16 @@ const Modal = (props) => {
         className="no-scrollbar relative mx-6 max-h-[90vh] w-[600px] max-w-2xl overflow-y-auto rounded-lg bg-white"
       >
         <div className="flex flex-col bg-white">
-          <div className="sticky top-0 z-10 flex h-[48px] items-center justify-between bg-white p-10">
-            <span className="text-xl font-bold text-primary-dark">
+          <div className="sticky top-0 z-10 flex h-[48px] items-center justify-between gap-4 bg-white p-8">
+            <span className="text-base font-bold text-primary-dark md:text-xl">
               {title ? title : null}
             </span>
             <button onClick={onClose} className="text-primary-dark">
-              <i className="fa-solid fa-xmark text-4xl"></i>
+              <i className="fa-solid fa-xmark text-2xl md:text-4xl"></i>
             </button>
           </div>
 
-          <div className="px-10 pb-10">{children}</div>
+          <div className="px-8 pb-8">{children}</div>
         </div>
       </motion.div>
     </Dialog>

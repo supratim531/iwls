@@ -8,6 +8,7 @@ const Hero = (props) => {
   return (
     <React.Fragment>
       <section
+        id="hero"
         data-aos="fade-in"
         className="flex min-h-screen w-full items-center justify-center text-white"
       >

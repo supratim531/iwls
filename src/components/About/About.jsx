@@ -12,6 +12,7 @@ const About = (props) => {
   return (
     <Container>
       <Section
+        id="about"
         className={css.root}
         style={{
           backgroundImage: `url(${WhoWeAreImage})`,
@@ -122,7 +123,7 @@ const About = (props) => {
         onClose={() => setIsModalOpen(false)}
       >
         <div className="">
-          <p>
+          <p className="mb-6 text-justify">
             Encountering unexpected legal challenges can be both bewildering and
             draining. In a world where legal issues are common, having a skilled
             team to assist is crucial. Many individuals lack the time or
