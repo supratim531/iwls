@@ -1,0 +1,30 @@
+.root {
+  background-size: 400%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  @media (min-width: 576px) {
+    background-size: 200%;
+  }
+
+  @media (min-width: 768px) {
+    background-size: cover;
+  }
+}
+
+.subHeading {
+  font-size: 24px;
+  color: #272727;
+  font-weight: 800;
+  line-height: 1.166em;
+  text-transform: uppercase;
+}
+
+.list {
+  & > li {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -8,7 +8,6 @@ const Hero = (props) => {
   return (
     <React.Fragment>
       <section
-        id="hero"
         data-aos="fade-in"
         className="flex min-h-screen w-full items-center justify-center text-white"
       >
@@ -26,11 +25,11 @@ const Hero = (props) => {
           </p>
 
           <div className="flex flex-col items-center gap-4 sm:flex-row">
-            <button className="bg-primary-light hover:bg-primary-dark w-full rounded-md border-2 border-transparent py-3 duration-200 sm:w-44">
+            <button className="w-full rounded-md border-2 border-transparent bg-primary-light py-3 duration-200 hover:bg-primary-dark sm:w-44">
               Book Consultation
             </button>
 
-            <button className="hover:text-secondary w-full rounded-md border-2 border-white bg-transparent py-3 duration-200 hover:border-white hover:bg-white sm:w-44">
+            <button className="w-full rounded-md border-2 border-white bg-transparent py-3 duration-200 hover:border-white hover:bg-white hover:text-secondary sm:w-44">
               Contact Us
             </button>
           </div>

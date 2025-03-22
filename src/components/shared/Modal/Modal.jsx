@@ -16,10 +16,10 @@ const Modal = (props) => {
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.8, opacity: 0 }}
         transition={{ duration: 0.3 }}
-        className="relative mx-6 max-h-[90vh] w-[600px] max-w-2xl overflow-y-auto rounded-lg bg-white p-6"
+        className="no-scrollbar relative mx-6 max-h-[90vh] w-[600px] max-w-2xl overflow-y-auto rounded-lg bg-white"
       >
-        <div className="flex flex-col gap-4">
-          <div className="flex items-center justify-between">
+        <div className="flex flex-col bg-white">
+          <div className="sticky top-0 z-10 flex h-[48px] items-center justify-between bg-white p-10">
             <span className="text-xl font-bold text-primary-dark">
               {title ? title : null}
             </span>
@@ -28,7 +28,7 @@ const Modal = (props) => {
             </button>
           </div>
 
-          {children}
+          <div className="px-10 pb-10">{children}</div>
         </div>
       </motion.div>
     </Dialog>

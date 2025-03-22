@@ -19,6 +19,10 @@ const Testimonial = () => {
   return (
     <Container>
       <Section
+        className={css.root}
+        style={{
+          backgroundImage: `url(${LargeQuoteImage})`,
+        }}
         title={"What they Say"}
         label={"Testimonials"}
         description={
@@ -26,10 +30,11 @@ const Testimonial = () => {
         }
       >
         <div
-          className={classNames(css.root, "py-10")}
-          style={{
-            backgroundImage: `url(${LargeQuoteImage})`,
-          }}
+          className="py-10"
+          // className={classNames(css.root, "py-10")}
+          // style={{
+          //   backgroundImage: `url(${LargeQuoteImage})`,
+          // }}
         >
           <div data-aos="fade-up">
             <Swiper
@@ -68,11 +73,13 @@ const Testimonial = () => {
 
                     <p className="mt-4 text-xl italic">
                       <img
+                        alt={`"`}
                         src={QuoteImage}
                         className="relative -top-2.5 inline w-4"
                       />
                       <span>{testimonial.quote}</span>
                       <img
+                        alt={`"`}
                         src={QuoteImage}
                         className="relative -top-2.5 inline w-4 rotate-180"
                       />
