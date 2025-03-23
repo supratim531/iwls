@@ -3,14 +3,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-  @media (min-width: 576px) {
-    background-size: 200%;
-  }
-
-  @media (min-width: 768px) {
-    background-size: cover;
-  }
 }
 
 .subHeading {
@@ -26,5 +18,17 @@
     gap: 10px;
     display: flex;
     align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .root {
+    background-size: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    background-size: cover;
   }
 }
