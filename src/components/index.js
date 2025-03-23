@@ -7,5 +7,6 @@ export { default as Service } from "./Service/Service";
 export { default as ServiceCard } from "./Service/ServiceCard";
 export { default as Team } from "./Team/Team";
 export { default as TeamSwiper } from "./TeamSwiper/TeamSwiper";
+export { default as Contact } from "./Contact/Contact";
 export { default as Testimonial } from "./Testimonial/Testimonial";
 export { default as Footer } from "./Footer/Footer";

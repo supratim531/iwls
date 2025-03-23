@@ -54,16 +54,18 @@ const Header = (props) => {
           className="flex items-center justify-between"
         >
           <div className="text-2xl">
-            <img
-              src={BrandLogo}
-              alt="INNERWORK LEGAL SERVICES"
-              className="w-40"
-            />
+            <a href="#">
+              <img
+                src={BrandLogo}
+                alt="INNERWORK LEGAL SERVICES"
+                className="w-40"
+              />
+            </a>
           </div>
 
           <ul className="hidden items-center gap-10 text-xl md:flex">
             <li>
-              <a href="#hero">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
               <a href="#about">About Us</a>

@@ -8,7 +8,7 @@ import { BrandLogo } from "../../assets";
 
 const Footer = (props) => {
   return (
-    <footer className="bg-primary-dark flex items-center justify-center">
+    <footer className="flex items-center justify-center bg-primary-dark">
       <Container>
         <div className="flex w-full flex-wrap py-8 text-white">
           <div className="w-full flex-auto md:w-[50%] lg:w-[25%]">

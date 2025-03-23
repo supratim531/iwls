@@ -1,6 +1,13 @@
 import React from "react";
 
-import { Hero, About, Service, Team, Testimonial } from "../../components";
+import {
+  Hero,
+  About,
+  Service,
+  Team,
+  Contact,
+  Testimonial,
+} from "../../components";
 
 const HomePage = (props) => {
   return (
@@ -9,6 +16,7 @@ const HomePage = (props) => {
       <About />
       <Service />
       <Team />
+      <Contact />
       <Testimonial />
     </main>
   );
