@@ -18,7 +18,7 @@ const Footer = (props) => {
               className="md:w-[80%]"
             />
 
-            <p data-aos="fade-up" className="mb-4 mt-5 text-white md:w-[80%]">
+            <p className="mb-4 mt-5 text-white md:w-[80%]">
               Feel free to submit your query to Kolkata's most trusted provider
               of legal services, private investigation and man power provider
               solutions in Kolkata.
@@ -30,7 +30,7 @@ const Footer = (props) => {
               Quick Links
             </h3>
 
-            <ul data-aos="fade-up" className={css.quickLinks}>
+            <ul className={css.quickLinks}>
               <li>About Us</li>
               <li>Our Services</li>
               <li>Contact Us</li>
@@ -40,7 +40,7 @@ const Footer = (props) => {
           <div className="w-full flex-auto md:w-[50%] lg:w-[25%]">
             <h3 className="mb-5 text-[20px] font-semibold uppercase">Others</h3>
 
-            <ul data-aos="fade-up" className={css.others}>
+            <ul className={css.others}>
               <li>Disclaimer</li>
               <li>Terms & Conditions</li>
             </ul>
@@ -51,7 +51,7 @@ const Footer = (props) => {
               Contact Details
             </h3>
 
-            <div data-aos="fade-up" className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-signs-post text-secondary"></i>
                 <span>22, Sukeas Lane, 5th Floor, Kolkata 700001</span>
