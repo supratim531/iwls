@@ -7,5 +7,6 @@ export { default as HeroVideo } from "./video/hero.mp4";
 export { default as HeroImage } from "./image/hero.jpg";
 export { default as AboutUsImage } from "./image/about-us.png";
 export { default as WhoWeAreImage } from "./image/who-we-are.png";
+export { default as ContactUsImage } from "./image/contact-us.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
