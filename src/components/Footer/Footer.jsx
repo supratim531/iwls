@@ -152,8 +152,8 @@ const Footer = (props) => {
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-envelope text-secondary"></i>
-                <a href="mailto:innerworkadvisors@gmail.com">
-                  innerworkadvisors@gmail.com
+                <a href="mailto:innerworkadvisorsllp@gmail.com">
+                  innerworkadvisorsllp@gmail.com
                 </a>
               </div>
 
