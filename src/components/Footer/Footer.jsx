@@ -1,22 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
 import classNames from "classnames";
 
-import { Container } from "../../components";
+import { Modal, Container } from "../../components";
 
 import css from "./Footer.module.css";
 import { BrandLogo } from "../../assets";
 
 const Footer = (props) => {
+  const [isDisclaimer, setIsDisclaimer] = useState(false);
+  const [isTermsConditions, setIsTermsConditions] = useState(false);
+
   return (
-    <footer className="flex items-center justify-center bg-primary-dark">
+    <footer className="flex items-center justify-center bg-primary-light">
       <Container>
+        <div className="map-container-2 flex w-full flex-col items-start gap-4 pt-8 lg:h-[280px] lg:flex-row">
+          <div className="flex h-full w-full flex-col-reverse gap-2 text-secondary">
+            <h3
+              onClick={(e) => {
+                e.stopPropagation();
+
+                if (window) {
+                  window.open(
+                    `https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`,
+                    "_blank",
+                  );
+                }
+              }}
+              className="flex items-start gap-2"
+            >
+              <i className="fa-solid fa-location-dot mt-1"></i>
+              <span>
+                Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd,
+                Kolkata 700001
+              </span>
+            </h3>
+
+            <iframe
+              loading="lazy"
+              title="my-gmap-frame"
+              className="h-full w-full"
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.180487303112!2d88.3489202740594!3d22.572351932981803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a5baabca5f%3A0xbe43dc306dbe663b!2sMartin%20Burn%20House!5e0!3m2!1sen!2sin!4v1742754106092!5m2!1sen!2sin"
+            >
+              <a href="https://www.maps.ie/distance-area-calculator.html">
+                measure distance on map
+              </a>
+            </iframe>
+          </div>
+
+          {/* <div className="flex h-full w-full flex-col-reverse gap-2 text-secondary">
+            <h3 className="flex items-start gap-2">
+              <i className="fa-solid fa-location-dot mt-1"></i>
+              <span>22, Sukeas Lane, Kolkata 700001</span>
+            </h3>
+
+            <iframe
+              loading="lazy"
+              title="my-gmap-frame"
+              className="h-full w-full"
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.074709657532!2d88.34893107405951!3d22.57630893283673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277bacf3b34eb%3A0x2d3edbfdf3b15e74!2s22%2C%20Sukeas%20Ln%2C%20Murgighata%2C%20Barabazar%20Market%2C%20Kolkata%2C%20West%20Bengal%20700001!5e0!3m2!1sen!2sin!4v1742754929548!5m2!1sen!2sin"
+            ></iframe>
+          </div> */}
+        </div>
+
         <div className="flex w-full flex-wrap py-8 text-white">
           <div className="w-full flex-auto md:w-[50%] lg:w-[25%]">
-            <img
-              src={BrandLogo}
-              alt="INNERWORK LEGAL SERVICES"
-              className="md:w-[80%]"
-            />
+            <a href="#">
+              <img
+                src={BrandLogo}
+                alt="INNERWORK LEGAL SERVICES"
+                className="md:w-[80%]"
+              />
+            </a>
 
             <p className="mb-4 mt-5 text-white md:w-[80%]">
               Feel free to submit your query to Kolkata's most trusted provider
@@ -31,9 +87,15 @@ const Footer = (props) => {
             </h3>
 
             <ul className={css.quickLinks}>
-              <li>About Us</li>
-              <li>Our Services</li>
-              <li>Contact Us</li>
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#service">Our Services</a>
+              </li>
+              <li>
+                <a href="#contact">Contact Us</a>
+              </li>
             </ul>
           </div>
 
@@ -41,8 +103,18 @@ const Footer = (props) => {
             <h3 className="mb-5 text-[20px] font-semibold uppercase">Others</h3>
 
             <ul className={css.others}>
-              <li>Disclaimer</li>
-              <li>Terms & Conditions</li>
+              <li
+                className="cursor-pointer"
+                onClick={() => setIsDisclaimer(true)}
+              >
+                Disclaimer
+              </li>
+              <li
+                className="cursor-pointer"
+                onClick={() => setIsTermsConditions(true)}
+              >
+                Terms & Conditions
+              </li>
             </ul>
           </div>
 
@@ -52,58 +124,144 @@ const Footer = (props) => {
             </h3>
 
             <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <i className="fa-solid fa-signs-post text-secondary"></i>
                 <span>22, Sukeas Lane, 5th Floor, Kolkata 700001</span>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-signs-post text-secondary"></i>
-                <span>
+                <a
+                  href={`https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`}
+                  target="_blank"
+                >
                   Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd,
                   Kolkata 700001
-                </span>
+                </a>
               </div>
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-phone text-secondary"></i>
-                <span>(+91) 98302 32051</span>
+                <a href="tel:+919830232051">(+91) 98302 32051</a>
               </div>
 
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <i className="fa-solid fa-phone text-secondary"></i>
                 <span>(+91) 82400 30578</span>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-envelope text-secondary"></i>
-                <span>innerworkadvisors@gmail.com</span>
+                <a href="mailto:innerworkadvisors@gmail.com">
+                  innerworkadvisors@gmail.com
+                </a>
               </div>
 
               <ul
                 className={classNames(
                   css.socialIcon,
-                  "mt-8 flex items-center justify-center gap-6 text-white md:mt-0 md:justify-start",
+                  "mt-8 flex items-center justify-center gap-2 text-white md:mt-0 md:justify-start md:gap-6",
                 )}
               >
-                <a href="https://github.com/supratim531">
-                  <i className="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="https://github.com/supratim531">
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
-                <a href="https://github.com/supratim531">
-                  <i className="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="https://github.com/supratim531">
-                  <i className="fa-brands fa-instagram text-lg"></i>
-                </a>
+                <li>
+                  <a href="https://x.com/Innerworkllp" target="_blank">
+                    <i className="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/innerworkadvisorsllp"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/innerworkadvisorsllp"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-instagram text-lg"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/innerwork-advisors-llp"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div></div>
+        <Modal
+          title={"Disclaimer"}
+          isOpen={isDisclaimer}
+          onClose={() => setIsDisclaimer(false)}
+        >
+          <div className="flex flex-col gap-4">
+            <p>
+              <strong className="text-primary-light">
+                Acceptance of conditions of the agreement
+              </strong>
+              <br />
+              www.innerworkadvisorsllp.com provides private investigation
+              service to the clients based on their request against the
+              conditions of this agreement, and by clicking on the “I accept”
+              form signifies, your acceptance of all the conditions of this
+              agreement.
+            </p>
+
+            <p>
+              <strong className="text-primary-light">
+                Disclaimer of warranties
+              </strong>
+              <br />
+              Clients hereby declare that no contractual or legal liability
+              arises against www.innerworkadvisorsllp.com by hiring our services
+              and sharing their personal information, the use of which is at the
+              sole risk of the client. No notice or advice from any client to
+              www.innerworkadvisorsllp.com will create any liability whatsoever.
+            </p>
+          </div>
+        </Modal>
+
+        <Modal
+          title={"Terms & Conditions"}
+          isOpen={isTermsConditions}
+          onClose={() => setIsTermsConditions(false)}
+        >
+          <div className="flex flex-col gap-4">
+            <p>
+              <strong className="text-primary-light">
+                Secrecy of client's information
+              </strong>
+              <br />
+              www.innerworkadvisorsllp.com undertakes to handle the client's
+              profile and the personal data like name, address, e-mail,
+              telephone number etc. in complete secrecy and no disclosures will
+              be made to anyone except where it is required to be disclosed by
+              existing or future laws. The data will be used solely for the
+              purpose of communicating and internal use only.
+            </p>
+
+            <p>
+              <strong className="text-primary-light">
+                Right to terminate the service
+              </strong>
+              <br />
+              www.innerworkadvisorsllp.com reserves the right to modify, alter
+              or discontinue the service, with or without notice to the clients.
+              Client's obligations As a client, I undertake to maintain complete
+              secrecy of these consultation reports and not to divulge this
+              information to anyone. Customers agree to the jurisdiction of
+              disputes to Kolkata Courts only.
+            </p>
+          </div>
+        </Modal>
       </Container>
     </footer>
   );

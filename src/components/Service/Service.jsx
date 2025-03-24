@@ -42,7 +42,7 @@ const Service = () => {
             <img src={selectedService?.image} alt={selectedService?.name} />
           </div>
 
-          <p className="text-justify">{selectedService?.description}</p>
+          <p className="text-sm md:text-base">{selectedService?.description}</p>
 
           <div className="w-full text-center">
             <button

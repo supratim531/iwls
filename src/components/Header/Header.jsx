@@ -1,12 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
-import { Container } from "../../components";
+import { Container, SidebarMaybe } from "../../components";
 
 import css from "./Header.module.css";
 import { BrandLogo } from "../../assets";
 
 const Header = (props) => {
+  const sidebarMaybeRef = useRef(null);
   const [scrolled, setScrolled] = useState(false);
+
+  const toggleSidebar = () => {
+    sidebarMaybeRef.current.toggle();
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,34 +31,127 @@ const Header = (props) => {
       <div className="fixed top-0 z-[100] flex h-[42px] w-full items-center bg-primary-dark">
         <Container className="flex h-full items-center justify-center gap-7 md:justify-end">
           <ul className="flex items-center gap-7 text-white">
-            <a href="https://github.com/supratim531">
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-            <a href="https://github.com/supratim531">
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="https://github.com/supratim531">
-              <i className="fa-brands fa-instagram text-lg"></i>
-            </a>
-            <a href="https://github.com/supratim531">
-              <i className="fa-brands fa-linkedin-in"></i>
-            </a>
+            <li>
+              <a href="https://x.com/Innerworkllp" target="_blank">
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/innerworkadvisorsllp"
+                target="_blank"
+              >
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/innerworkadvisorsllp"
+                target="_blank"
+              >
+                <i className="fa-brands fa-instagram text-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/innerwork-advisors-llp"
+                target="_blank"
+              >
+                <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
           </ul>
-
           <div className="hidden h-full items-center bg-secondary px-4 font-semibold text-white md:flex">
             <span>24x7 Emergency: 9073672051 | 9073932051</span>
           </div>
         </Container>
       </div>
 
+      <SidebarMaybe ref={sidebarMaybeRef}>
+        <div className="flex h-full flex-col justify-between bg-primary-dark pb-24 pt-10">
+          {/* <div className="flex flex-col gap-4">
+            <div className="text-2xl font-medium text-secondary">
+              24x7 Emergency
+            </div>
+
+            <div className="flex items-center gap-4 text-lg">
+              <i className="fa-solid fa-phone text-secondary"></i>
+              <a href="tel:+919073672051" className="text-white">
+                (+91) 90736 72051
+              </a>
+            </div>
+
+            <div className="flex items-center gap-4 text-lg">
+              <i className="fa-solid fa-phone text-secondary"></i>
+              <a href="tel:+919830232051" className="text-white">
+                (+91) 98302 32051
+              </a>
+            </div>
+          </div> */}
+
+          <ul className="flex flex-col text-xl text-white [&>li]:h-16 [&>li]:text-center">
+            <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
+              <a
+                href="#"
+                className="flex h-full w-full items-center justify-center"
+              >
+                Home
+              </a>
+            </li>
+            <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
+              <a
+                href="#about"
+                className="flex h-full w-full items-center justify-center"
+              >
+                About Us
+              </a>
+            </li>
+            <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
+              <a
+                href="#service"
+                className="flex h-full w-full items-center justify-center"
+              >
+                Service
+              </a>
+            </li>
+            <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
+              <a
+                href="#contact"
+                className="flex h-full w-full items-center justify-center"
+              >
+                Contact Us
+              </a>
+            </li>
+          </ul>
+
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="font-medium text-secondary">24x7 Emergency</div>
+
+            <div className="flex items-center gap-4 text-sm">
+              <i className="fa-solid fa-phone text-secondary"></i>
+              <a href="tel:+919073672051" className="text-white">
+                (+91) 90736 72051
+              </a>
+            </div>
+
+            <div className="flex items-center gap-4 text-sm">
+              <i className="fa-solid fa-phone text-secondary"></i>
+              <a href="tel:+919830232051" className="text-white">
+                (+91) 98302 32051
+              </a>
+            </div>
+          </div>
+        </div>
+      </SidebarMaybe>
+
       <nav
-        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-95` : ""}`}
+        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-100` : ""}`}
       >
         <Container
           data-aos="fade-up"
-          className="flex items-center justify-between"
+          className="flex flex-row items-center justify-between md:flex-row"
         >
-          <div className="text-2xl">
+          <div className="ml-auto mr-auto text-2xl md:m-0">
             <a href="#">
               <img
                 src={BrandLogo}
@@ -78,7 +176,7 @@ const Header = (props) => {
             </li>
           </ul>
 
-          <button className="block md:hidden">
+          <button onClick={toggleSidebar} className="block md:hidden">
             <i className="fa-solid fa-bars text-2xl"></i>
           </button>
         </Container>

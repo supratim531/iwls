@@ -21,6 +21,7 @@
 }
 
 .navbarScrolled {
-  background-color: var(--bg-primary-light);
+  background-color: #284362;
+  /* background-color: var(--bg-primary-light); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 9px 0px;
 }

@@ -1,0 +1,24 @@
+.root {
+  background-size: 400%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.grid {
+  gap: 6px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 576px) {
+  .root {
+    background-size: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    background-size: cover;
+  }
+}

@@ -101,10 +101,10 @@ const Team = () => {
             alt={selectedMember?.name}
             className="mx-auto mb-3 h-24 w-24 rounded-full"
           />
-          <p className="mt-2 text-sm font-semibold text-secondary">
+          <p className="mt-2 text-sm font-semibold text-secondary md:text-base">
             {selectedMember?.details}
           </p>
-          <p className="mt-2 text-justify text-sm text-gray-600">
+          <p className="mt-2 text-start text-sm text-gray-600 md:text-base">
             {selectedMember?.extra}
           </p>
           <button
