@@ -13,7 +13,7 @@ const Hero = (props) => {
         className="flex min-h-screen w-full items-center justify-center text-white"
       >
         <Container className="h-[80vh]">
-          <div className="flex h-full flex-col justify-between gap-4 self-stretch pt-16 md:pt-24">
+          <div className="flex h-full flex-col justify-between gap-4 self-stretch pt-10 md:pt-16">
             <div className="flex flex-col items-start justify-center gap-2">
               <div data-aos="fade-up" className="flex items-center gap-2">
                 <div>
@@ -32,7 +32,7 @@ const Hero = (props) => {
                 <ol>
                   <li>
                     <a
-                      href={`https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`}
+                      href={`https://www.google.com/maps?q=${"Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata 700001"}`}
                       target="_blank"
                     >
                       RN Mukherjee Rd
@@ -48,7 +48,7 @@ const Hero = (props) => {
                 </div>
                 <div>
                   <a href="mailto:innerworkadvisorsllp@gmail.com">
-                    innerworkadvisorsllp@gmail.com
+                    info@innerworklegalservices.com
                   </a>
                 </div>
               </div>
@@ -72,9 +72,13 @@ const Hero = (props) => {
               </p>
 
               <div className="mt-1 flex flex-col items-center gap-4 sm:flex-row">
-                <button className="w-full rounded-md border-2 border-transparent bg-white py-3 font-medium text-primary-dark duration-200 hover:bg-secondary hover:text-white sm:w-44">
+                <a
+                  type="button"
+                  href="#contact"
+                  className="w-full rounded-md border-2 border-transparent bg-white py-3 text-center font-medium text-primary-dark duration-200 hover:bg-secondary hover:text-white sm:w-44"
+                >
                   Book Consultation
-                </button>
+                </a>
                 <a
                   type="button"
                   href="#contact"

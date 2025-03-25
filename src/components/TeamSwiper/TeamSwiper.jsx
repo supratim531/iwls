@@ -3,11 +3,11 @@ import classNames from "classnames";
 
 import { AnimatedCounter } from "../../components";
 
-// import required modules
-import { Navigation } from "swiper/modules";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+
+// import required modules
+import { Autoplay, Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -26,8 +26,12 @@ const TeamSwiper = (props) => {
     <div className="slider-ud w-full">
       <Swiper
         spaceBetween={6}
+        slidesPerView={"auto"}
         navigation={window.screen.width > 576 ? true : false}
-        modules={[Navigation]}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           768: {
             slidesPerView: 2,
@@ -42,6 +46,7 @@ const TeamSwiper = (props) => {
             slidesPerView: 3,
           },
         }}
+        modules={[Autoplay, Navigation]}
         className="swiperjs-slider-ud"
       >
         {team?.map((member) => {
@@ -95,7 +100,6 @@ const TeamSwiper = (props) => {
                         {member.name}
                       </h3>
                     </div>
-
                     {/* <button className="mb-2 flex w-full items-center justify-center space-x-1 rounded-md bg-white py-2 font-semibold">
                       <span>
                         <i className="fa-brands fa-whatsapp text-xl text-green-600"></i>

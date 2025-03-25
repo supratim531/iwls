@@ -21,7 +21,7 @@ const Footer = (props) => {
 
                 if (window) {
                   window.open(
-                    `https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`,
+                    `https://www.google.com/maps?q=${"Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata 700001"}`,
                     "_blank",
                   );
                 }
@@ -30,8 +30,7 @@ const Footer = (props) => {
             >
               <i className="fa-solid fa-location-dot mt-1"></i>
               <span>
-                Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd,
-                Kolkata 700001
+                Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata 700001
               </span>
             </h3>
 
@@ -40,7 +39,7 @@ const Footer = (props) => {
               title="my-gmap-frame"
               className="h-full w-full"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.180487303112!2d88.3489202740594!3d22.572351932981803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a5baabca5f%3A0xbe43dc306dbe663b!2sMartin%20Burn%20House!5e0!3m2!1sen!2sin!4v1742754106092!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.180487303129!2d88.34892027405944!3d22.572351932981803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a5baabca5f%3A0xbe43dc306dbe663b!2sMartin%20Burn%20House!5e0!3m2!1sen!2sin!4v1742936965216!5m2!1sen!2sin"
             >
               <a href="https://www.maps.ie/distance-area-calculator.html">
                 measure distance on map
@@ -135,8 +134,8 @@ const Footer = (props) => {
                   href={`https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`}
                   target="_blank"
                 >
-                  Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd,
-                  Kolkata 700001
+                  Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata
+                  700001
                 </a>
               </div>
 
@@ -153,7 +152,7 @@ const Footer = (props) => {
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-envelope text-secondary"></i>
                 <a href="mailto:innerworkadvisorsllp@gmail.com">
-                  innerworkadvisorsllp@gmail.com
+                  info@innerworklegalservices.com
                 </a>
               </div>
 
@@ -208,7 +207,7 @@ const Footer = (props) => {
                 Acceptance of conditions of the agreement
               </strong>
               <br />
-              www.innerworkadvisorsllp.com provides private investigation
+              www.innerworklegalservices.com provides private investigation
               service to the clients based on their request against the
               conditions of this agreement, and by clicking on the “I accept”
               form signifies, your acceptance of all the conditions of this
@@ -221,10 +220,11 @@ const Footer = (props) => {
               </strong>
               <br />
               Clients hereby declare that no contractual or legal liability
-              arises against www.innerworkadvisorsllp.com by hiring our services
-              and sharing their personal information, the use of which is at the
-              sole risk of the client. No notice or advice from any client to
-              www.innerworkadvisorsllp.com will create any liability whatsoever.
+              arises against www.innerworklegalservices.com by hiring our
+              services and sharing their personal information, the use of which
+              is at the sole risk of the client. No notice or advice from any
+              client to www.innerworklegalservices.com will create any liability
+              whatsoever.
             </p>
           </div>
         </Modal>
@@ -240,7 +240,7 @@ const Footer = (props) => {
                 Secrecy of client's information
               </strong>
               <br />
-              www.innerworkadvisorsllp.com undertakes to handle the client's
+              www.innerworklegalservices.com undertakes to handle the client's
               profile and the personal data like name, address, e-mail,
               telephone number etc. in complete secrecy and no disclosures will
               be made to anyone except where it is required to be disclosed by
@@ -253,7 +253,7 @@ const Footer = (props) => {
                 Right to terminate the service
               </strong>
               <br />
-              www.innerworkadvisorsllp.com reserves the right to modify, alter
+              www.innerworklegalservices.com reserves the right to modify, alter
               or discontinue the service, with or without notice to the clients.
               Client's obligations As a client, I undertake to maintain complete
               secrecy of these consultation reports and not to divulge this

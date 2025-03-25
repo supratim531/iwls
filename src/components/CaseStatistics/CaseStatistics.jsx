@@ -27,7 +27,7 @@ const CaseStatistics = () => {
             </div>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded bg-[#c0b59633] px-4 sm:h-[160px] md:h-[240px]">
               <h4 className="flex items-center text-center text-2xl font-semibold text-white sm:text-4xl">
-                <Odometer number={113} />
+                <Odometer number={70} />+
               </h4>
               <p className="text-center font-medium text-secondary sm:text-xl">
                 Trusted Client
