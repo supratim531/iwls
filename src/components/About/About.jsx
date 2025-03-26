@@ -112,7 +112,7 @@ const About = (props) => {
                 className="h-[250px] w-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 flex cursor-pointer flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
+              <div className="absolute inset-0 flex cursor-grab flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
                 <SubSection
                   title={"Our Mission"}
                   description={
@@ -135,7 +135,7 @@ const About = (props) => {
                 className="h-[250px] w-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 flex cursor-pointer flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
+              <div className="absolute inset-0 flex cursor-grab flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
                 <SubSection
                   title={"Our Vision"}
                   description={
@@ -158,7 +158,7 @@ const About = (props) => {
                 className="h-[250px] w-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 flex cursor-pointer flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
+              <div className="absolute inset-0 flex cursor-grab flex-col items-center justify-center gap-4 bg-[#343a4980] text-center font-roboto font-medium text-white transition-all hover:bg-[#343a49e0]">
                 <SubSection
                   title={"Our Values"}
                   description={
@@ -384,7 +384,7 @@ const About = (props) => {
               </h3> */}
 
               <div className="flex flex-col gap-2">
-                <h4 className="font-medium text-gray-800">
+                <h4>
                   At Innerwork Legal Services, we are dedicated to providing
                   comprehensive legal solutions tailored to the diverse needs of
                   individuals, businesses, and organizations. With a strong
@@ -396,7 +396,7 @@ const About = (props) => {
                   end-to-end support in:
                 </h4>
 
-                <ul className="[&>li>strong]:text-secondary">
+                <ul className="[&>li>strong]:text-primary-light">
                   <li>
                     <strong>Corporate & Business Law:</strong> Legal advisory
                     for startups, corporations, and entrepreneurs, including
@@ -486,7 +486,7 @@ const About = (props) => {
               </div> */}
 
               <div className="flex flex-col gap-2">
-                <h4 className="text-lg font-medium text-primary-light">
+                <h4 className="text-lg font-semibold text-primary-dark">
                   Get in Touch with Us
                 </h4>
                 <p>

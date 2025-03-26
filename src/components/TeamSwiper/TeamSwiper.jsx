@@ -12,14 +12,14 @@ import { Autoplay, Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import { team } from "../../assets";
+import { teamMembers } from "../../assets";
 import css from "./TeamSwiper.module.css";
 
 const TeamSwiper = (props) => {
   const { setMember, setSelectedMember } = props;
 
   useEffect(() => {
-    setMember(team[0]);
+    setMember(teamMembers[0]);
   }, []);
 
   return (
@@ -49,7 +49,7 @@ const TeamSwiper = (props) => {
         modules={[Autoplay, Navigation]}
         className="swiperjs-slider-ud"
       >
-        {team?.map((member) => {
+        {teamMembers?.map((member) => {
           return (
             <SwiperSlide
               key={member.image}
@@ -93,10 +93,13 @@ const TeamSwiper = (props) => {
                           <span>{member.experience}</span>
                         )}
                       </h3>
+                      <h3 className="w-[80%] truncate text-sm text-secondary">
+                        {member.designation}
+                      </h3>
                       <h3 className="w-[80%] truncate text-xs text-slate-300/60">
                         {member.description}
                       </h3>
-                      <h3 className="truncate text-[0.79rem] font-medium sm:text-lg">
+                      <h3 className="truncate text-[0.79rem] font-medium uppercase sm:text-lg">
                         {member.name}
                       </h3>
                     </div>

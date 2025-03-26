@@ -9,7 +9,7 @@
   height: 85%;
   position: absolute;
   background-size: cover;
+  background-position: top;
   transition-duration: 300ms;
-  background-position: center;
   background-image: var(--background-image);
 }

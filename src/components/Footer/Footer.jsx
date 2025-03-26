@@ -26,7 +26,7 @@ const Footer = (props) => {
                   );
                 }
               }}
-              className="flex items-start gap-2"
+              className="flex cursor-pointer items-start gap-2"
             >
               <i className="fa-solid fa-location-dot mt-1"></i>
               <span>
@@ -90,7 +90,7 @@ const Footer = (props) => {
                 <a href="#about">About Us</a>
               </li>
               <li>
-                <a href="#service">Our Services</a>
+                <a href="#services">Our Services</a>
               </li>
               <li>
                 <a href="#contact">Contact Us</a>
@@ -151,7 +151,7 @@ const Footer = (props) => {
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-envelope text-secondary"></i>
-                <a href="mailto:innerworkadvisorsllp@gmail.com">
+                <a href="mailto:info@innerworklegalservices.com">
                   info@innerworklegalservices.com
                 </a>
               </div>
@@ -164,7 +164,7 @@ const Footer = (props) => {
               >
                 <li>
                   <a href="https://x.com/Innerworkllp" target="_blank">
-                    <i className="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter duration-200 md:hover:text-secondary"></i>
                   </a>
                 </li>
                 <li>
@@ -172,7 +172,7 @@ const Footer = (props) => {
                     href="https://www.facebook.com/innerworkadvisorsllp"
                     target="_blank"
                   >
-                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f duration-200 md:hover:text-secondary"></i>
                   </a>
                 </li>
                 <li>
@@ -180,7 +180,7 @@ const Footer = (props) => {
                     href="https://www.instagram.com/innerworkadvisorsllp"
                     target="_blank"
                   >
-                    <i className="fa-brands fa-instagram text-lg"></i>
+                    <i className="fa-brands fa-instagram text-lg duration-200 md:hover:text-secondary"></i>
                   </a>
                 </li>
                 <li>
@@ -188,7 +188,7 @@ const Footer = (props) => {
                     href="https://www.linkedin.com/in/innerwork-advisors-llp"
                     target="_blank"
                   >
-                    <i className="fa-brands fa-linkedin-in"></i>
+                    <i className="fa-brands fa-linkedin-in duration-200 md:hover:text-secondary"></i>
                   </a>
                 </li>
               </ul>

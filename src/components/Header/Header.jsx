@@ -33,7 +33,7 @@ const Header = (props) => {
           <ul className="flex items-center gap-7 text-white">
             <li>
               <a href="https://x.com/Innerworkllp" target="_blank">
-                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter duration-200 hover:text-secondary"></i>
               </a>
             </li>
             <li>
@@ -41,7 +41,7 @@ const Header = (props) => {
                 href="https://www.facebook.com/innerworkadvisorsllp"
                 target="_blank"
               >
-                <i className="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-facebook-f duration-200 hover:text-secondary"></i>
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ const Header = (props) => {
                 href="https://www.instagram.com/innerworkadvisorsllp"
                 target="_blank"
               >
-                <i className="fa-brands fa-instagram text-lg"></i>
+                <i className="fa-brands fa-instagram text-lg duration-200 hover:text-secondary"></i>
               </a>
             </li>
             <li>
@@ -57,10 +57,11 @@ const Header = (props) => {
                 href="https://www.linkedin.com/in/innerwork-advisors-llp"
                 target="_blank"
               >
-                <i className="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in duration-200 hover:text-secondary"></i>
               </a>
             </li>
           </ul>
+
           <div className="hidden h-full items-center bg-secondary px-4 font-semibold text-white md:flex">
             <span>24x7 Emergency: 9073672051 | 9073932051</span>
           </div>
@@ -108,10 +109,18 @@ const Header = (props) => {
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
               <a
-                href="#service"
+                href="#services"
                 className="flex h-full w-full items-center justify-center"
               >
-                Service
+                Services
+              </a>
+            </li>
+            <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
+              <a
+                href="#team"
+                className="flex h-full w-full items-center justify-center"
+              >
+                Team
               </a>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
@@ -169,7 +178,10 @@ const Header = (props) => {
               <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="#service">Service</a>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
             </li>
             <li>
               <a href="#contact">Contact Us</a>

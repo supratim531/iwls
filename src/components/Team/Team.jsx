@@ -15,6 +15,7 @@ const Team = () => {
   return (
     <Container>
       <Section
+        id="team"
         title={"Our Team"}
         label={"Experts At Work"}
         description={
@@ -51,7 +52,6 @@ const Team = () => {
             </div>
 
             {/* <div className="text-sm text-primary-light">has</div>
-
             <h3 className="w-[80%] truncate text-secondary">
               {typeof member?.experience === "number" ? (
                 <span>
@@ -88,7 +88,7 @@ const Team = () => {
       </Section>
 
       <Modal
-        title="Team Member Information"
+        title={selectedMember?.designation}
         isOpen={selectedMember !== null}
         onClose={() => setSelectedMember(null)}
       >
@@ -99,7 +99,7 @@ const Team = () => {
           <img
             src={selectedMember?.image}
             alt={selectedMember?.name}
-            className="mx-auto mb-3 h-24 w-24 rounded-full"
+            className="mx-auto mb-3 h-24 w-24 rounded-full object-cover object-top"
           />
           <p className="mt-2 text-sm font-semibold text-secondary md:text-base">
             {selectedMember?.details}

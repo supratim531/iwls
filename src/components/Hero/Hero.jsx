@@ -47,7 +47,7 @@ const Hero = (props) => {
                   <i className="fa-solid fa-envelope text-secondary"></i>
                 </div>
                 <div>
-                  <a href="mailto:innerworkadvisorsllp@gmail.com">
+                  <a href="mailto:info@innerworklegalservices.com">
                     info@innerworklegalservices.com
                   </a>
                 </div>

@@ -2,46 +2,323 @@
   {
     "name": "Information Technology / Cyber Law",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/INFORMATION-TECHNOLOGY-CYBER-LAW.webp",
-    "description": "IT law or cyber law, also known as information technology law, is a part of the legal system that deals with how digital information is exchanged, online businesses operate, software is used, and data security is managed. It’s closely connected to legal informatics and involves electronic devices like computers, software, and hardware. This area of law covers topics such as internet access, online speech, freedom of expression, and privacy protection online. Our IT team excels in offering comprehensive guidance on Information Technology and Cyber Laws matters. Combining legal acumen with technical expertise, we provide solutions to safeguard against various threats such as image theft, confidentiality breaches, copyright infringement, domain disputes, software piracy, cyber-crimes, data protection, and information security. Moreover, we assist clients in understanding privacy laws in India and strategies for ensuring data confidentiality across borders, including compliance with regulations like the General Data Protection Regulation (GDPR) and E-commerce guidelines. Our team is dedicated to addressing legal and regulatory complexities while providing effective protection for digital assets and sensitive information."
+    "description": "Cyber law, also known as internet law or digital law, governs legal issues related to the internet, digital transactions, cybersecurity, and online activities.",
+    "points": [
+      {
+        "label": "Cyber Crimes",
+        "description": "Hacking, identity theft, cyberstalking, phishing, and online fraud."
+      },
+      {
+        "label": "Data Protection & Privacy",
+        "description": "Laws regulating the collection, storage, and use of personal data."
+      },
+      {
+        "label": "Intellectual Property (IP)",
+        "description": "Copyright, trademarks, and patents in the digital space."
+      },
+      {
+        "label": "E-commerce Regulations",
+        "description": "Online business transactions, consumer protection, and digital contracts."
+      },
+      {
+        "label": "Cybersecurity Laws",
+        "description": "Protection against cyber threats, network security, and government regulations."
+      },
+      {
+        "label": "Digital Evidence & Cyber Forensics",
+        "description": "Rules on handling electronic evidence in legal cases."
+      },
+      {
+        "label": "Freedom of Speech & Censorship",
+        "description": "Regulations on online content, hate speech, and defamation."
+      }
+    ],
+    "extra": "Cyber laws vary by country, with acts like the GDPR (EU), IT Act 2000 (India), CFAA (USA), and others defining legal frameworks for digital activities."
   },
   {
     "name": "Civil Law",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CIVIL-LAW.webp",
-    "description": "Are you embroiled in a non-criminal legal dispute and require the expertise of seasoned lawyers? Whether your case involves breach of contract, private property rights, negligence, copyright violations, or any other civil matter, Innerwork Advisors LLP offers comprehensive civil case assistance. With years of experience in handling civil cases, we are well-equipped to support our clients across various legal scenarios. Our track record includes successful trials and prosecutions across all legal forums, ranging from Trial Courts and Tribunals to the High Courts and Supreme Court of India. We are committed to providing diligent and effective legal services, ensuring our clients’ interests are safeguarded with utmost professionalism. Reach out to Innerwork Advisors LLP today for expert assistance tailored to your civil legal needs. We are committed to helping you achieve the best possible results."
+    "description": "Civil law is dictated by key legal principles, including.",
+    "points": [
+      {
+        "label": "Codification",
+        "description": "Laws are written in comprehensive codes (e.g., Civil Code, Contract Law)."
+      },
+      {
+        "label": "Legal Certainty",
+        "description": "Clear, structured rules guide decisions."
+      },
+      {
+        "label": "Judicial Role",
+        "description": "Judges apply laws but do not create binding precedents."
+      },
+      {
+        "label": "Private Rights",
+        "description": "Focuses on disputes between individuals or entities."
+      },
+      {
+        "label": "Remedies",
+        "description": "Provides compensation or enforcement of obligations, not punishment."
+      }
+    ],
+    "extra": "These principles ensure consistency and fairness in civil legal matters."
   },
   {
     "name": "Criminal Law",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CRIMINAL-LAW.webp",
-    "description": "Innerwork Advisors LLP is a reputable private law firm based in Kolkata, offering a comprehensive range of legal services for both personal and corporate clients. Leveraging our extensive experience in legal services, we provide expert legal case support to address a wide spectrum of legal matters. The expertise of Innerworks specialists is bolstered by years of collaboration with legal professionals and law enforcement officers, contributing to the resolution of numerous cases. We take pride in our track record of successfully closing cases and remaining dedicated to fostering a safer and more secure environment. If you require assistance in resolving criminal cases, we invite you to reach out to us. Our team is ready to provide the support you need, utilizing advanced technology and resources to achieve positive outcomes. With Innerwork Advisors LLP at your side, you can expect nothing but the highest standards of legal case assistance."
+    "description": "Criminal law provides key legal principles (trumps) to ensure justice and fairness.",
+    "points": [
+      {
+        "label": "Legality",
+        "description": "No crime or punishment without a pre-existing law."
+      },
+      {
+        "label": "Presumption of Innocence",
+        "description": "The accused is innocent until proven guilty."
+      },
+      {
+        "label": "Burden of Proof",
+        "description": "The state must prove guilt beyond a reasonable doubt."
+      },
+      {
+        "label": "Proportionality",
+        "description": "Punishment must match the severity of the crime."
+      },
+      {
+        "label": "Due Process",
+        "description": "Fair legal procedures and rights for the accused."
+      },
+      {
+        "label": "Double Jeopardy",
+        "description": "No one can be tried twice for the same offense."
+      },
+      {
+        "label": "Right to Defense",
+        "description": "The accused has the right to legal representation."
+      }
+    ],
+    "extra": "These principles protect individuals from unjust prosecution and punishment."
   },
   {
-    "name": "Banking & Finance",
+    "name": "Banking and Finance Law",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/BANKING-FINANCE.webp",
-    "description": "The Indian financial sector is a pivotal force in driving economic growth, primarily anchored in banking, with commercial banks holding over 64% of total financial assets. As such, fostering a robust banking framework with resilient balance sheets to mitigate systemic risks is a top priority for regulatory bodies. Our banking and finance services team acknowledges this sector’s critical role and excels in addressing legal challenges arising from borrower-lender dynamics. Our experts specialise in identifying financial vulnerabilities, geopolitical risks, and policy uncertainties, offering tailored solutions to our clients. We have served a diverse clientele, including commercial banks, insurance firms, non-banking financial companies, cooperatives, pension funds, mutual funds, and smaller financial entities. Our capabilities extend to handling clients in emerging sectors like Payment Banks, FinTech, and BigTech, ensuring comprehensive support across the financial landscape."
+    "description": "Banking and finance law provides key legal principles (trumps) to regulate financial systems and protect stakeholders.",
+    "points": [
+      {
+        "label": "Regulatory Compliance",
+        "description": "Banks and financial institutions must follow national and international laws."
+      },
+      {
+        "label": "Consumer Protection",
+        "description": "Ensures fair treatment, transparency, and disclosure in financial services."
+      },
+      {
+        "label": "Anti-Money Laundering (AML)",
+        "description": "Prevents illegal financial activities and requires due diligence."
+      },
+      {
+        "label": "Capital Adequacy",
+        "description": "Banks must maintain sufficient reserves to manage risks."
+      },
+      {
+        "label": "Loan and Credit Regulations",
+        "description": "Governs lending practices, interest rates, and debt recovery."
+      },
+      {
+        "label": "Financial Stability",
+        "description": "Ensures a secure and stable banking system."
+      },
+      {
+        "label": "Contract Enforcement",
+        "description": "Ensures legal agreements, such as loans and investments, are binding."
+      }
+    ],
+    "extra": "These principles help maintain trust, stability, and fairness in financial transactions."
   },
   {
-    "name": "Service Matters",
+    "name": "Service Providers",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/SERVICE-MATTERS.webp",
-    "description": "Our accomplished service matter lawyers, representing clients in the Kolkata High Court and Supreme Court of India, ensure that employers, governments, private corporations, and corporate entities uphold their contractual obligations with employees. They are dedicated to upholding the dignity, fairness, and respect owed to employees, diligently implementing India’s employment laws, such as the Industrial Disputes Act. Our experienced employment lawyers are steadfast in their advocacy for employees’ rights, challenging employers to uphold legal entitlements guaranteed by Indian law. In the High Court at Kolkata, our service matter lawyers adopt an assertive approach to secure employees’ legal rights, addressing not just legal aspects but also the emotional, financial, and career-related challenges employees face."
+    "description": "Unwavering Advocacy for Employee Rights - Now with International Expertise.",
+    "points": [
+      {
+        "label": null,
+        "description": "Our highly accomplished service matter lawyers, representing clients in the Kolkata High Court and the Supreme Court of India, are relentless in their pursuit of justice, ensuring that employers, governments, private corporations, and corporate entities uphold their legal and contractual obligations to employees. Now, with international capabilities, we extend our expertise to clients navigating cross-border employment disputes and global labor law challenges."
+      },
+      {
+        "label": null,
+        "description": "With an unyielding commitment to fairness, dignity, and respect, we enforce India’s employment laws, including the Industrial Disputes Act, holding employers accountable for wrongful terminations, workplace discrimination, wage disputes, and labor rights violations. Our seasoned employment lawyers are steadfast in their advocacy, challenging unlawful employer practices and fighting to secure the legal entitlements and protections guaranteed under both Indian and international employment law."
+      },
+      {
+        "label": null,
+        "description": "At the Kolkata High Court, we adopt a strategic, assertive, and results-driven approach to safeguard employees' legal, financial, and professional interests. We understand that employment disputes go beyond legal battles—they impact careers, livelihoods, and emotional well-being. That’s why our legal team doesn’t just fight cases; we fight for people, addressing the emotional, financial, and professional hardships employees face due to unfair treatment or unlawful employer conduct."
+      },
+      {
+        "label": null,
+        "description": "With deep expertise in service and employment law, our lawyers command the courtroom with precision and authority, ensuring that justice is not just sought but delivered. Our international services extend to expatriate employment disputes, multinational corporate compliance, global labor rights, and cross-border legal representation, ensuring that employees and businesses alike are protected in an increasingly interconnected world."
+      },
+      {
+        "label": null,
+        "description": "If your rights have been violated, whether in India or abroad, we are prepared to take decisive legal action to restore your dignity and protect your future."
+      }
+    ],
+    "extra": "Your fight is our fight. Justice begins with us—wherever you are."
   },
   {
-    "name": "Educational Matters",
+    "name": "Educational Landscape",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/EDUCATIONAL-MATTERS.webp",
-    "description": "The educational landscape in India is experiencing rapid transformation across all tiers of learning, from primary education to university-level programs. With a staggering 250 million school-going population, India boasts the world’s largest demographic of young individuals aged 5-24, as highlighted in a report by India Brand Equity Foundation. This dynamic environment presents abundant opportunities for edtech startups, universities, vocational training providers, and other educational entities. The surge in technology-driven and online education is projected to reach a market value of USD 313 billion by 2030, as indicated in a report by AspireCircle. In navigating this evolving sector, it is imperative for entities to adeptly navigate shifting policies and regulations that significantly impact their operations. At Innerwork Advisors LLP, we have been at the forefront of advising various stakeholders in the education sector, spanning early learning and kindergarten, public and charter schools, universities, vocational training institutes, Ed-Tech firms, and supplementary education providers. Our expertise encompasses structuring investments, regulatory compliance, operational strategies, and management frameworks, with a keen focus on the intricacies of k-12 not-for-profit establishments. We provide comprehensive legal services including litigation management, dispute resolution, due diligence, financial and taxation advice, M&A transactions, joint ventures, and legal audits. Moreover, we collaborate extensively with international institutions and companies seeking to establish a presence in India. Our team of seasoned lawyers possesses an in-depth understanding of both national and state-level laws and regulations governing educational institutions. We are well-versed in the intricacies of educational administration and operations, enabling us to provide strategic legal counsel tailored to the unique needs of educational entities."
+    "description": "Empowering Education Through Strategic Legal Expertise.",
+    "points": [
+      {
+        "label": null,
+        "description": "The educational landscape in India is undergoing a transformative shift, impacting every tier of learning—from early childhood education to university-level programs and beyond. With 250 million school-going students, India hosts the largest global demographic of young learners aged 5-24, as highlighted by the India Brand Equity Foundation. This dynamic and evolving ecosystem presents unparalleled opportunities for EdTech startups, universities, vocational training providers, and other educational entities."
+      },
+      {
+        "label": null,
+        "description": "The rise of technology-driven learning is redefining education, with India's online education market projected to reach a staggering USD 313 billion by 2030, according to AspireCircle. However, rapid policy changes, regulatory complexities, and operational challenges demand expert legal navigation to ensure sustained success."
+      },
+      {
+        "label": null,
+        "description": "At Innerwork Advisors LLP, we stand at the forefront of education sector advisory, delivering strategic legal solutions to a wide range of stakeholders, including early learning centers, public and private schools, universities, vocational training institutions, EdTech companies, and supplemental education providers."
+      },
+      {
+        "label": null,
+        "description": "Our deep expertise spans:",
+        "subPoints": [
+          {
+            "label": "Regulatory Compliance & Structuring",
+            "description": "Navigating complex national and state-level educational laws."
+          },
+          {
+            "label": "Litigation & Dispute Resolution",
+            "description": "Protecting institutions from legal risks and ensuring compliance."
+          },
+          {
+            "label": "Investment Structuring & M&A",
+            "description": "Facilitating strategic growth, joint ventures, and financial planning."
+          },
+          {
+            "label": "Operational & Management Frameworks",
+            "description": "Crafting governance models for K-12 not-for-profit institutions and higher education bodies."
+          },
+          {
+            "label": "International Collaboration",
+            "description": "Assisting global institutions in establishing and expanding their footprint in India."
+          }
+        ]
+      },
+      {
+        "label": null,
+        "description": "Our seasoned legal team possesses an in-depth understanding of India’s intricate education regulations, enabling us to provide tailored legal strategies that drive institutional success. Whether you’re navigating policy shifts, investment opportunities, or operational challenges, our expert guidance ensures compliance, stability, and sustainable growth."
+      }
+    ],
+    "extra": "Innerwork Advisors LLP - Your Trusted Legal Partner in Education."
   },
   {
     "name": "Family Law",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/ARBITRATION-LITIGATION.webp",
-    "description": "Family law is guided by key legal principles (trumps) to protect the rights and responsibilities of individuals in family relationships."
+    "description": "Family law is guided by key legal principles (trumps) to protect the rights and responsibilities of individuals in family relationships.",
+    "points": [
+      {
+        "label": "Marriage & Divorce Laws",
+        "description": "Governs legal requirements for marriage, separation, and dissolution."
+      },
+      {
+        "label": "Child Custody & Welfare",
+        "description": "Prioritizes the best interests of the child in custody and guardianship matters."
+      },
+      {
+        "label": "Spousal & Child Support",
+        "description": "Ensures financial support obligations after separation or divorce."
+      },
+      {
+        "label": "Property & Inheritance Rights",
+        "description": "Regulates asset division, succession, and inheritance disputes."
+      },
+      {
+        "label": "Protection from Domestic Violence",
+        "description": "Provides legal safeguards against abuse within family relationships."
+      },
+      {
+        "label": "Parental Rights & Responsibilities",
+        "description": "Defines the duties and rights of parents toward their children."
+      },
+      {
+        "label": "Adoption & Surrogacy Laws",
+        "description": "Establishes legal frameworks for adopting or having children through surrogacy."
+      }
+    ],
+    "extra": "These principles uphold fairness, security, and justice in family-related legal matters."
   },
   {
-    "name": "ADR",
+    "name": "Alternative Dispute Resolution (ADR)",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/MEDIATION.webp",
-    "description": "Alternative Dispute Resolution (ADR) is dictated by key legal principles to ensure fair, efficient, and cost-effective conflict resolution outside traditional courts."
+    "description": "Alternative Dispute Resolution (ADR) is dictated by key legal principles to ensure fair, efficient, and cost-effective conflict resolution outside traditional courts.",
+    "points": [
+      {
+        "label": "Voluntary Participation",
+        "description": "Parties engage in ADR willingly, except where mandated by law."
+      },
+      {
+        "label": "Confidentiality",
+        "description": "ADR proceedings remain private to encourage open discussions."
+      },
+      {
+        "label": "Neutrality & Impartiality",
+        "description": "Mediators, arbitrators, or conciliators must remain unbiased."
+      },
+      {
+        "label": "Flexibility",
+        "description": "ADR allows customized solutions tailored to parties’ interests."
+      },
+      {
+        "label": "Binding & Non-Binding Nature",
+        "description": "Arbitration awards are legally binding, while mediation and conciliation outcomes depend on mutual agreement."
+      },
+      {
+        "label": "Enforceability",
+        "description": "Certain ADR agreements and arbitration awards are enforceable under law."
+      },
+      {
+        "label": "Efficiency & Cost-Effectiveness",
+        "description": "ADR aims to resolve disputes faster and with lower expenses than litigation."
+      }
+    ],
+    "extra": "These principles ensure justice while reducing legal burdens on courts."
   },
   {
     "name": "Corporate Laws",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/INTELLECTUAL-PROPERTY-RIGHTS.webp",
-    "description": "Corporate law is dictated by key legal principles to regulate businesses and ensure accountability."
+    "description": "Corporate law is dictated by key legal principles to regulate businesses and ensure accountability.",
+    "points": [
+      {
+        "label": "Separate Legal Entity",
+        "description": "A company exists independently from its owners."
+      },
+      {
+        "label": "Limited Liability",
+        "description": "Shareholders are only liable for their investment, not company debts."
+      },
+      {
+        "label": "Corporate Governance",
+        "description": "Directors and officers must act in the company's best interest."
+      },
+      {
+        "label": "Regulatory Compliance",
+        "description": "Companies must follow corporate, tax, and financial laws."
+      },
+      {
+        "label": "Shareholder Rights",
+        "description": "Protects investors' interests, voting power, and dividends."
+      },
+      {
+        "label": "Mergers & Acquisitions",
+        "description": "Governs business takeovers, consolidations, and restructuring."
+      },
+      {
+        "label": "Transparency & Accountability",
+        "description": "Ensures financial reporting and ethical business practices."
+      }
+    ],
+    "extra": "These principles uphold legal order, protect stakeholders, and maintain corporate integrity."
   }
 ]
