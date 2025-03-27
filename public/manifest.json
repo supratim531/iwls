@@ -1,6 +1,6 @@
 {
-  "short_name": "Young Architects",
-  "name": "Young Architects provides innovative software solutions, graphics designing, fullstack web applications with cloud hosting, and technology education. Learn frontend, backend, and DSA with our expert courses",
+  "short_name": "Innerkwork Legal Service",
+  "name": "Innerkwork Legal Service is best legal service provider in Kolkata",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,13 +13,13 @@
       "type": "image/png"
     },
     {
-      "src": "android-chrome-512x192.png",
-      "sizes": "512x192",
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#284362",
   "background_color": "#ffffff"
 }
