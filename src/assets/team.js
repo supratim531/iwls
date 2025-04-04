@@ -2,6 +2,7 @@ import {
   AnganaDutta,
   AnitDebnath,
   AvroGhosh,
+  BhaskarDe,
   SankhajitLalMitra,
   SudipPalit,
   TaniaSenChatterjee,
@@ -34,20 +35,35 @@ const teamMembers = [
       "Mr. Bibaswan Mukherjee, holding BA LLB and LLM degrees specializing in corporate and business law, possesses specialized expertise in cyber law and cyber forensics. With a robust legal background, he has practiced at the High Court Calcutta and other esteemed High Courts. Mr. Mukherjee is recognized as a proficient advocate, having secured landmark judgments at a remarkably young age, showcasing his exceptional talent and dedication to the legal profession.",
   },
   {
+    name: "Bhaskar De",
+    experience: 25,
+    designation: "Director",
+    details:
+      "Advocate Bhaskar De is a highly experienced legal professional with over 25 years...",
+    image: BhaskarDe,
+    description:
+      "Advocate Bhaskar De is a highly experienced legal professional with over 25 years of distinguished practice in litigation. His extensive expertise spans a wide range of legal matters, with a particular focus on criminal law. Throughout his career, he has consistently delivered relief to clients in some of the most complex and critical cases.",
+    extra:
+      "For the past six years, Advocate De has been honored with the designation of Senior Counsel by the Government of India. He practices in various High Courts and District Courts across India, representing clients in diverse legal matters with the utmost commitment and integrity.",
+  },
+  {
+    name: "Sudip Palit",
+    experience: 24,
+    designation: "Senior Legal Associate",
+    details:
+      "Advocate Sudip Palit brings over 24 years of distinguished experience...",
+    image: SudipPalit,
+    description:
+      "Advocate Sudip Palit brings over 24 years of distinguished experience in the legal profession, specializing in litigation and providing strategic legal solutions to clients in complex and critical cases. He has been appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years. ",
+    extra:
+      "Advocate Palit practices across various High Courts and District Courts, and has also represented clients in the Supreme Court of India. His expertise spans a wide range of legal domains, including civil, corporate, land, and banking law, as well as drafting agreements and other facets of legal practice. His profound knowledge and extensive experience make him a trusted advisor and advocate for his clients.",
+  },
+  {
     name: "Angana Dutta",
     experience: 10,
     designation: "Designated Partner",
     details: "",
     image: AnganaDutta,
-    description: "",
-    extra: "",
-  },
-  {
-    name: "Sudip Palit",
-    experience: 10,
-    designation: "Senior Legal Associate",
-    details: "",
-    image: SudipPalit,
     description: "",
     extra: "",
   },
@@ -80,11 +96,12 @@ const teamMembers = [
   },
   {
     name: "Avro Ghosh",
-    experience: 3,
+    experience: 1,
     designation: "Senior Legal Advisor",
     details: "",
     image: AvroGhosh,
-    description: "",
+    description:
+      "I'm Avro Ghosh, a Criminal Advocate. I practice primarily at the Alipore Criminal Court, and I also handle cases in other district courts. I completed my BA LLB from Calcutta University in 2024, graduating with 82% marks. My focus is exclusively on criminal law, and I'm dedicated to providing effective legal representation to my clients. I prioritize quality in my work and have established strong professional connections.",
     extra: "",
   },
 ];

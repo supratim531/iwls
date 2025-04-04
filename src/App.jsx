@@ -9,7 +9,7 @@ import { RootProvider } from "./contexts/rootContext";
 import { Header, Footer } from "./components";
 
 import "aos/dist/aos.css";
-import { preloader } from "./assets";
+import { preloader, PreloaderSmall, PreloaderLarge } from "./assets";
 
 const Configurations = (props) => {
   const { children } = props;
@@ -19,7 +19,7 @@ const Configurations = (props) => {
     // Hide preloader after 3s
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1200);
 
     // Cleanup timer
     return () => clearTimeout(timer);
@@ -36,10 +36,15 @@ const Configurations = (props) => {
 
   return loading ? (
     <div className="flex h-screen items-center justify-center bg-white">
-      <Lottie
+      {/* <Lottie
         loop={true}
         animationData={preloader}
         className="h-[200px] w-[200px]"
+      /> */}
+      <img
+        className="w-72"
+        src={PreloaderSmall}
+        alt="Innerwork Legal Service"
       />
     </div>
   ) : (

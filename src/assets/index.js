@@ -15,9 +15,13 @@ export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
 
+export { default as PreloaderSmall } from "./gif/preloader-small.gif";
+export { default as PreloaderLarge } from "./gif/preloader-large.gif";
+
 export { default as AnganaDutta } from "./team/angana-dutta.png";
 export { default as AnitDebnath } from "./team/anit-debnath.png";
 export { default as AvroGhosh } from "./team/avro-ghosh.png";
+export { default as BhaskarDe } from "./team/bhaskar-de.png";
 export { default as SankhajitLalMitra } from "./team/sankhajit-lal-mitra.png";
 export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
