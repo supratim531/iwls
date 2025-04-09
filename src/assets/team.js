@@ -6,6 +6,7 @@ import {
   SankhajitLalMitra,
   SudipPalit,
   TaniaSenChatterjee,
+  SatabdiAdhikary,
 } from ".";
 
 const teamMembers = [
@@ -22,22 +23,20 @@ const teamMembers = [
       "Particularly noted for his prowess in crime detection during his tenure in the detective department.",
   },
   {
-    name: "Bibaswan Mukherjee",
-    experience: "Expertise in Cyber Law",
-    designation: "Senior Legal Advisor",
+    name: "Angana Dutta",
+    experience: 5,
+    designation: "Designated Partner",
     details:
-      "Bibaswan Mukherjee has served in cyber law and forensics department...",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/03/Mr-Bibaswas-Mukherjee-300x300.webp",
+      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
+    image: AnganaDutta,
     description:
-      "Mr. Bibaswan Mukherjee, holding BA LLB and LLM degrees specializing in corporate and business law, possesses specialized expertise in cyber law and cyber forensics. With a robust legal background, he has practiced at the High Court Calcutta and other esteemed High Courts. Mr. Mukherjee is recognized as a proficient advocate, having secured landmark judgments at a remarkably young age, showcasing his exceptional talent and dedication to the legal profession.",
-    extra:
-      "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
+      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
+    extra: "A Partner Director and graduate of Symbiosis Law School",
   },
   {
     name: "Bhaskar De",
     experience: 25,
-    designation: "Director",
+    designation: "Senior Legal Advisor",
     details:
       "Advocate Bhaskar De is a highly experienced legal professional with over 25 years...",
     image: BhaskarDe,
@@ -49,7 +48,7 @@ const teamMembers = [
   {
     name: "Sudip Palit",
     experience: 24,
-    designation: "Senior Legal Associate",
+    designation: "Senior Legal Advisor",
     details:
       "Advocate Sudip Palit brings over 24 years of distinguished experience...",
     image: SudipPalit,
@@ -59,9 +58,23 @@ const teamMembers = [
       "Appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years.",
   },
   {
+    name: "Bibaswan Mukherjee",
+    experience: 7,
+    // experience: "Expertise in Cyber Law",
+    designation: "Senior Legal Associate",
+    details:
+      "Bibaswan Mukherjee has served in cyber law and forensics department...",
+    image:
+      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/03/Mr-Bibaswas-Mukherjee-300x300.webp",
+    description:
+      "Mr. Bibaswan Mukherjee, holding BA LLB and LLM degrees specializing in corporate and business law, possesses specialized expertise in cyber law and cyber forensics. With a robust legal background, he has practiced at the High Court Calcutta and other esteemed High Courts. Mr. Mukherjee is recognized as a proficient advocate, having secured landmark judgments at a remarkably young age, showcasing his exceptional talent and dedication to the legal profession.",
+    extra:
+      "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
+  },
+  {
     name: "Sankhajit Lal Mitra",
-    experience: 10,
-    designation: "Senior Legal Advisor",
+    experience: 1,
+    designation: "Senior Legal Associate",
     details:
       "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience...",
     image: SankhajitLalMitra,
@@ -73,7 +86,7 @@ const teamMembers = [
   {
     name: "Tania Sen Chatterjee",
     experience: 6,
-    designation: "Senior Legal Advisor",
+    designation: "Legal Associate",
     details:
       "Mrs. Tania Sen Chatterjee holds a BA LLB degree from North Bengal University...",
     image: TaniaSenChatterjee,
@@ -83,7 +96,7 @@ const teamMembers = [
   },
   {
     name: "Anit Debnath",
-    experience: 4,
+    experience: 3,
     designation: "Legal Associate",
     details: "Holding a BALLB from Calcutta University...",
     image: AnitDebnath,
@@ -92,20 +105,9 @@ const teamMembers = [
     extra: "Offering dedicated legal services in this field.",
   },
   {
-    name: "Angana Dutta",
-    experience: 3,
-    designation: "Designated Partner",
-    details:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
-    image: AnganaDutta,
-    description:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
-    extra: "A Partner Director and graduate of Symbiosis Law School",
-  },
-  {
     name: "Avro Ghosh",
     experience: 1,
-    designation: "Senior Legal Advisor",
+    designation: "Legal Associate",
     details:
       "I'm Avro Ghosh, a Criminal Advocate. I practice primarily at the Alipore Criminal Court...",
     image: AvroGhosh,
@@ -113,6 +115,17 @@ const teamMembers = [
       "I'm Avro Ghosh, a Criminal Advocate. I practice primarily at the Alipore Criminal Court, and I also handle cases in other district courts. I completed my BA LLB from Calcutta University in 2024, graduating with 82% marks. My focus is exclusively on criminal law, and I'm dedicated to providing effective legal representation to my clients.",
     extra:
       "I prioritize quality in my work and have established strong professional connections.",
+  },
+  {
+    name: "Satabdi Adhikary",
+    experience: 1,
+    designation: "Legal Associate",
+    details:
+      "Satabdi Adhikary, a 25-year-old graduate with a strong academic background...",
+    image: SatabdiAdhikary,
+    description:
+      "Satabdi Adhikary, a 25-year-old graduate with a strong academic background, holds an LL.B (2024) and has cleared the AIBE (2025), becoming a certified advocate. Passionate about justice, she is dedicated to upholding the values of the legal system.",
+    extra: "Dedicated to upholding the values of the legal system...",
   },
 ];
 

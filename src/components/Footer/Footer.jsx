@@ -185,7 +185,7 @@ const Footer = (props) => {
                 </li> */}
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/innerwork-advisors-llp"
+                    href="https://www.linkedin.com/in/innerwork-legal-services-18507035b"
                     target="_blank"
                   >
                     <i className="fa-brands fa-linkedin-in duration-200 md:hover:text-secondary"></i>

@@ -31,5 +31,6 @@ export { default as BhaskarDe } from "./team/bhaskar-de.png";
 export { default as SankhajitLalMitra } from "./team/sankhajit-lal-mitra.png";
 export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
+export { default as SatabdiAdhikary } from "./team/satabdi-adhikary.png";
 export { teamMembers } from "./team";
 export { services } from "./services";
