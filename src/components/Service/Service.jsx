@@ -21,7 +21,8 @@ const Service = () => {
         title={"Our Service"}
         label={"What We Do"}
         description={
-          "When your rights are at stake, you need a legal team that will fight tirelessly on your behalf. Our firm specializes in protecting the rights of our clients, ensuring that they receive fair treatment and due process under the law."
+          // "When your rights are at stake, you need a legal team that will fight tirelessly on your behalf. Our firm specializes in protecting the rights of our clients, ensuring that they receive fair treatment and due process under the law."
+          "Inner Work Legal Services is an India-based law firm committed to providing expert legal solutions across a comprehensive range of legal domains with a client-centric approach, prioritizing tailored and effective legal strategies for individuals, businesses, and NRIs.Our firm provides comprehensive drafting services encompassing a wide spectrum of agreements, deeds, and other legal documentation."
         }
       >
         <ul
@@ -36,6 +37,14 @@ const Service = () => {
             </li>
           ))}
         </ul>
+
+        <SubSection
+          title={"Conclusion"}
+          className="mt-8 [&>div:nth-child(1)>p]:text-center [&>div:nth-child(1)]:mb-[16px] [&>div>h2]:text-center [&>div>h2]:not-italic"
+          description={
+            "Inner Work Legal Services is a distinguished law firm in India committed to providing professional, client-friendly, and trustworthy legal representation across a wide range of legal domains through both traditional litigation and ADR methods, upholding high ethical standards to meet the unique needs of individuals, businesses, and NRIs."
+          }
+        />
       </Section>
 
       <Modal
@@ -80,7 +89,10 @@ const Service = () => {
                         <p key={point?.description}>{point?.description}</p>
                         <ul className="text-sm">
                           {point?.subPoints?.map((subPoint) => (
-                            <li key={subPoint?.label}>
+                            <li
+                              key={subPoint?.label}
+                              className="list-inside list-disc"
+                            >
                               <span className="text-primary-light">
                                 {subPoint?.label}
                               </span>
@@ -93,11 +105,14 @@ const Service = () => {
                   </div>
                 ) : (
                   selectedService?.points.map((point) => (
-                    <li key={point?.label}>
-                      <strong className="text-primary-light">
-                        {point?.label}
-                      </strong>
-                      : <span>{point?.description}</span>
+                    <li key={point?.label} className="list-inside list-disc">
+                      {point?.label ? (
+                        <strong className="text-primary-light">
+                          {point?.label}
+                          {":"}
+                        </strong>
+                      ) : null}{" "}
+                      <span>{point?.description}</span>
                     </li>
                   ))
                 )}

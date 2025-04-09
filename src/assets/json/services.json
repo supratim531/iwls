@@ -36,68 +36,146 @@
     "extra": "Cyber laws vary by country, with acts like the GDPR (EU), IT Act 2000 (India), CFAA (USA), and others defining legal frameworks for digital activities."
   },
   {
-    "name": "Civil Law",
+    "name": "Civil Litigation Services",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CIVIL-LAW.webp",
     "description": "Civil law is dictated by key legal principles, including.",
     "points": [
       {
-        "label": "Codification",
-        "description": "Laws are written in comprehensive codes (e.g., Civil Code, Contract Law)."
+        "label": null,
+        "description": "Handling a broad spectrum of disputes across various sectors and industries."
       },
       {
-        "label": "Legal Certainty",
-        "description": "Clear, structured rules guide decisions."
+        "label": null,
+        "description": "Representation for multinational corporations, government entities, and individuals."
       },
       {
-        "label": "Judicial Role",
-        "description": "Judges apply laws but do not create binding precedents."
+        "label": null,
+        "description": "Commercial suits (recovery of dues, debts, damages from breaches of contract, business operations, partnerships, corporate governance)."
       },
       {
-        "label": "Private Rights",
-        "description": "Focuses on disputes between individuals or entities."
+        "label": null,
+        "description": "Property disputes (injunctions, ownership declarations, recovery of possession, partition suits, boundary conflicts, succession, probate, title disagreements)."
       },
       {
-        "label": "Remedies",
-        "description": "Provides compensation or enforcement of obligations, not punishment."
+        "label": null,
+        "description": "Intellectual property disputes (patents, trademarks, copyrights, trade secrets, infringement actions, rectification of marks, patent litigation)."
+      },
+      {
+        "label": null,
+        "description": "Employment law (wrongful termination, workplace harassment, wage disputes, retaliation claims)."
+      },
+      {
+        "label": null,
+        "description": "Environmental litigation (land use, pollution control, waste management, regulatory compliance)."
+      },
+      {
+        "label": null,
+        "description": "Tender disputes (challenging unfair trade practices, disqualifications/rejections)."
+      },
+      {
+        "label": null,
+        "description": "Eviction/ejectment suits."
+      },
+      {
+        "label": null,
+        "description": "Money suits/commercial suits (unpaid debts, loans, dues, estate recovery)."
+      },
+      {
+        "label": null,
+        "description": "Suit relating to specific performance and contracts (enforcement of contracts and specific performance)."
+      },
+      {
+        "label": null,
+        "description": "Other civil disputes (tort claims, consumer disputes, administrative law disputes (CAT), civil defamation suits)."
+      },
+      {
+        "label": null,
+        "description": "Filing and defending writ petitions before High Courts."
+      },
+      {
+        "label": null,
+        "description": "Matters relating to civil division and cases dealt with at the original side of High Court (civil suits and arbitration)."
       }
-    ],
-    "extra": "These principles ensure consistency and fairness in civil legal matters."
+    ]
   },
   {
-    "name": "Criminal Law",
+    "name": "Criminal Litigation Services",
     "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CRIMINAL-LAW.webp",
     "description": "Criminal law provides key legal principles (trumps) to ensure justice and fairness.",
     "points": [
       {
-        "label": "Legality",
-        "description": "No crime or punishment without a pre-existing law."
+        "label": null,
+        "description": "Defense representation for various criminal charges (minor offenses to felonies)."
       },
       {
-        "label": "Presumption of Innocence",
-        "description": "The accused is innocent until proven guilty."
+        "label": null,
+        "description": "Expertise in white-collar crimes (corporate fraud, banking fraud, cheating, corruption, money laundering)."
       },
       {
-        "label": "Burden of Proof",
-        "description": "The state must prove guilt beyond a reasonable doubt."
+        "label": null,
+        "description": "Handling blue-collar crimes (robbery, theft, assault, murder, human trafficking, domestic violence)."
       },
       {
-        "label": "Proportionality",
-        "description": "Punishment must match the severity of the crime."
+        "label": null,
+        "description": "Cases related to drug offenses and juvenile delinquency"
       },
       {
-        "label": "Due Process",
-        "description": "Fair legal procedures and rights for the accused."
+        "label": null,
+        "description": "Specialized defense for corporate clients and executives in criminal activities."
       },
       {
-        "label": "Double Jeopardy",
-        "description": "No one can be tried twice for the same offense."
+        "label": null,
+        "description": "Handling cases under special enactments like the Maharashtra Protection of Interest of Depositors Act, 1999, and the Prevention of Money Laundering Act, 2002."
       },
       {
-        "label": "Right to Defense",
-        "description": "The accused has the right to legal representation."
+        "label": null,
+        "description": "Meticulous trial preparation and advocacy (legal research, evidence gathering, witness identification, courtroom strategies)."
+      },
+      {
+        "label": null,
+        "description": "Pre-trial negotiations for plea alternatives and charge reduction/dismissal."
+      },
+      {
+        "label": null,
+        "description": "Legal assistance in regulatory enforcement and litigation."
+      },
+      {
+        "label": null,
+        "description": "Expert representation in bail hearings (interim and anticipatory bail)."
+      },
+      {
+        "label": null,
+        "description": "Dedicated services for cheque bounce resolution under the Negotiable Instruments Act."
+      },
+      {
+        "label": null,
+        "description": "Money recovery services through criminal proceedings (fraud, cheating, breach of trust)."
+      },
+      {
+        "label": null,
+        "description": "Specialised juvenile defense services."
+      },
+      {
+        "label": null,
+        "description": "Defense against corporate criminal charges (internal investigations, crisis management)."
+      },
+      {
+        "label": null,
+        "description": "Assistance in filing criminal appeals and revisions before various courts."
+      },
+      {
+        "label": null,
+        "description": "Preventive legal counseling to mitigate potential criminal liabilities."
+      },
+      {
+        "label": null,
+        "description": "Assisting in seeking the quashing of FIRs and chargesheets."
+      },
+      {
+        "label": null,
+        "description": "Child/ Minor abuse and protection."
       }
-    ],
-    "extra": "These principles protect individuals from unjust prosecution and punishment."
+    ]
   },
   {
     "name": "Banking and Finance Law",
@@ -255,35 +333,46 @@
     "description": "Alternative Dispute Resolution (ADR) is dictated by key legal principles to ensure fair, efficient, and cost-effective conflict resolution outside traditional courts.",
     "points": [
       {
-        "label": "Voluntary Participation",
-        "description": "Parties engage in ADR willingly, except where mandated by law."
+        "label": null,
+        "description": "Expertise in arbitration, mediation, conciliation, negotiation, and Lok Adalats."
       },
       {
-        "label": "Confidentiality",
-        "description": "ADR proceedings remain private to encourage open discussions."
+        "label": null,
+        "description": "Offering expert arbitration, mediation, and conciliation services."
       },
       {
-        "label": "Neutrality & Impartiality",
-        "description": "Mediators, arbitrators, or conciliators must remain unbiased."
+        "label": null,
+        "description": "Assisting in drafting arbitration agreements and contracts."
       },
       {
-        "label": "Flexibility",
-        "description": "ADR allows customized solutions tailored to parties’ interests."
+        "label": null,
+        "description": "Providing advice on selecting and appointing arbitrators."
       },
       {
-        "label": "Binding & Non-Binding Nature",
-        "description": "Arbitration awards are legally binding, while mediation and conciliation outcomes depend on mutual agreement."
+        "label": null,
+        "description": "Skilled representation in domestic and international arbitration."
       },
       {
-        "label": "Enforceability",
-        "description": "Certain ADR agreements and arbitration awards are enforceable under law."
+        "label": null,
+        "description": "Providing expert mediation services to facilitate communication."
       },
       {
-        "label": "Efficiency & Cost-Effectiveness",
-        "description": "ADR aims to resolve disputes faster and with lower expenses than litigation."
+        "label": null,
+        "description": "Assisting in conciliation processes for amicable settlements."
+      },
+      {
+        "label": null,
+        "description": "Facilitating negotiation between parties."
+      },
+      {
+        "label": null,
+        "description": "Handling the challenging of arbitral awards and their enforcement."
+      },
+      {
+        "label": null,
+        "description": "Comprehensive consultation and strategy development for ADR."
       }
-    ],
-    "extra": "These principles ensure justice while reducing legal burdens on courts."
+    ]
   },
   {
     "name": "Corporate Laws",
@@ -320,5 +409,55 @@
       }
     ],
     "extra": "These principles uphold legal order, protect stakeholders, and maintain corporate integrity."
+  },
+  {
+    "name": "Labour Laws",
+    "image": "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/INTELLECTUAL-PROPERTY-RIGHTS.webp",
+    "points": [
+      {
+        "label": null,
+        "description": "Drafting and review of legally compliant employment contracts are provided."
+      },
+      {
+        "label": null,
+        "description": "Comprehensive advisory services on wage and hour compliance in accordance with Indian labour laws are available."
+      },
+      {
+        "label": null,
+        "description": "Policies to prevent workplace discrimination and harassment are developed and implemented."
+      },
+      {
+        "label": null,
+        "description": "Expert guidance on legal requirements pertaining to employee benefits and compensation is offered."
+      },
+      {
+        "label": null,
+        "description": "Assistance with the legal procedures for termination and redundancy, ensuring compliance with Indian law, is provided."
+      },
+      {
+        "label": null,
+        "description": "Advisory services on adhering to occupational safety and health regulations for a secure workplace are rendered."
+      },
+      {
+        "label": null,
+        "description": "Representation in labour disputes, conciliation proceedings, and litigation before relevant forums across India is undertaken."
+      },
+      {
+        "label": null,
+        "description": "Drafting and review of company policies and employee handbooks to ensure alignment with labour legislation are performed."
+      },
+      {
+        "label": null,
+        "description": "Expert legal counsel on diverse aspects of labour law and employee relations is extended."
+      },
+      {
+        "label": null,
+        "description": "Assistance to employers in negotiations with trade unions and the management of collective bargaining agreements is offered."
+      },
+      {
+        "label": null,
+        "description": "Guidance on the legal framework for engaging contract labour and ensuring comprehensive compliance is provided."
+      }
+    ]
   }
 ]

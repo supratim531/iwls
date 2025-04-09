@@ -31,7 +31,7 @@ const Header = (props) => {
       <div className="fixed top-0 z-[100] flex h-[42px] w-full items-center bg-primary-dark">
         <Container className="flex h-full items-center justify-center gap-7 md:justify-end">
           <ul className="flex items-center gap-7 text-white">
-            <li>
+            {/* <li>
               <a href="https://x.com/Innerworkllp" target="_blank">
                 <i className="fa-brands fa-twitter duration-200 hover:text-secondary"></i>
               </a>
@@ -51,7 +51,7 @@ const Header = (props) => {
               >
                 <i className="fa-brands fa-instagram text-lg duration-200 hover:text-secondary"></i>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="https://www.linkedin.com/in/innerwork-advisors-llp"

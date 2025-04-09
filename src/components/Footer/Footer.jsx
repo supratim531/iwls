@@ -162,7 +162,7 @@ const Footer = (props) => {
                   "mt-8 flex items-center justify-center gap-2 text-white md:mt-0 md:justify-start md:gap-6",
                 )}
               >
-                <li>
+                {/* <li>
                   <a href="https://x.com/Innerworkllp" target="_blank">
                     <i className="fa-brands fa-twitter duration-200 md:hover:text-secondary"></i>
                   </a>
@@ -182,7 +182,7 @@ const Footer = (props) => {
                   >
                     <i className="fa-brands fa-instagram text-lg duration-200 md:hover:text-secondary"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://www.linkedin.com/in/innerwork-advisors-llp"

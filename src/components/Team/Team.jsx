@@ -73,9 +73,7 @@ const Team = () => {
               )}
             </h3> */}
 
-            <p className="mt-4 pr-4 text-primary-light">
-              {member?.description}
-            </p>
+            <p className="mt-4 pr-4 text-primary-light">{member?.extra}</p>
           </div>
 
           <div className="w-full lg:w-[70%]">
@@ -105,7 +103,7 @@ const Team = () => {
             {selectedMember?.details}
           </p>
           <p className="mt-2 text-start text-sm text-gray-600 md:text-base">
-            {selectedMember?.extra}
+            {selectedMember?.description}
           </p>
           <button
             onClick={() => setSelectedMember(null)}

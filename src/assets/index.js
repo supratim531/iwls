@@ -1,5 +1,5 @@
 export { default as team } from "./json/team.json";
-export { default as services } from "./json/services.json";
+// export { default as services } from "./json/services.json";
 export { default as preloader } from "./lottie/preloader.json";
 export { default as testimonials } from "./json/testimonials.json";
 export { default as BrandLogo } from "./logo/brand.png";
@@ -14,6 +14,12 @@ export { default as ContactUsImage } from "./image/contact-us.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
+export { default as LabourLawsImage } from "./image/labour-laws.png";
+export { default as ConsultationForNRIsImage } from "./image/consultation-for-nris.png";
+export { default as GSTRelatedLegalMattersImage } from "./image/gst-related-legal-matters.png";
+export { default as GeneralLegalConsultationImage } from "./image/general-legal-consultation.png";
+export { default as AssetRecoveryForBanksNBFCsImage } from "./image/asset-recovery-for-banks-nbfcs.png";
+export { default as HighCourtRepresentationAcrossIndiaImage } from "./image/high-court-representation-across-india.png";
 
 export { default as PreloaderSmall } from "./gif/preloader-small.gif";
 export { default as PreloaderLarge } from "./gif/preloader-large.gif";
@@ -26,3 +32,4 @@ export { default as SankhajitLalMitra } from "./team/sankhajit-lal-mitra.png";
 export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
 export { teamMembers } from "./team";
+export { services } from "./services";
