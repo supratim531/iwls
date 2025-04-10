@@ -16,8 +16,9 @@
     font-size: 18px;
     font-weight: 500;
     font-style: italic;
+    color: var(--bg-secondary);
     /* letter-spacing: 1.5px; */
-    color: color-mix(in srgb, var(--bg-secondary), transparent 0%);
+    /* color: color-mix(in srgb, var(--bg-secondary), transparent 0%); */
   }
 }
 

@@ -282,12 +282,12 @@ const About = (props) => {
                 solutions that transcend geographical boundaries.
               </p>
 
-              <button
+              {/* <button
                 onClick={() => setIsModalOpen(false)}
                 className="w-full rounded-md border-2 border-transparent bg-primary-light py-3 uppercase text-white duration-200 hover:bg-primary-dark sm:w-44"
               >
                 Know More
-              </button>
+              </button> */}
             </div>
           </div>
         </Section>

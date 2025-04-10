@@ -35,7 +35,7 @@ const Hero = (props) => {
                       href={`https://www.google.com/maps?q=${"Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata 700001"}`}
                       target="_blank"
                     >
-                      RN Mukherjee Rd
+                      1 R.N. Mukherjee Rd
                     </a>
                   </li>
                   {/* <li>Sukeas Lane</li> */}

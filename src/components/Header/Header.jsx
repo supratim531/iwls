@@ -63,7 +63,7 @@ const Header = (props) => {
           </ul>
 
           <div className="hidden h-full items-center bg-secondary px-4 font-semibold text-white md:flex">
-            <span>24x7 Emergency: 9073672051 | 9073932051</span>
+            <span>24x7 Emergency: 9073932051</span>
           </div>
         </Container>
       </div>
@@ -139,7 +139,7 @@ const Header = (props) => {
             <div className="flex items-center gap-4 text-sm">
               <i className="fa-solid fa-phone text-secondary"></i>
               <a href="tel:+919073672051" className="text-white">
-                (+91) 90736 72051
+                (+91) 90739 32051
               </a>
             </div>
 
