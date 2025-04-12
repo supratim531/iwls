@@ -23,6 +23,18 @@ const HomePage = (props) => {
   return (
     <main>
       <Hero />
+
+      <iframe
+        class="lc_reviews_widget"
+        src="https://reputationhub.site/reputation/widgets/review_widget/itS7r8CDpwu3oMhOIzVK"
+        frameborder="0"
+        scrolling="no"
+        style={{
+          minWidth: "100%",
+          width: "100%",
+        }}
+      ></iframe>
+
       <About />
       <Service />
       <Team />

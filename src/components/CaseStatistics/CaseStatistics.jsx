@@ -19,15 +19,15 @@ const CaseStatistics = () => {
           <div className={classNames(css.grid, "flex-grow")}>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded bg-[#c0b59633] px-4 sm:h-[160px] md:h-[240px]">
               <h4 className="flex items-center text-center text-2xl font-semibold text-white sm:text-4xl">
-                <Odometer number={90} />%
+                <Odometer number={94} />%
               </h4>
               <p className="text-center font-medium text-secondary sm:text-xl">
-                Cases Won
+                Customer Triumph
               </p>
             </div>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded bg-[#c0b59633] px-4 sm:h-[160px] md:h-[240px]">
               <h4 className="flex items-center text-center text-2xl font-semibold text-white sm:text-4xl">
-                <Odometer number={70} />+
+                <Odometer number={400} />+
               </h4>
               <p className="text-center font-medium text-secondary sm:text-xl">
                 Trusted Client
@@ -38,7 +38,7 @@ const CaseStatistics = () => {
                 <Odometer number={25} />+
               </h4>
               <p className="text-center font-medium text-secondary sm:text-xl">
-                Dedicated Lawyer
+                Dedicated Lawyers
               </p>
             </div>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded bg-[#c0b59633] px-4 sm:h-[160px] md:h-[240px]">

@@ -209,24 +209,24 @@ const About = (props) => {
                 <ul className={css.list}>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Expertise Across Legal Domains</span>
+                    <span>Expertise across diverse legal domains</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Client-Centric Approach</span>
+                    <span>Best possible Legal Solutions</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Proven Results</span>
+                    <span>Dedicated approach</span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
                     <span>Integrity & Transparency</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
                     <span>Strategic & Research-Driven Solutions</span>
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div>
@@ -262,7 +262,7 @@ const About = (props) => {
 
             <div
               data-aos="fade-up"
-              className="flex w-full flex-col justify-between gap-6 self-stretch px-[45px] py-[30px] lg:w-[50%] lg:flex-auto"
+              className="flex w-full flex-col gap-8 self-stretch px-[45px] py-[30px] lg:w-[50%] lg:flex-auto"
             >
               <h3 className={classNames(css.subHeading)}>
                 {/* Local Knowledge, Global Reach: */}

@@ -82,7 +82,11 @@ const Service = () => {
             <div data-aos="fade-up" className="flex flex-col gap-4">
               <ul className="list-inside">
                 {selectedService?.name === "Service Providers" ||
-                selectedService?.name === "Educational Landscape" ? (
+                selectedService?.name === "Educational Landscape" ||
+                selectedService?.name ===
+                  "Corporate Legal Matters (including NCLT, SARFAESI, DRT & DRAT)" ||
+                selectedService?.name ===
+                  "GST-Related Legal Matters (including Registration, Appeals & Resolution)" ? (
                   <div className="flex flex-col gap-4">
                     {selectedService?.points.map((point) => (
                       <div>
@@ -93,10 +97,13 @@ const Service = () => {
                               key={subPoint?.label}
                               className="list-inside list-disc"
                             >
-                              <span className="text-primary-light">
-                                {subPoint?.label}
-                              </span>
-                              : <span>{subPoint?.description}</span>
+                              {subPoint?.label ? (
+                                <span className="text-primary-light">
+                                  {subPoint?.label}
+                                  {":"}
+                                </span>
+                              ) : null}{" "}
+                              <span>{subPoint?.description}</span>
                             </li>
                           ))}
                         </ul>

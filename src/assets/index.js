@@ -14,8 +14,12 @@ export { default as ContactUsImage } from "./image/contact-us.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
+
+export { default as IncomeTaxImage } from "./image/income-tax.png";
 export { default as LabourLawsImage } from "./image/labour-laws.png";
 export { default as ConsultationForNRIsImage } from "./image/consultation-for-nris.png";
+export { default as CorporateArbitrationImage } from "./image/corporate-arbitration.png";
+export { default as CorporateLegalMattersImage } from "./image/corporate-legal-matters.png";
 export { default as GSTRelatedLegalMattersImage } from "./image/gst-related-legal-matters.png";
 export { default as GeneralLegalConsultationImage } from "./image/general-legal-consultation.png";
 export { default as AssetRecoveryForBanksNBFCsImage } from "./image/asset-recovery-for-banks-nbfcs.png";
