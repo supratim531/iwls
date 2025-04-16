@@ -1,11 +1,17 @@
 import {
+  NCLTImage,
+  CBIAndEDImage,
   IncomeTaxImage,
   LabourLawsImage,
+  NRITaxationImage,
+  ConsumerForumImage,
   ConsultationForNRIsImage,
+  MedicoLegalServicesImage,
   CorporateArbitrationImage,
   CorporateLegalMattersImage,
   GSTRelatedLegalMattersImage,
   GeneralLegalConsultationImage,
+  IndustrialFactoryDisputesImage,
   AssetRecoveryForBanksNBFCsImage,
   HighCourtRepresentationAcrossIndiaImage,
 } from ".";
@@ -1175,189 +1181,374 @@ const services = [
     ],
   },
   {
-    name: "Banking and Finance Law",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/BANKING-FINANCE.webp",
+    name: "CBI / ED Related Matters",
+    image: CBIAndEDImage,
     description:
-      "Banking and finance law provides key legal principles (trumps) to regulate financial systems and protect stakeholders.",
+      "We provide expert legal representation and advisory in matters involving the Central Bureau of Investigation (CBI) and Enforcement Directorate (ED), including cases of corruption, money laundering, and economic offenses. Our team offers strategic defense, assistance during investigations, and guidance to ensure compliance with relevant laws and procedures.",
     points: [
       {
-        label: "Regulatory Compliance",
+        label: null,
         description:
-          "Banks and financial institutions must follow national and international laws.",
+          "Representation in investigations and proceedings initiated by the Central Bureau of Investigation (CBI) for various criminal offenses, including corruption, bribery, and economic offenses.",
       },
       {
-        label: "Consumer Protection",
+        label: null,
         description:
-          "Ensures fair treatment, transparency, and disclosure in financial services.",
+          "Legal assistance in matters pertaining to the Enforcement Directorate (ED) concerning money laundering, FEMA violations, and other financial irregularities.",
       },
       {
-        label: "Anti-Money Laundering (AML)",
+        label: null,
         description:
-          "Prevents illegal financial activities and requires due diligence.",
+          "Providing guidance and representation during search and seizure operations, summons, and arrests by the CBI and ED.",
       },
       {
-        label: "Capital Adequacy",
-        description: "Banks must maintain sufficient reserves to manage risks.",
-      },
-      {
-        label: "Loan and Credit Regulations",
+        label: null,
         description:
-          "Governs lending practices, interest rates, and debt recovery.",
+          "Expertise in handling white-collar crimes investigated by these premier agencies.",
       },
       {
-        label: "Financial Stability",
-        description: "Ensures a secure and stable banking system.",
-      },
-      {
-        label: "Contract Enforcement",
+        label: null,
         description:
-          "Ensures legal agreements, such as loans and investments, are binding.",
+          "Assisting clients in understanding the intricacies of PMLA (Prevention of Money Laundering Act) and other relevant legislation.",
+      },
+      {
+        label: null,
+        description:
+          "Strategizing and preparing defense against charges framed by the CBI and ED.",
+      },
+      {
+        label: null,
+        description: "Bail applications and appeals in CBI/ED cases.",
+      },
+      {
+        label: null,
+        description:
+          "Assistance in seeking quashing of FIRs and chargesheets filed by the CBI/ED.",
+      },
+      {
+        label: null,
+        description:
+          "Advisory on compliance with relevant laws to prevent potential CBI/ED scrutiny.",
       },
     ],
-    extra:
-      "These principles help maintain trust, stability, and fairness in financial transactions.",
   },
   {
-    name: "Service Providers",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/SERVICE-MATTERS.webp",
+    name: "Industrial & Factory Disputes",
+    image: IndustrialFactoryDisputesImage,
     description:
-      "Unwavering Advocacy for Employee Rights - Now with International Expertise.",
+      "We offer comprehensive legal support in resolving industrial and factory-related disputes between employers and employees, covering wrongful termination, wage issues, and working conditions. Our services include representation before Labour Courts and Tribunals, assistance in conciliation and arbitration, and expert advice on compliance with key labour legislations.",
     points: [
       {
         label: null,
         description:
-          "Our highly accomplished service matter lawyers, representing clients in the Kolkata High Court and the Supreme Court of India, are relentless in their pursuit of justice, ensuring that employers, governments, private corporations, and corporate entities uphold their legal and contractual obligations to employees. Now, with international capabilities, we extend our expertise to clients navigating cross-border employment disputes and global labor law challenges.",
+          "Representation in disputes arising between employers and employees in industrial and factory settings.",
       },
       {
         label: null,
         description:
-          "With an unyielding commitment to fairness, dignity, and respect, we enforce India’s employment laws, including the Industrial Disputes Act, holding employers accountable for wrongful terminations, workplace discrimination, wage disputes, and labor rights violations. Our seasoned employment lawyers are steadfast in their advocacy, challenging unlawful employer practices and fighting to secure the legal entitlements and protections guaranteed under both Indian and international employment law.",
+          "Handling matters related to wrongful termination, retrenchment, and lay-offs.",
       },
       {
         label: null,
         description:
-          "At the Kolkata High Court, we adopt a strategic, assertive, and results-driven approach to safeguard employees' legal, financial, and professional interests. We understand that employment disputes go beyond legal battles—they impact careers, livelihoods, and emotional well-being. That’s why our legal team doesn’t just fight cases; we fight for people, addressing the emotional, financial, and professional hardships employees face due to unfair treatment or unlawful employer conduct.",
+          "Addressing issues concerning wages, working conditions, and other service conditions.",
       },
       {
         label: null,
         description:
-          "With deep expertise in service and employment law, our lawyers command the courtroom with precision and authority, ensuring that justice is not just sought but delivered. Our international services extend to expatriate employment disputes, multinational corporate compliance, global labor rights, and cross-border legal representation, ensuring that employees and businesses alike are protected in an increasingly interconnected world.",
+          "Representation before Labour Courts and Industrial Tribunals.",
       },
       {
         label: null,
         description:
-          "If your rights have been violated, whether in India or abroad, we are prepared to take decisive legal action to restore your dignity and protect your future.",
+          "Assistance in conciliation, mediation, and arbitration proceedings to resolve industrial disputes.",
+      },
+      {
+        label: null,
+        description:
+          "Legal advice on compliance with the Industrial Disputes Act, Factories Act, and other labour legislations.",
+      },
+      {
+        label: null,
+        description:
+          "Drafting and reviewing employment contracts and service agreements.",
+      },
+      {
+        label: null,
+        description:
+          "Handling trade union-related matters and collective bargaining issues.",
+      },
+      {
+        label: null,
+        description: "Disputes related to unfair labour practices.",
+      },
+      {
+        label: null,
+        description:
+          "Matters concerning standing orders and disciplinary actions.",
       },
     ],
-    extra: "Your fight is our fight. Justice begins with us—wherever you are.",
   },
   {
-    name: "Educational Landscape",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/EDUCATIONAL-MATTERS.webp",
-    description: "Empowering Education Through Strategic Legal Expertise.",
+    name: "Medico-Legal Services",
+    image: MedicoLegalServicesImage,
+    description:
+      "We provide specialized medico-legal services encompassing legal representation and advisory in cases involving medical negligence, malpractice, and hospital-related disputes. Our expertise extends to handling litigation, regulatory compliance, and documentation support for healthcare professionals, institutions, and affected patients.",
     points: [
       {
         label: null,
         description:
-          "The educational landscape in India is undergoing a transformative shift, impacting every tier of learning—from early childhood education to university-level programs and beyond. With 250 million school-going students, India hosts the largest global demographic of young learners aged 5-24, as highlighted by the India Brand Equity Foundation. This dynamic and evolving ecosystem presents unparalleled opportunities for EdTech startups, universities, vocational training providers, and other educational entities.",
+          "Providing legal assistance in cases involving medical negligence and deficiency in medical services.",
       },
       {
         label: null,
         description:
-          "The rise of technology-driven learning is redefining education, with India's online education market projected to reach a staggering USD 313 billion by 2030, according to AspireCircle. However, rapid policy changes, regulatory complexities, and operational challenges demand expert legal navigation to ensure sustained success.",
+          "Representing patients and their families in seeking compensation for medical malpractice.",
       },
       {
         label: null,
         description:
-          "At Innerwork Advisors LLP, we stand at the forefront of education sector advisory, delivering strategic legal solutions to a wide range of stakeholders, including early learning centers, public and private schools, universities, vocational training institutions, EdTech companies, and supplemental education providers.",
-      },
-      {
-        label: null,
-        description: "Our deep expertise spans:",
-        subPoints: [
-          {
-            label: "Regulatory Compliance & Structuring",
-            description:
-              "Navigating complex national and state-level educational laws.",
-          },
-          {
-            label: "Litigation & Dispute Resolution",
-            description:
-              "Protecting institutions from legal risks and ensuring compliance.",
-          },
-          {
-            label: "Investment Structuring & M&A",
-            description:
-              "Facilitating strategic growth, joint ventures, and financial planning.",
-          },
-          {
-            label: "Operational & Management Frameworks",
-            description:
-              "Crafting governance models for K-12 not-for-profit institutions and higher education bodies.",
-          },
-          {
-            label: "International Collaboration",
-            description:
-              "Assisting global institutions in establishing and expanding their footprint in India.",
-          },
-        ],
+          "Defending medical professionals and healthcare institutions against allegations of negligence.",
       },
       {
         label: null,
         description:
-          "Our seasoned legal team possesses an in-depth understanding of India's intricate education regulations, enabling us to provide tailored legal strategies that drive institutional success. Whether you’re navigating policy shifts, investment opportunities, or operational challenges, our expert guidance ensures compliance, stability, and sustainable growth.",
+          "Assistance in navigating the legal aspects of patient rights and responsibilities.",
+      },
+      {
+        label: null,
+        description:
+          "Handling cases before consumer forums and other relevant courts concerning medical issues.",
+      },
+      {
+        label: null,
+        description:
+          "Advisory on ethical and legal considerations in the medical profession.",
+      },
+      {
+        label: null,
+        description:
+          "Drafting and reviewing medical consent forms and related documentation.",
+      },
+      {
+        label: null,
+        description:
+          "Providing guidance on the legal implications of medical records and confidentiality.",
+      },
+      {
+        label: null,
+        description:
+          "Assistance in cases related to organ transplantation, surrogacy, and other bioethical issues.",
       },
     ],
-    extra: "Innerwork Advisors LLP - Your Trusted Legal Partner in Education.",
   },
-  // {
-  //   name: "Corporate Laws",
-  //   image:
-  //     "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/INTELLECTUAL-PROPERTY-RIGHTS.webp",
-  //   description:
-  //     "Corporate law is dictated by key legal principles to regulate businesses and ensure accountability.",
-  //   points: [
-  //     {
-  //       label: "Separate Legal Entity",
-  //       description: "A company exists independently from its owners.",
-  //     },
-  //     {
-  //       label: "Limited Liability",
-  //       description:
-  //         "Shareholders are only liable for their investment, not company debts.",
-  //     },
-  //     {
-  //       label: "Corporate Governance",
-  //       description:
-  //         "Directors and officers must act in the company's best interest.",
-  //     },
-  //     {
-  //       label: "Regulatory Compliance",
-  //       description:
-  //         "Companies must follow corporate, tax, and financial laws.",
-  //     },
-  //     {
-  //       label: "Shareholder Rights",
-  //       description:
-  //         "Protects investors' interests, voting power, and dividends.",
-  //     },
-  //     {
-  //       label: "Mergers & Acquisitions",
-  //       description:
-  //         "Governs business takeovers, consolidations, and restructuring.",
-  //     },
-  //     {
-  //       label: "Transparency & Accountability",
-  //       description:
-  //         "Ensures financial reporting and ethical business practices.",
-  //     },
-  //   ],
-  //   extra:
-  //     "These principles uphold legal order, protect stakeholders, and maintain corporate integrity.",
-  // },
+  {
+    name: "Consumer Forum",
+    image: ConsumerForumImage,
+    description:
+      "We assist clients in resolving disputes related to defective goods, deficient services, and unfair trade practices through representation before Consumer Forums at all levels. Our team ensures effective legal remedies, including compensation claims and grievance redressal, under the Consumer Protection Act.",
+    points: [
+      {
+        label: null,
+        description:
+          "Representing consumers in filing complaints against unfair trade practices, defective goods, and deficient services.",
+      },
+      {
+        label: null,
+        description:
+          "Handling cases before District, State, and National Consumer Disputes Redressal Commissions.",
+      },
+      {
+        label: null,
+        description: "Drafting and filing consumer complaints and appeals.",
+      },
+      {
+        label: null,
+        description:
+          "Providing legal guidance on consumer rights and protection laws.",
+      },
+      {
+        label: null,
+        description:
+          "Assisting businesses in understanding and complying with consumer protection regulations.",
+      },
+      {
+        label: null,
+        description:
+          "Representing businesses in defending against consumer complaints.",
+      },
+      {
+        label: null,
+        description: "Matters related to product liability and warranties.",
+      },
+      {
+        label: null,
+        description:
+          "Disputes concerning misleading advertisements and unfair contractual terms.",
+      },
+      {
+        label: null,
+        description:
+          "Assistance in alternative dispute resolution mechanisms for consumer disputes.",
+      },
+    ],
+  },
+  {
+    name: "NRI Taxation",
+    image: NRITaxationImage,
+    description:
+      "We provide comprehensive legal and tax advisory services to Non-Resident Indians (NRIs) on navigating the complexities of Indian taxation. Our services include tax planning, filing income tax returns, optimizing tax liabilities, and ensuring compliance with Double Taxation Avoidance Agreements (DTAAs) and other tax regulations.",
+    points: [
+      {
+        label: null,
+        description:
+          "Providing expert legal advice and services related to taxation for Non-Resident Indians (NRIs).",
+      },
+      {
+        label: null,
+        description:
+          "Assistance in understanding and complying with Indian tax laws applicable to NRIs.",
+      },
+      {
+        label: null,
+        description: "Filing of income tax returns for NRIs.",
+      },
+      {
+        label: null,
+        description: "Guidance on tax planning and optimization for NRIs.",
+      },
+      {
+        label: null,
+        description:
+          "Advice on Double Taxation Avoidance Agreements (DTAAs) and claiming treaty benefits.",
+      },
+      {
+        label: null,
+        description:
+          "Matters related to taxation of income earned in India and abroad.",
+      },
+      {
+        label: null,
+        description:
+          "Issues concerning investment and property taxation for NRIs.",
+      },
+      {
+        label: null,
+        description: "Repatriation of funds and related tax implications.",
+      },
+      {
+        label: null,
+        description:
+          "Obtaining necessary tax certifications and documentation for NRIs.",
+      },
+    ],
+  },
+  {
+    name: "NCLT (including SEBI related matters)",
+    image: NCLTImage,
+    description:
+      "We provide end-to-end legal services before the National Company Law Tribunal (NCLT), including matters involving SEBI regulations, corporate governance disputes, and shareholder conflicts. Our expertise covers representation in cases related to insider trading, disclosure violations, auditor issues, and the intersection of SEBI directives with insolvency proceedings.",
+    points: [
+      {
+        label: null,
+        description:
+          "Advisory and strategic counsel on the Insolvency and Bankruptcy Code (IBC), 2016.",
+      },
+      {
+        label: null,
+        description:
+          "Assisting financial and operational creditors, and corporate debtors in CIRP applications.",
+      },
+      {
+        label: null,
+        description:
+          "Handling voluntary winding up proceedings and liquidation processes.",
+      },
+      {
+        label: null,
+        description:
+          "Representing secured and unsecured creditors in insolvency proceedings.",
+      },
+      {
+        label: null,
+        description:
+          "Advising and acting for Interim Resolution Professionals (IRPs), Resolution Professionals (RPs), and liquidators.",
+      },
+      {
+        label: null,
+        description:
+          "Legal guidance and representation in mergers, amalgamations, and corporate restructuring.",
+      },
+      {
+        label: null,
+        description:
+          "Handling conflicts among shareholders and stakeholders (oppression and mismanagement).",
+      },
+      {
+        label: null,
+        description: "Assisting in rectification of the register of members.",
+      },
+      {
+        label: null,
+        description: "Advising on reduction of share capital.",
+      },
+      {
+        label: null,
+        description:
+          "Handling petitions for the revival of dormant or struck-off companies.",
+      },
+      {
+        label: null,
+        description:
+          "Representation in appeals before the National Company Law Appellate Tribunal (NCLAT).",
+      },
+      {
+        label: null,
+        description:
+          "Conducting legal due diligence for corporate transactions and insolvency matters.",
+      },
+      {
+        label: null,
+        description:
+          "Assisting with voluntary revision of financial statements and auditor appointments/removals.",
+      },
+      {
+        label: null,
+        description:
+          "Handling applications for the transfer of shares and debentures.",
+      },
+      {
+        label: null,
+        description:
+          "Counsel and representation in corporate governance matters.",
+      },
+      {
+        label: null,
+        description:
+          "Representation before the NCLT in matters involving violations of the Securities and Exchange Board of India (SEBI) regulations.",
+      },
+      {
+        label: null,
+        description:
+          "Handling issues related to disclosure requirements, insider trading, and other SEBI directives before the NCLT.",
+      },
+      {
+        label: null,
+        description:
+          "Assisting companies and individuals in navigating the interplay between IBC and SEBI regulations.",
+      },
+      {
+        label: null,
+        description:
+          "Providing legal support in cases where SEBI has initiated action against corporate entities undergoing insolvency proceedings.",
+      },
+      {
+        label: null,
+        description:
+          "Representation in matters concerning the attachment and release of properties by SEBI in the context of NCLT proceedings.",
+      },
+    ],
+  },
 ];
 
 export { services };

@@ -15,13 +15,19 @@ export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
 
+export { default as NCLTImage } from "./image/nclt.png";
 export { default as IncomeTaxImage } from "./image/income-tax.png";
 export { default as LabourLawsImage } from "./image/labour-laws.png";
+export { default as NRITaxationImage } from "./image/nri-taxation.png";
+export { default as ConsumerForumImage } from "./image/consumer-forum.png";
+export { default as CBIAndEDImage } from "./image/cbi-ed-related-matters.png";
 export { default as ConsultationForNRIsImage } from "./image/consultation-for-nris.png";
+export { default as MedicoLegalServicesImage } from "./image/medico-legal-services.png";
 export { default as CorporateArbitrationImage } from "./image/corporate-arbitration.png";
 export { default as CorporateLegalMattersImage } from "./image/corporate-legal-matters.png";
 export { default as GSTRelatedLegalMattersImage } from "./image/gst-related-legal-matters.png";
 export { default as GeneralLegalConsultationImage } from "./image/general-legal-consultation.png";
+export { default as IndustrialFactoryDisputesImage } from "./image/industrial-factory-disputes.png";
 export { default as AssetRecoveryForBanksNBFCsImage } from "./image/asset-recovery-for-banks-nbfcs.png";
 export { default as HighCourtRepresentationAcrossIndiaImage } from "./image/high-court-representation-across-india.png";
 
