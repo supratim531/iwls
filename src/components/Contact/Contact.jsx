@@ -25,14 +25,14 @@ const Contact = () => {
         >
           <div data-aos="fade-up" className="lg:!w-[110%]">
             <iframe
-              src="https://link.youngarchitects.in/widget/form/T1q5BNjUavi5TCo4Vzkf"
+              src="https://link.youngarchitects.in/widget/form/iz5gLQ2Bz6RoysZd7ve1"
               style={{
                 width: "100%",
                 height: "100%",
                 border: "none",
                 borderRadius: "3px",
               }}
-              id="inline-T1q5BNjUavi5TCo4Vzkf"
+              id="inline-iz5gLQ2Bz6RoysZd7ve1"
               data-layout="{'id':'INLINE'}"
               data-trigger-type="alwaysShow"
               data-trigger-value=""
@@ -41,9 +41,9 @@ const Contact = () => {
               data-deactivation-type="neverDeactivate"
               data-deactivation-value=""
               data-form-name="Contact Us Innerwork Legal Services"
-              data-height="662"
-              data-layout-iframe-id="inline-T1q5BNjUavi5TCo4Vzkf"
-              data-form-id="T1q5BNjUavi5TCo4Vzkf"
+              data-height="598"
+              data-layout-iframe-id="inline-iz5gLQ2Bz6RoysZd7ve1"
+              data-form-id="iz5gLQ2Bz6RoysZd7ve1"
               title="Contact Us Innerwork Legal Services"
             ></iframe>
           </div>
