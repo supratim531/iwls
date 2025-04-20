@@ -1,26 +1,30 @@
 import {
   NCLTImage,
+  CivilLawImage,
   CBIAndEDImage,
   IncomeTaxImage,
+  MediationImage,
   LabourLawsImage,
+  CriminalLawImage,
   NRITaxationImage,
   ConsumerForumImage,
   ConsultationForNRIsImage,
   MedicoLegalServicesImage,
   CorporateArbitrationImage,
+  ArbitrationLitigationImage,
   CorporateLegalMattersImage,
   GSTRelatedLegalMattersImage,
   GeneralLegalConsultationImage,
   IndustrialFactoryDisputesImage,
   AssetRecoveryForBanksNBFCsImage,
+  InformationTechnologyCyberLawImage,
   HighCourtRepresentationAcrossIndiaImage,
 } from ".";
 
 const services = [
   {
     name: "Criminal Litigation Services",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CRIMINAL-LAW.webp",
+    image: CriminalLawImage,
     description:
       "Criminal law provides key legal principles (trumps) to ensure justice and fairness.",
     points: [
@@ -115,8 +119,7 @@ const services = [
   },
   {
     name: "Civil Litigation Services",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/CIVIL-LAW.webp",
+    image: CivilLawImage,
     description: "Civil law is dictated by key legal principles, including.",
     points: [
       {
@@ -661,8 +664,7 @@ const services = [
   },
   {
     name: "Family Law Matters",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/ARBITRATION-LITIGATION.webp",
+    image: ArbitrationLitigationImage,
     description:
       "Family law is guided by key legal principles (trumps) to protect the rights and responsibilities of individuals in family relationships.",
     points: [
@@ -800,8 +802,7 @@ const services = [
   },
   {
     name: "Cybercrime-Related Matters",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/INFORMATION-TECHNOLOGY-CYBER-LAW.webp",
+    image: InformationTechnologyCyberLawImage,
     description:
       "Cyber law, also known as internet law or digital law, governs legal issues related to the internet, digital transactions, cybersecurity, and online activities.",
     points: [
@@ -991,8 +992,7 @@ const services = [
   },
   {
     name: "ADR - Alternative Dispute Resolution",
-    image:
-      "https://innerworkadvisorsllp.com/wp-content/uploads/2024/04/MEDIATION.webp",
+    image: MediationImage,
     description:
       "Alternative Dispute Resolution (ADR) is dictated by key legal principles to ensure fair, efficient, and cost-effective conflict resolution outside traditional courts.",
     points: [
