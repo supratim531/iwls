@@ -73,7 +73,7 @@ const teamMembers = [
   },
   {
     name: "Sankhajit Lal Mitra",
-    experience: 1,
+    experience: 8,
     designation: "Senior Legal Associate",
     details:
       "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience...",

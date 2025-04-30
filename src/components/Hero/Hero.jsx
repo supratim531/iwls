@@ -59,7 +59,7 @@ const Hero = (props) => {
                   </a>
                   <a
                     type="button"
-                    href="#contact"
+                    href="#footer"
                     className="w-full rounded-md border-2 border-white bg-transparent py-3 text-center font-medium duration-200 hover:border-white hover:bg-white hover:text-secondary sm:w-44"
                   >
                     Contact Us
@@ -116,7 +116,7 @@ const Hero = (props) => {
             backgroundPosition: "center",
             backgroundColor: "rgba(0, 0, 0, 0.3)",
           }}
-          className="3xl:!bg-cover absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent !bg-contain"
+          className="absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent !bg-contain 3xl:!bg-cover"
         >
           {/* <video
             className="h-full w-full object-cover brightness-[0.5]"

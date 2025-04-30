@@ -11,7 +11,10 @@ const Footer = (props) => {
   const [isTermsConditions, setIsTermsConditions] = useState(false);
 
   return (
-    <footer className="flex items-center justify-center bg-primary-light">
+    <footer
+      id="footer"
+      className="flex items-center justify-center bg-primary-light"
+    >
       <Container>
         <div className="map-container-2 flex w-full flex-col items-start gap-4 pt-8 lg:h-[280px] lg:flex-row">
           <div className="flex h-full w-full flex-col-reverse gap-2 text-secondary">

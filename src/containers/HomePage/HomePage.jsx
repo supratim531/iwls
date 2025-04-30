@@ -58,10 +58,10 @@ const HomePage = (props) => {
               Acceptance of conditions of the agreement
             </strong>
             <br />
-            www.innerworkadvisorsllp.com provides private investigation service
-            to the clients based on their request against the conditions of this
-            agreement, and by clicking on the “I accept” form signifies, your
-            acceptance of all the conditions of this agreement.
+            www.innerworklegalservices.com provides private investigation
+            service to the clients based on their request against the conditions
+            of this agreement, and by clicking on the “I accept” form signifies,
+            your acceptance of all the conditions of this agreement.
           </p>
 
           <p>
@@ -70,10 +70,10 @@ const HomePage = (props) => {
             </strong>
             <br />
             Clients hereby declare that no contractual or legal liability arises
-            against www.innerworkadvisorsllp.com by hiring our services and
+            against www.innerworklegalservices.com by hiring our services and
             sharing their personal information, the use of which is at the sole
             risk of the client. No notice or advice from any client to
-            www.innerworkadvisorsllp.com will create any liability whatsoever.
+            www.innerworklegalservices.com will create any liability whatsoever.
           </p>
 
           <div className="flex flex-col items-center gap-4 sm:flex-row">

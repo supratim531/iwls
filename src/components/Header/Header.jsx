@@ -154,7 +154,7 @@ const Header = (props) => {
       </SidebarMaybe>
 
       <nav
-        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} opacity-100` : ""}`}
+        className={`${css.navbar} ${scrolled ? `${css.navbarScrolled} border-b-4 border-[#C9A267] opacity-100` : "border-b-4 border-transparent"}`}
       >
         <Container
           data-aos="fade-up"
