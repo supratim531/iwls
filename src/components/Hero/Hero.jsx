@@ -19,7 +19,7 @@ const Hero = (props) => {
                 data-aos="fade-up"
                 className="sm:text-xg m-0 text-lg font-bold uppercase md:hidden md:text-2xl"
               >
-                Legal Solutions. Unmatched Expertise.
+                Legal Solutions Unmatched Expertise
               </h2>
 
               <p data-aos="fade-up" className="sm:text-lg md:hidden md:text-xl">
