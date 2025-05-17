@@ -25,6 +25,7 @@ const services = [
   {
     name: "Criminal Litigation Services",
     image: CriminalLawImage,
+    urlPath: "criminal-litigation",
     description:
       "Criminal law provides key legal principles (trumps) to ensure justice and fairness.",
     points: [
@@ -120,6 +121,7 @@ const services = [
   {
     name: "Civil Litigation Services",
     image: CivilLawImage,
+    urlPath: "civil-litigation",
     description: "Civil law is dictated by key legal principles, including.",
     points: [
       {
@@ -195,6 +197,7 @@ const services = [
   {
     name: "Corporate Legal Matters (including NCLT, SARFAESI, DRT & DRAT)",
     image: CorporateLegalMattersImage,
+    urlPath: "corporate-legal-matters",
     description:
       "Corporate legal matters encompass proceedings related to financial and structural disputes of companies, including cases handled by tribunals like NCLT, SARFAESI actions for asset recovery by banks, and appeals before DRT and DRAT. These mechanisms ensure legal resolution of insolvency, loan defaults, and corporate governance issues.",
     points: [
@@ -410,6 +413,7 @@ const services = [
   {
     name: "Asset Recovery for Banks & NBFCs",
     image: AssetRecoveryForBanksNBFCsImage,
+    urlPath: "asset-recovery",
     description:
       "Specialized legal support for banks and NBFCs in recovering assets, enforcing security interests, and resolving financial disputes efficiently.",
     points: [
@@ -477,6 +481,7 @@ const services = [
   {
     name: "GST-Related Legal Matters (including Registration, Appeals & Resolution)",
     image: GSTRelatedLegalMattersImage,
+    urlPath: "gst-related-legal-matters",
     description:
       "GST Registration: End-to-end assistance with GST registration (eligibility, application filing, documentation).",
     points: [
@@ -595,6 +600,7 @@ const services = [
   {
     name: "Corporate Arbitration",
     image: CorporateArbitrationImage,
+    urlPath: "corporate-arbitration",
     description:
       "Corporate Arbitration involves resolving commercial and contractual disputes between companies through a private and legally binding process outside of court. Our firm provides end-to-end arbitration services, including drafting arbitration clauses, representing clients before arbitral tribunals, and enforcing arbitral awards.",
     points: [
@@ -665,6 +671,7 @@ const services = [
   {
     name: "Family Law Matters",
     image: ArbitrationLitigationImage,
+    urlPath: "family-law-matters",
     description:
       "Family law is guided by key legal principles (trumps) to protect the rights and responsibilities of individuals in family relationships.",
     points: [
@@ -742,6 +749,7 @@ const services = [
   {
     name: "High Court Representation Across India",
     image: HighCourtRepresentationAcrossIndiaImage,
+    urlPath: "high-court-representation-across-india",
     description:
       "Comprehensive legal representation before various High Courts across India, covering civil, criminal, constitutional, and writ matters, ensuring strategic advocacy and procedural compliance.",
     points: [
@@ -803,6 +811,7 @@ const services = [
   {
     name: "Cybercrime-Related Matters",
     image: InformationTechnologyCyberLawImage,
+    urlPath: "cybercrime-related-matters",
     description:
       "Cyber law, also known as internet law or digital law, governs legal issues related to the internet, digital transactions, cybersecurity, and online activities.",
     points: [
@@ -865,6 +874,7 @@ const services = [
   {
     name: "Specialized Legal Services & Consultation for NRIs",
     image: ConsultationForNRIsImage,
+    urlPath: "specialized-legal-services-and-consultation-for-nris",
     description:
       "Dedicated legal services tailored for NRIs to address cross-border legal challenges and ensure smooth legal compliance in India.",
     points: [
@@ -937,6 +947,7 @@ const services = [
   {
     name: "General Legal Consultation & Representation",
     image: GeneralLegalConsultationImage,
+    urlPath: "general-legal-consultation-and-representation",
     description:
       "Comprehensive legal consultation and representation across diverse practice areas to ensure tailored solutions and effective client advocacy.",
     points: [
@@ -993,6 +1004,7 @@ const services = [
   {
     name: "ADR - Alternative Dispute Resolution",
     image: MediationImage,
+    urlPath: "alternative-dispute-resolution",
     description:
       "Alternative Dispute Resolution (ADR) is dictated by key legal principles to ensure fair, efficient, and cost-effective conflict resolution outside traditional courts.",
     points: [
@@ -1054,6 +1066,7 @@ const services = [
   {
     name: "Labour Laws",
     image: LabourLawsImage,
+    urlPath: "labour-laws",
     description:
       "Labour laws are governed by essential legal frameworks that protect employee rights and ensure fair practices in the workplace.",
     points: [
@@ -1117,6 +1130,7 @@ const services = [
   {
     name: "Income Tax",
     image: IncomeTaxImage,
+    urlPath: "income-tax",
     description:
       "Income Tax services include strategic advisory, compliance, and representation related to personal and corporate taxation under Indian tax laws. Our firm assists clients with tax planning, filing returns, responding to notices, handling assessments, appeals, and representing before tax authorities and tribunals.",
     points: [
@@ -1183,6 +1197,7 @@ const services = [
   {
     name: "CBI / ED Related Matters",
     image: CBIAndEDImage,
+    urlPath: "cbi-ed-related-matters",
     description:
       "We provide expert legal representation and advisory in matters involving the Central Bureau of Investigation (CBI) and Enforcement Directorate (ED), including cases of corruption, money laundering, and economic offenses. Our team offers strategic defense, assistance during investigations, and guidance to ensure compliance with relevant laws and procedures.",
     points: [
@@ -1235,6 +1250,7 @@ const services = [
   {
     name: "Industrial & Factory Disputes",
     image: IndustrialFactoryDisputesImage,
+    urlPath: "industrial-and-factory-disputes",
     description:
       "We offer comprehensive legal support in resolving industrial and factory-related disputes between employers and employees, covering wrongful termination, wage issues, and working conditions. Our services include representation before Labour Courts and Tribunals, assistance in conciliation and arbitration, and expert advice on compliance with key labour legislations.",
     points: [
@@ -1292,6 +1308,7 @@ const services = [
   {
     name: "Medico-Legal Services",
     image: MedicoLegalServicesImage,
+    urlPath: "medico-legal",
     description:
       "We provide specialized medico-legal services encompassing legal representation and advisory in cases involving medical negligence, malpractice, and hospital-related disputes. Our expertise extends to handling litigation, regulatory compliance, and documentation support for healthcare professionals, institutions, and affected patients.",
     points: [
@@ -1345,6 +1362,7 @@ const services = [
   {
     name: "Consumer Forum",
     image: ConsumerForumImage,
+    urlPath: "consumer-forum",
     description:
       "We assist clients in resolving disputes related to defective goods, deficient services, and unfair trade practices through representation before Consumer Forums at all levels. Our team ensures effective legal remedies, including compensation claims and grievance redressal, under the Consumer Protection Act.",
     points: [
@@ -1396,6 +1414,7 @@ const services = [
   {
     name: "NRI Taxation",
     image: NRITaxationImage,
+    urlPath: "nri-taxation",
     description:
       "We provide comprehensive legal and tax advisory services to Non-Resident Indians (NRIs) on navigating the complexities of Indian taxation. Our services include tax planning, filing income tax returns, optimizing tax liabilities, and ensuring compliance with Double Taxation Avoidance Agreements (DTAAs) and other tax regulations.",
     points: [
@@ -1446,6 +1465,7 @@ const services = [
   {
     name: "NCLT (including SEBI related matters)",
     image: NCLTImage,
+    urlPath: "sebi-related-matters",
     description:
       "We provide end-to-end legal services before the National Company Law Tribunal (NCLT), including matters involving SEBI regulations, corporate governance disputes, and shareholder conflicts. Our expertise covers representation in cases related to insider trading, disclosure violations, auditor issues, and the intersection of SEBI directives with insolvency proceedings.",
     points: [

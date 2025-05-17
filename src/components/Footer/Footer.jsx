@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
+import { HashLink } from "react-router-hash-link";
 
 import { Modal, Container } from "../../components";
 
@@ -68,13 +69,13 @@ const Footer = (props) => {
 
         <div className="flex w-full flex-wrap py-8 text-white">
           <div className="w-full flex-auto md:w-[50%] lg:w-[25%]">
-            <a href="#">
+            <HashLink smooth to={"/#"}>
               <img
                 src={BrandLogo}
                 alt="INNERWORK LEGAL SERVICES"
                 className="md:w-[80%]"
               />
-            </a>
+            </HashLink>
 
             <p className="mb-4 mt-5 text-white md:w-[80%]">
               Feel free to submit your query to Kolkata's most trusted provider
@@ -90,13 +91,19 @@ const Footer = (props) => {
 
             <ul className={css.quickLinks}>
               <li>
-                <a href="#about">About Us</a>
+                <HashLink smooth to={"/#about"}>
+                  About Us
+                </HashLink>
               </li>
               <li>
-                <a href="#services">Our Services</a>
+                <HashLink smooth to={"/#services"}>
+                  Our Services
+                </HashLink>
               </li>
               <li>
-                <a href="#contact">Contact Us</a>
+                <HashLink smooth to={"/#contact"}>
+                  Contact Us
+                </HashLink>
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { HashLink } from "react-router-hash-link";
 
 import { Container, SidebarMaybe } from "../../components";
 
@@ -92,44 +93,49 @@ const Header = (props) => {
 
           <ul className="flex flex-col text-xl text-white [&>li]:h-16 [&>li]:text-center">
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
-              <a
-                href="#"
+              <HashLink
+                smooth
+                to={`/#`}
                 className="flex h-full w-full items-center justify-center"
               >
                 Home
-              </a>
+              </HashLink>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
-              <a
-                href="#about"
+              <HashLink
+                smooth
+                to={`/#about`}
                 className="flex h-full w-full items-center justify-center"
               >
                 About Us
-              </a>
+              </HashLink>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
-              <a
-                href="#services"
+              <HashLink
+                smooth
+                to={`/#services`}
                 className="flex h-full w-full items-center justify-center"
               >
                 Services
-              </a>
+              </HashLink>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
-              <a
-                href="#team"
+              <HashLink
+                smooth
+                to={`/#team`}
                 className="flex h-full w-full items-center justify-center"
               >
                 Team
-              </a>
+              </HashLink>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
-              <a
-                href="#contact"
+              <HashLink
+                smooth
+                to={`/#contact`}
                 className="flex h-full w-full items-center justify-center"
               >
                 Contact Us
-              </a>
+              </HashLink>
             </li>
           </ul>
 
@@ -161,30 +167,40 @@ const Header = (props) => {
           className="flex flex-row items-center justify-between md:flex-row"
         >
           <div className="ml-auto mr-auto text-2xl md:m-0">
-            <a href="#">
+            <HashLink smooth to={`/#`}>
               <img
                 src={BrandLogo}
                 alt="INNERWORK LEGAL SERVICES"
                 className="w-40"
               />
-            </a>
+            </HashLink>
           </div>
 
           <ul className="hidden items-center gap-10 text-xl md:flex">
             <li>
-              <a href="#">Home</a>
+              <HashLink smooth to={`/#`}>
+                Home
+              </HashLink>
             </li>
             <li>
-              <a href="#about">About Us</a>
+              <HashLink smooth to={`/#about`}>
+                About Us
+              </HashLink>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <HashLink smooth to={`/#services`}>
+                Services
+              </HashLink>
             </li>
             <li>
-              <a href="#team">Team</a>
+              <HashLink smooth to={`/#team`}>
+                Team
+              </HashLink>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <HashLink smooth to={`/#contact`}>
+                Contact Us
+              </HashLink>
             </li>
           </ul>
 

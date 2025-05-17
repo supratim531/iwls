@@ -25,9 +25,9 @@ const HomePage = (props) => {
       <Hero />
 
       <iframe
-        class="lc_reviews_widget"
+        className="lc_reviews_widget"
         src="https://reputationhub.site/reputation/widgets/review_widget/5A4qaPFdNsj88rnRxKHo?widgetId=67fd4058dfa1525561e70770"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
         style={{
           minWidth: "100%",

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   Modal,
@@ -12,6 +13,7 @@ import css from "./Service.module.css";
 import { services } from "../../assets";
 
 const Service = () => {
+  const navigate = useNavigate();
   const [selectedService, setSelectedService] = useState(null);
 
   return (
@@ -32,7 +34,11 @@ const Service = () => {
           className={css.categoryList}
         >
           {services.map((service, index) => (
-            <li key={service.name} onClick={() => setSelectedService(service)}>
+            // <li key={service.name} onClick={() => setSelectedService(service)}>
+            <li
+              key={service.name}
+              onClick={() => navigate(`services/${service.urlPath}`)}
+            >
               <ServiceCard service={service} />
             </li>
           ))}

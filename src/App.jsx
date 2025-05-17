@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
-import Lottie from "lottie-react";
 import { Outlet } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 
 import { RootProvider } from "./contexts/rootContext";
 
-import { Header, Footer } from "./components";
+import { Header, Footer, ScrollToTop } from "./components";
 
 import "aos/dist/aos.css";
 import { preloader, PreloaderSmall, PreloaderLarge } from "./assets";
@@ -36,11 +35,6 @@ const Configurations = (props) => {
 
   return loading ? (
     <div className="flex h-screen items-center justify-center bg-white">
-      {/* <Lottie
-        loop={true}
-        animationData={preloader}
-        className="h-[200px] w-[200px]"
-      /> */}
       <img
         className="w-72"
         src={PreloaderSmall}
@@ -56,6 +50,7 @@ export const App = (props) => {
   return (
     <Configurations>
       <HelmetProvider>
+        <ScrollToTop />
         <Header />
         <Outlet />
         <Footer />
