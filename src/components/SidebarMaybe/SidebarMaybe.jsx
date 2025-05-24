@@ -22,7 +22,7 @@ const SidebarMaybe = (props, ref) => {
       onTouchMove={(e) => {
         ref.current.close();
       }}
-      className="fixed right-0 top-0 z-[110] h-screen w-[85%] translate-x-[100%] bg-white duration-300 sm:w-[75%] md:hidden"
+      className="fixed right-0 top-0 z-[110] h-screen w-[85%] translate-x-[100%] bg-white duration-300 sm:w-[75%] lg:hidden"
     >
       {children}
     </aside>

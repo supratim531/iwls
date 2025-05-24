@@ -3,6 +3,9 @@ export {
   Section,
   SubSection,
   Container,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
   Odometer,
   AnimatedCounter,
 } from "./shared";

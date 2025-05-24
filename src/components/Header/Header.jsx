@@ -1,7 +1,14 @@
 import React, { useEffect, useState, useRef } from "react";
 import { HashLink } from "react-router-hash-link";
+import { Book, BookOpen, File } from "react-feather";
 
-import { Container, SidebarMaybe } from "../../components";
+import {
+  Container,
+  SidebarMaybe,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+} from "../../components";
 
 import css from "./Header.module.css";
 import { BrandLogo } from "../../assets";
@@ -164,7 +171,7 @@ const Header = (props) => {
       >
         <Container
           data-aos="fade-up"
-          className="flex flex-row items-center justify-between md:flex-row"
+          className="flex flex-row items-center justify-between"
         >
           <div className="ml-auto mr-auto text-2xl md:m-0">
             <HashLink smooth to={`/#`}>
@@ -176,7 +183,7 @@ const Header = (props) => {
             </HashLink>
           </div>
 
-          <ul className="hidden items-center gap-10 text-xl md:flex">
+          <ul className="hidden items-center gap-10 text-xl lg:flex">
             <li>
               <HashLink smooth to={`/#`}>
                 Home
@@ -202,9 +209,28 @@ const Header = (props) => {
                 Contact Us
               </HashLink>
             </li>
+            <li className="!text-white transition duration-150 hover:!text-black">
+              <Dropdown
+                className="bg-black"
+                trigger={<DropdownMenu>More Info</DropdownMenu>}
+              >
+                <DropdownItem>
+                  <Book size={20} />
+                  Our Blogs
+                </DropdownItem>
+                <DropdownItem>
+                  <BookOpen size={20} />
+                  Legal-Insights
+                </DropdownItem>
+                <DropdownItem>
+                  <File size={20} />
+                  Case Studies
+                </DropdownItem>
+              </Dropdown>
+            </li>
           </ul>
 
-          <button onClick={toggleSidebar} className="block md:hidden">
+          <button onClick={toggleSidebar} className="block lg:hidden">
             <i className="fa-solid fa-bars text-2xl"></i>
           </button>
         </Container>
