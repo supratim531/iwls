@@ -209,22 +209,37 @@ const Header = (props) => {
                 Contact Us
               </HashLink>
             </li>
-            <li className="!text-white transition duration-150 hover:!text-black">
+            <li className="cursor-pointer !text-white hover:!text-black">
               <Dropdown
                 className="bg-black"
                 trigger={<DropdownMenu>More Info</DropdownMenu>}
               >
                 <DropdownItem>
                   <Book size={20} />
-                  Our Blogs
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases"
+                    target="_blank"
+                  >
+                    Our Blogs
+                  </a>
                 </DropdownItem>
                 <DropdownItem>
                   <BookOpen size={20} />
-                  Legal-Insights
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases/category/legal-insights"
+                    target="_blank"
+                  >
+                    Legal Insights
+                  </a>
                 </DropdownItem>
                 <DropdownItem>
                   <File size={20} />
-                  Case Studies
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases/category/case-studies"
+                    target="_blank"
+                  >
+                    Case Studies
+                  </a>
                 </DropdownItem>
               </Dropdown>
             </li>

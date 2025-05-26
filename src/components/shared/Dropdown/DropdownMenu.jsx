@@ -13,7 +13,7 @@ const DropdownMenu = (props) => {
   return (
     <div
       onClick={dropArrow}
-      className="relative flex flex-row items-center justify-between duration-1000 ease-in-out hover:!text-black"
+      className="relative flex flex-row items-center justify-between transition-all duration-200 ease-in-out hover:!text-black"
     >
       {children}
       {drop ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
