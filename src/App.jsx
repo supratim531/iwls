@@ -5,7 +5,7 @@ import { HelmetProvider } from "react-helmet-async";
 
 import { RootProvider } from "./contexts/rootContext";
 
-import { Header, Footer, ScrollToTop } from "./components";
+import { Header, Footer, ScrollToTop, JsonLdSchema } from "./components";
 
 import "aos/dist/aos.css";
 import { preloader, PreloaderSmall, PreloaderLarge } from "./assets";
@@ -42,7 +42,10 @@ const Configurations = (props) => {
       />
     </div>
   ) : (
-    <RootProvider value={{}}>{children}</RootProvider>
+    <RootProvider value={{}}>
+      <JsonLdSchema />
+      {children}
+    </RootProvider>
   );
 };
 

@@ -25,3 +25,11 @@
   /* background-color: var(--bg-primary-light); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 9px 0px;
 }
+
+.dropdown {
+  transition: height 0.3s ease;
+
+  & > li {
+    transition: height 0.3s ease;
+  }
+}

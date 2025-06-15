@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
+import classNames from "classnames";
 import { HashLink } from "react-router-hash-link";
-import { Book, BookOpen, File } from "react-feather";
+import { Book, BookOpen, File, ChevronUp, ChevronDown } from "react-feather";
 
 import {
   Container,
@@ -15,7 +16,12 @@ import { BrandLogo } from "../../assets";
 
 const Header = (props) => {
   const sidebarMaybeRef = useRef(null);
+  const [drop, setDrop] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const dropArrow = (e) => {
+    setDrop(!drop);
+  };
 
   const toggleSidebar = () => {
     sidebarMaybeRef.current.toggle();
@@ -60,6 +66,7 @@ const Header = (props) => {
                 <i className="fa-brands fa-instagram text-lg duration-200 hover:text-secondary"></i>
               </a>
             </li> */}
+
             <li>
               <a
                 href="https://www.linkedin.com/in/innerwork-legal-services-18507035b"
@@ -143,6 +150,74 @@ const Header = (props) => {
               >
                 Contact Us
               </HashLink>
+            </li>
+            <li
+              onClick={(e) => e.stopPropagation()}
+              className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary"
+            >
+              <div
+                onClick={dropArrow}
+                className="flex h-full w-full items-center justify-center gap-1"
+              >
+                <span>More</span>
+                <span className="mt-1">
+                  {drop ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                </span>
+              </div>
+
+              <ul
+                style={{
+                  height: drop ? "192px" : "0px",
+                  overflow: drop ? "visible" : "hidden",
+                }}
+                className={classNames(
+                  css.dropdown,
+                  "flex flex-col text-xl text-white [&>li]:text-center",
+                )}
+              >
+                <li
+                  style={{
+                    height: drop ? "64px" : "0px",
+                  }}
+                  className="flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white"
+                >
+                  <Book size={20} />
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases"
+                    target="_blank"
+                  >
+                    Our Blogs
+                  </a>
+                </li>
+                <li
+                  style={{
+                    height: drop ? "64px" : "0px",
+                  }}
+                  className="flex items-center justify-center gap-2 border-b border-b-white"
+                >
+                  <BookOpen size={20} />
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases/category/legal-insights"
+                    target="_blank"
+                  >
+                    Legal Insights
+                  </a>
+                </li>
+                <li
+                  style={{
+                    height: drop ? "64px" : "0px",
+                  }}
+                  className="flex items-center justify-center gap-2 border-b border-b-white"
+                >
+                  <File size={20} />
+                  <a
+                    href="https://blog.innerworklegalservices.com/insights-cases/category/case-studies"
+                    target="_blank"
+                  >
+                    Case Studies
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
 

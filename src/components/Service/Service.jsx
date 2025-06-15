@@ -37,7 +37,9 @@ const Service = () => {
             // <li key={service.name} onClick={() => setSelectedService(service)}>
             <li
               key={service.name}
-              onClick={() => navigate(`services/${service.urlPath}`)}
+              onClick={() =>
+                navigate(`our-services-kolkata/${service.urlPath}`)
+              }
             >
               <ServiceCard service={service} />
             </li>

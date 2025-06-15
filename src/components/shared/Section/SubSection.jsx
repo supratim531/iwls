@@ -10,7 +10,7 @@ const SubSection = (props) => {
   return (
     <section className={classNames(css.section, className)} {...rest}>
       <div data-aos="fade-up" className={css.sectionTitle}>
-        {title ? <h2>{title}</h2> : null}
+        {title ? <h1>{title}</h1> : null}
         <div className="mt-2 flex items-center gap-3">
           <hr className="w-[50%] flex-1 border-t border-[#bbb]" />
           <i className="fa-solid fa-building-columns text-lg text-primary-light"></i>

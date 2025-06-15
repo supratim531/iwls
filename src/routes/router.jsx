@@ -10,7 +10,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<HomePage />} />
-      <Route path="services">
+      <Route path="our-services-kolkata">
         <Route path=":title" element={<ServiceDetailPage />} />
       </Route>
       <Route path="*" element={<NotFoundPage />} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 
 import { Container, SubSection } from "../../components";
@@ -11,6 +12,11 @@ const ServiceDetailPage = (props) => {
 
   return (
     <section>
+      <Helmet>
+        <title>{selectedService.metaTitle}</title>
+        <meta name="description" content={selectedService.metaDescription} />
+      </Helmet>
+
       <div
         style={{
           backgroundImage: `url(${selectedService?.image})`,
@@ -35,7 +41,7 @@ const ServiceDetailPage = (props) => {
         <SubSection
           title={selectedService?.name}
           description={selectedService?.description}
-          className="m-0 py-8 md:py-12 [&>div:nth-child(1)>p]:text-center [&>div:nth-child(1)]:mb-[16px] [&>div>h2]:text-center [&>div>h2]:not-italic"
+          className="m-0 py-8 md:py-12 [&>div:nth-child(1)>p]:text-center [&>div:nth-child(1)]:mb-[16px] [&>div>h1]:text-center [&>div>h1]:not-italic"
         >
           <div data-aos="fade-up" className="flex flex-col gap-4">
             <ul className="list-inside">
