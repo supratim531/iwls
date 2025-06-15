@@ -5,6 +5,7 @@ import {
   Hero,
   About,
   Service,
+  NRI,
   Team,
   Contact,
   Testimonial,
@@ -37,6 +38,7 @@ const HomePage = (props) => {
 
       <About />
       <Service />
+      <NRI />
       <Team />
       <Contact />
       <Testimonial />

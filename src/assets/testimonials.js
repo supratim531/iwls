@@ -40,7 +40,21 @@ const testimonials = [
     business: null,
     image: Unnamed1,
     quote:
-      "My Daughter In Law works here. Highly professional working environment. Best wishes for Innerwork Advisors LLP",
+      "My Daughter In Law works here. Highly professional working environment. Best wishes for Innerwork Advisors LLP.",
+  },
+  {
+    name: "Dr Sriparna Datta",
+    business: "London, UK",
+    // image: Unnamed1,
+    quote:
+      "It has been a pleasure to be associated with Innerwork advisors. Your professionalism, kindness and efforts to provide the highest level of customer services beyond comparison. I wish the entire team a successful future ahead.",
+  },
+  {
+    name: "Dr Sonali Guha",
+    business: "London, UK",
+    // image: Unnamed1,
+    quote:
+      "Excellent service, professional, friendly and very efficient staff, very reasonable fees,    amazing time management, highly recommended.",
   },
 ];
 

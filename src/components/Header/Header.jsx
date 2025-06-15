@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { Book, BookOpen, File, ChevronUp, ChevronDown } from "react-feather";
 
@@ -181,6 +182,17 @@ const Header = (props) => {
                   }}
                   className="flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white"
                 >
+                  <HashLink smooth to={`/#nri`}>
+                    NRI Legal Services
+                  </HashLink>
+                  {/* <Link to={"nri-legal-services"}>NRI Legal Services</Link> */}
+                </li>
+                <li
+                  style={{
+                    height: drop ? "64px" : "0px",
+                  }}
+                  className="flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white"
+                >
                   <Book size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases"
@@ -289,6 +301,12 @@ const Header = (props) => {
                 className="bg-black"
                 trigger={<DropdownMenu>More Info</DropdownMenu>}
               >
+                <DropdownItem>
+                  <HashLink smooth to={`/#nri`}>
+                    NRI Legal Services
+                  </HashLink>
+                  {/* <Link to={"nri-legal-services"}>NRI Legal Services</Link> */}
+                </DropdownItem>
                 <DropdownItem>
                   <Book size={20} />
                   <a

@@ -4,7 +4,12 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import { App } from "../App";
-import { HomePage, ServiceDetailPage, NotFoundPage } from "../containers";
+import {
+  HomePage,
+  ServiceDetailPage,
+  NRIPage,
+  NotFoundPage,
+} from "../containers";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +18,7 @@ const router = createBrowserRouter(
       <Route path="our-services-kolkata">
         <Route path=":title" element={<ServiceDetailPage />} />
       </Route>
+      <Route path="nri-legal-services" element={<NRIPage />}></Route>
       <Route path="*" element={<NotFoundPage />} />
     </Route>,
   ),

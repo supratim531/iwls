@@ -16,6 +16,7 @@ export { default as Hero } from "./Hero/Hero";
 export { default as About } from "./About/About";
 export { default as Service } from "./Service/Service";
 export { default as ServiceCard } from "./Service/ServiceCard";
+export { default as NRI } from "./NRI/NRI";
 export { default as Team } from "./Team/Team";
 export { default as TeamSwiper } from "./TeamSwiper/TeamSwiper";
 export { default as Contact } from "./Contact/Contact";
