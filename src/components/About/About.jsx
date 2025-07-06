@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 import { Modal, Section, SubSection, Container } from "../../components";
 
@@ -281,6 +282,13 @@ const About = (props) => {
                 research and investigative precision, we provide comprehensive
                 solutions that transcend geographical boundaries.
               </p>
+
+              <Link
+                to={"nri-legal-services"}
+                className="w-full rounded-md border-2 border-transparent bg-primary-light py-3 text-center uppercase text-white duration-200 hover:bg-primary-dark sm:w-44"
+              >
+                NRI Support
+              </Link>
 
               {/* <button
                 onClick={() => setIsModalOpen(false)}

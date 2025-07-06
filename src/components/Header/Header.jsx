@@ -2,7 +2,14 @@ import React, { useEffect, useState, useRef } from "react";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { Book, BookOpen, File, ChevronUp, ChevronDown } from "react-feather";
+import {
+  Book,
+  BookOpen,
+  File,
+  ChevronUp,
+  ChevronDown,
+  Users,
+} from "react-feather";
 
 import {
   Container,
@@ -287,8 +294,8 @@ const Header = (props) => {
               </HashLink>
             </li>
             <li>
-              <HashLink smooth to={`/#team`}>
-                Team
+              <HashLink smooth to={`/#nri`}>
+                NRI
               </HashLink>
             </li>
             <li>
@@ -302,8 +309,9 @@ const Header = (props) => {
                 trigger={<DropdownMenu>More Info</DropdownMenu>}
               >
                 <DropdownItem>
-                  <HashLink smooth to={`/#nri`}>
-                    NRI Legal Services
+                  <Users size={20} />
+                  <HashLink smooth to={`/#team`}>
+                    Team
                   </HashLink>
                   {/* <Link to={"nri-legal-services"}>NRI Legal Services</Link> */}
                 </DropdownItem>
