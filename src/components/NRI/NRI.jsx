@@ -10,7 +10,8 @@ const NRI = (props) => {
         id="nri"
         className="!my-0 py-8 md:py-16"
         title={"Innerwork for Non-Resident Indians (NRIs)"}
-        label={"HOLDING THE HANDS OF NRI…"}
+        label={"Holding NRI's hand"}
+        // label={"HOLDING THE HAND OF AN NRI…"}
         description={
           "Bridging Distances, Delivering Justice with expert legal services tailored for NRIs."
         }
