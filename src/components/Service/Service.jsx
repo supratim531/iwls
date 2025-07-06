@@ -24,7 +24,7 @@ const Service = () => {
         label={"What We Do"}
         description={
           // "When your rights are at stake, you need a legal team that will fight tirelessly on your behalf. Our firm specializes in protecting the rights of our clients, ensuring that they receive fair treatment and due process under the law."
-          "Inner Work Legal Services is an India-based law firm committed to providing expert legal solutions across a comprehensive range of legal domains with a client-centric approach, prioritizing tailored and effective legal strategies for individuals, businesses, and NRIs.Our firm provides comprehensive drafting services encompassing a wide spectrum of agreements, deeds, and other legal documentation."
+          "Inner Work Legal Services is an India-based law firm committed to providing expert legal solutions across a comprehensive range of legal domains with a client-centric approach, prioritizing tailored and effective legal strategies for individuals, businesses, and NRIs. Our firm provides comprehensive drafting services encompassing a wide spectrum of agreements, deeds, and other legal documentation."
         }
       >
         <ul

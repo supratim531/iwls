@@ -15,12 +15,12 @@ const Hero = (props) => {
         <Container className="h-[80vh]">
           <div className="flex h-full flex-col justify-between gap-4 self-stretch pt-10 md:pt-16">
             <div className="flex flex-col gap-2">
-              <h2
+              <h1
                 data-aos="fade-up"
-                className="sm:text-xg m-0 text-lg font-bold uppercase md:hidden md:text-2xl"
+                className="sm:text-xg m-0 text-lg font-bold capitalize md:hidden md:text-2xl"
               >
-                Legal Solutions Unmatched Expertise
-              </h2>
+                Best Legal Service Provider in Kolkata
+              </h1>
 
               <p data-aos="fade-up" className="sm:text-lg md:hidden md:text-xl">
                 Upholding justice, navigating laws, safeguarding rights,
@@ -30,14 +30,15 @@ const Hero = (props) => {
 
             <div className="flex flex-col-reverse gap-4 md:flex-row md:justify-between md:gap-10">
               <div className="flex flex-col gap-2">
-                <h2
+                <h1
                   data-aos="fade-up"
-                  className="sm:text-xg m-0 hidden text-lg font-bold uppercase md:block md:text-2xl"
+                  className="sm:text-xg m-0 hidden text-lg font-bold capitalize md:block md:text-2xl"
                 >
                   {/* Comprehensive Legal Solutions. Unmatched Expertise. */}
-                  Legal Solutions. Unmatched Expertise.
+                  {/* Legal Solutions. Unmatched Expertise. */}
                   {/* Innovate. Build. Succeed. */}
-                </h2>
+                  Best Legal Service Provider in Kolkata
+                </h1>
 
                 <p
                   data-aos="fade-up"
