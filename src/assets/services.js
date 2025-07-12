@@ -24,8 +24,7 @@ import {
 const services = [
   {
     name: "Criminal Litigation Services",
-    metaTitle:
-      "Criminal Litigation Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Criminal Litigation Services in Kolkata",
     metaDescription:
       "Trusted criminal litigation services in Kolkata by Innerwork Legal Services. Skilled defense and representation for all criminal cases and legal matters.",
     image: CriminalLawImage,
@@ -124,8 +123,7 @@ const services = [
   },
   {
     name: "Civil Litigation Services",
-    metaTitle:
-      "Civil Litigation Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Civil Litigation Services in Kolkata",
     metaDescription:
       "Professional civil litigation services in Kolkata by Innerwork Legal Services. Expert representation in property disputes, contracts, and other civil matters.",
     image: CivilLawImage,
@@ -205,7 +203,7 @@ const services = [
   {
     name: "Corporate Legal Matters (including NCLT, SARFAESI, DRT & DRAT)",
     metaTitle:
-      "Corporate Legal Services in Kolkata - NCLT, SARFAESI, DRT & DRAT - Innerwork Legal Services",
+      "Corporate Legal Services in Kolkata - NCLT, SARFAESI, DRT & DRAT",
     metaDescription:
       "Expert corporate legal services in Kolkata by Innerwork Legal Services. Handle NCLT, SARFAESI, DRT, DRAT cases with trusted support for effective resolution.",
     image: CorporateLegalMattersImage,
@@ -424,8 +422,7 @@ const services = [
   },
   {
     name: "Asset Recovery for Banks & NBFCs",
-    metaTitle:
-      "Asset Recovery Services for Banks & NBFCs - Innerwork Legal Services",
+    metaTitle: "Asset Recovery Services for Banks & NBFCs",
     metaDescription:
       "Professional asset recovery services in Kolkata for Banks & NBFCs by Innerwork Legal Services. Resolve NPAs, recover debts, and secure financial interests.",
     image: AssetRecoveryForBanksNBFCsImage,
@@ -496,8 +493,7 @@ const services = [
   },
   {
     name: "GST-Related Legal Matters (including Registration, Appeals & Resolution)",
-    metaTitle:
-      "GST Legal Services in Kolkata - Registration, Appeals & More - Innerwork Legal Services",
+    metaTitle: "GST Legal Services in Kolkata - Registration, Appeals & More",
     metaDescription:
       "Expert GST legal services in Kolkata by Innerwork Legal Services. Get help with GST registration, appeals, compliance issues, and dispute resolution.",
     image: GSTRelatedLegalMattersImage,
@@ -619,8 +615,7 @@ const services = [
   },
   {
     name: "Corporate Arbitration",
-    metaTitle:
-      "Corporate Arbitration Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Corporate Arbitration Services in Kolkata",
     metaDescription:
       "Professional corporate arbitration services in Kolkata by Innerwork Legal Services. Resolve business disputes efficiently through expert legal intervention.",
     image: CorporateArbitrationImage,
@@ -694,8 +689,7 @@ const services = [
   },
   {
     name: "Family Law Matters",
-    metaTitle:
-      "Family Law Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Family Law Legal Services in Kolkata",
     metaDescription:
       "Expert family law legal services in Kolkata by Innerwork Legal Services. We handle divorce, custody, alimony, inheritance, and domestic dispute matters.",
     image: ArbitrationLitigationImage,
@@ -776,8 +770,7 @@ const services = [
   },
   {
     name: "High Court Representation Across India",
-    metaTitle:
-      "High Court Legal Representation India - Innerwork Legal Services",
+    metaTitle: "High Court Legal Representation India",
     metaDescription:
       "Get expert High Court legal representation across India from Innerwork Legal Services. Trusted advocates for civil, criminal, property, and constitutional matters.",
     image: HighCourtRepresentationAcrossIndiaImage,
@@ -842,8 +835,7 @@ const services = [
   },
   {
     name: "Cybercrime-Related Matters",
-    metaTitle:
-      "Cybercrime Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Cybercrime Legal Services in Kolkata",
     metaDescription:
       "Get expert cybercrime legal services in Kolkata from Innerwork Legal Services. We handle online fraud, data breaches, identity theft, and cyber harassment cases.",
     image: InformationTechnologyCyberLawImage,
@@ -909,8 +901,7 @@ const services = [
   },
   {
     name: "Specialized Legal Services & Consultation for NRIs",
-    metaTitle:
-      "NRI Legal Services & Consultation in Kolkata - Innerwork Legal Services",
+    metaTitle: "NRI Legal Services & Consultation in Kolkata",
     metaDescription:
       "Get expert NRI legal services in Kolkata from Innerwork Legal Services. We handle property, family, civil, and inheritance matters for NRIs with trusted support.",
     image: ConsultationForNRIsImage,
@@ -1046,8 +1037,7 @@ const services = [
   },
   {
     name: "ADR - Alternative Dispute Resolution",
-    metaTitle:
-      "Alternative Dispute Resolution (ADR) Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Alternative Dispute Resolution (ADR) Services in Kolkata",
     metaDescription:
       "Effective Alternative Dispute Resolution (ADR) services in Kolkata by Innerwork Legal Services. Resolve disputes efficiently through mediation, arbitration, and negotiation.",
     image: MediationImage,
@@ -1112,8 +1102,7 @@ const services = [
   },
   {
     name: "Labour Laws",
-    metaTitle:
-      "Labour Law Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Labour Law Legal Services in Kolkata",
     metaDescription:
       "Expert labour law legal services in Kolkata by Innerwork Legal Services. Assistance with compliance, disputes, employee rights, and workplace regulations.",
     image: LabourLawsImage,
@@ -1250,7 +1239,7 @@ const services = [
   },
   {
     name: "CBI / ED Related Matters",
-    metaTitle: "CBI & ED Legal Matters in Kolkata - Innerwork Legal Services",
+    metaTitle: "CBI & ED Legal Matters in Kolkata",
     metaDescription:
       "Expert legal services in Kolkata for CBI and ED related matters by Innerwork Legal Services. Strong representation in investigations, summons, and enforcement cases.",
     image: CBIAndEDImage,
@@ -1306,8 +1295,7 @@ const services = [
   },
   {
     name: "Industrial & Factory Disputes",
-    metaTitle:
-      "Industrial & Factory Dispute Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Industrial & Factory Dispute Legal Services in Kolkata",
     metaDescription:
       "Resolve industrial and factory disputes in Kolkata with Innerwork Legal Services. Expert legal support for labor issues, compliance, negotiations, and litigation.",
     image: IndustrialFactoryDisputesImage,
@@ -1368,7 +1356,7 @@ const services = [
   },
   {
     name: "Medico-Legal Services",
-    metaTitle: "Medico-Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Medico-Legal Services in Kolkata",
     metaDescription:
       "Trusted medico-legal services in Kolkata by Innerwork Legal Services. Legal support for medical negligence, patient rights, forensic reports, and compliance.",
     image: MedicoLegalServicesImage,
@@ -1425,8 +1413,7 @@ const services = [
   },
   {
     name: "Consumer Forum",
-    metaTitle:
-      "Consumer Forum Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "Consumer Forum Legal Services in Kolkata",
     metaDescription:
       "Expert consumer forum legal services in Kolkata by Innerwork Legal Services. File complaints, resolve disputes, and protect your consumer rights effectively.",
     image: ConsumerForumImage,
@@ -1481,7 +1468,7 @@ const services = [
   },
   {
     name: "NRI Taxation",
-    metaTitle: "NRI Taxation Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "NRI Taxation Services in Kolkata",
     metaDescription:
       "Expert NRI taxation services in Kolkata by Innerwork Legal Services. Assistance with income tax filing, DTAA, capital gains, and compliance for NRIs.",
     image: NRITaxationImage,
@@ -1535,8 +1522,7 @@ const services = [
   },
   {
     name: "NCLT (including SEBI related matters)",
-    metaTitle:
-      "NCLT & SEBI Legal Services in Kolkata - Innerwork Legal Services",
+    metaTitle: "NCLT & SEBI Legal Services in Kolkata",
     metaDescription:
       "Get expert legal services for NCLT and SEBI matters in Kolkata by Innerwork Legal Services. Corporate dispute resolution, regulatory compliance, and appeals.",
     image: NCLTImage,
