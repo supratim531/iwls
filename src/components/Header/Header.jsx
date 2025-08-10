@@ -92,7 +92,7 @@ const Header = (props) => {
       </div>
 
       <SidebarMaybe ref={sidebarMaybeRef}>
-        <div className="flex h-full flex-col justify-between bg-primary-dark pb-24 pt-10">
+        <div className="flex h-full flex-col justify-between bg-primary-dark pb-10 pt-10">
           {/* <div className="flex flex-col gap-4">
             <div className="text-2xl font-medium text-secondary">
               24x7 Emergency
@@ -144,10 +144,10 @@ const Header = (props) => {
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
               <HashLink
                 smooth
-                to={`/#team`}
+                to={`/#nri`}
                 className="flex h-full w-full items-center justify-center"
               >
-                Team
+                NRI
               </HashLink>
             </li>
             <li className="hover:bg-white hover:text-secondary active:bg-white active:text-secondary">
@@ -184,21 +184,25 @@ const Header = (props) => {
                 )}
               >
                 <li
+                  onClick={toggleSidebar}
                   style={{
                     height: drop ? "64px" : "0px",
                   }}
-                  className="flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white"
+                  className="z-10 flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white bg-primary-dark"
                 >
-                  <HashLink smooth to={`/#nri`}>
-                    NRI Legal Services
+                  <Users size={20} />
+                  <HashLink smooth to={`/#team`}>
+                    Team
                   </HashLink>
-                  {/* <Link to={"nri-legal-services"}>NRI Legal Services</Link> */}
+                  {/* <HashLink smooth to={`/#nri`}>
+                    NRI Legal Services
+                  </HashLink> */}
                 </li>
                 <li
                   style={{
                     height: drop ? "64px" : "0px",
                   }}
-                  className="flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white"
+                  className="z-10 flex items-center justify-center gap-2 border-b border-t border-b-white border-t-white bg-primary-dark"
                 >
                   <Book size={20} />
                   <a
@@ -212,7 +216,7 @@ const Header = (props) => {
                   style={{
                     height: drop ? "64px" : "0px",
                   }}
-                  className="flex items-center justify-center gap-2 border-b border-b-white"
+                  className="z-10 flex items-center justify-center gap-2 border-b border-b-white bg-primary-dark"
                 >
                   <BookOpen size={20} />
                   <a
@@ -226,7 +230,7 @@ const Header = (props) => {
                   style={{
                     height: drop ? "64px" : "0px",
                   }}
-                  className="flex items-center justify-center gap-2 border-b border-b-white"
+                  className="z-10 flex w-full items-center justify-center gap-2 border-b border-b-white bg-primary-dark"
                 >
                   <File size={20} />
                   <a
