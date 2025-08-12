@@ -33,7 +33,7 @@ const NRIPage = (props) => {
         <div className="text-center">
           <Link
             to={"/"}
-            className="text-secondary underline underline-offset-4 duration-200 hover:text-primary-dark"
+            className="underline duration-200 text-secondary underline-offset-4 hover:text-primary-dark"
           >
             Home
           </Link>{" "}
@@ -42,6 +42,17 @@ const NRIPage = (props) => {
       </div>
 
       <Container>
+        <Section data-aos="fade-up" title={"Title Poster for NRIs"}>
+          <p className="flex py-1">
+            We have opened new office in &nbsp; <strong>United Kingdom</strong>.
+            Kindly take a note of our new address provided in the below poster.
+          </p>
+          <img
+            className="relative flex flex-wrap items-center justify-start object-contain w-1/2 h-1/2"
+            src="https://innerworklegalservices.com/images/nri-banner.png"
+            alt=""
+          />
+        </Section>
         <Section data-aos="fade-up" title={"Issues Faced by NRIs"}>
           <ul className="list-inside [&>li>strong]:text-primary-light [&>li]:list-inside [&>li]:list-disc">
             <li>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Dialog } from "@headlessui/react";
 import { AnimatePresence } from "framer-motion";
 
-import { NRIBannerImage } from "../../assets";
+// import { NRIBannerImage } from "../../assets";
 
 const NRIAdModal = (props) => {
   const { isOpen, onClose } = props;
@@ -26,12 +26,15 @@ const NRIAdModal = (props) => {
             <div className="flex flex-col bg-white">
               <div className="sticky top-0 z-10 flex h-[36px] items-center justify-end bg-white px-4">
                 <button onClick={onClose} className="text-primary-dark">
-                  <i className="fa-solid fa-xmark text-2xl"></i>
+                  <i className="text-2xl fa-solid fa-xmark"></i>
                 </button>
               </div>
 
               <div className="">
-                <img src={NRIBannerImage} alt="NRI" />
+                <img
+                  src="https://innerworklegalservices.com/images/nri-banner.png"
+                  alt="NRI"
+                />
               </div>
             </div>
           </motion.div>

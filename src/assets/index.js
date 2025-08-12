@@ -15,7 +15,7 @@ export { default as ContactUsImage } from "./image/contact-us.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
-export { default as NRIBannerImage } from "./image/nri-banner.png";
+// export { default as NRIBannerImage } from "./image/nri-banner.png";
 
 export { default as NCLTImage } from "./image/nclt.png";
 export { default as CivilLawImage } from "./image/civil-law.png";
