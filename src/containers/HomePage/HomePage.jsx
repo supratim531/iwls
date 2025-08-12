@@ -25,7 +25,7 @@ const NRIAdButton = (props) => {
       >
         <svg
           viewBox="0 0 24 24"
-          className="h-6 w-6"
+          className="w-6 h-6"
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
@@ -135,7 +135,7 @@ const HomePage = (props) => {
                 setIsDisclaimer(false);
                 localStorage.setItem("disclaimer", "true");
               }}
-              className="w-full rounded-md bg-primary-light px-4 py-2 text-white hover:bg-primary-dark sm:w-48"
+              className="w-full px-4 py-2 text-white rounded-md bg-primary-light hover:bg-primary-dark sm:w-48"
             >
               Proceed To Website
             </button>
@@ -143,7 +143,7 @@ const HomePage = (props) => {
             <a
               type="button"
               href="https://www.google.co.in"
-              className="w-full rounded-md bg-primary-light px-4 py-2 text-center text-white hover:bg-primary-dark sm:w-48"
+              className="w-full px-4 py-2 text-center text-white rounded-md bg-primary-light hover:bg-primary-dark sm:w-48"
             >
               Decline
             </a>
