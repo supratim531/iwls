@@ -60,23 +60,6 @@ const Service = () => {
         isOpen={selectedService !== null}
         onClose={() => setSelectedService(null)}
       >
-        {/* <div className="flex flex-col gap-4">
-          <div>
-            <img src={selectedService?.image} alt={selectedService?.name} />
-          </div>
-
-          <p className="text-sm md:text-base">{selectedService?.description}</p>
-
-          <div className="w-full text-center">
-            <button
-              onClick={() => setSelectedService(null)}
-              className="self-center rounded-md bg-red-600 px-4 py-2 text-white"
-            >
-              Close
-            </button>
-          </div>
-        </div> */}
-
         <div className="flex flex-col gap-4">
           <div>
             <img src={selectedService?.image} alt={selectedService?.name} />

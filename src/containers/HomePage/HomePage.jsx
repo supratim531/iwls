@@ -10,43 +10,43 @@ import {
   Contact,
   Testimonial,
   CaseStatistics,
-  NRIAdModal,
+  // NRIAdModal,
 } from "../../components";
 
-const NRIAdButton = (props) => {
-  const { showNRIAdModal, setShowNRIAdModal } = props;
+// const NRIAdButton = (props) => {
+//   const { showNRIAdModal, setShowNRIAdModal } = props;
 
-  return showNRIAdModal ? null : (
-    <>
-      <button
-        onClick={() => setShowNRIAdModal(true)}
-        aria-label="Show advertisement"
-        className="fixed bottom-24 right-5 z-[900] inline-flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white shadow-xl transition hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300"
-      >
-        <svg
-          viewBox="0 0 24 24"
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z"
-          />
-        </svg>
-      </button>
-      {/* <button className="px-4 py-3 duration-200 bg-teal-700 rounded-md group-hover:rounded-none group-hover:rounded-br-md group-hover:rounded-tr-md group-hover:bg-green-600">
-        <i className="text-3xl text-white fa-brands fa-whatsapp"></i>
-      </button> */}
-    </>
-  );
-};
+//   return showNRIAdModal ? null : (
+//     <>
+//       <button
+//         onClick={() => setShowNRIAdModal(true)}
+//         aria-label="Show advertisement"
+//         className="fixed bottom-24 right-5 z-[900] inline-flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white shadow-xl transition hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300"
+//       >
+//         <svg
+//           viewBox="0 0 24 24"
+//           className="w-6 h-6"
+//           fill="none"
+//           stroke="currentColor"
+//           strokeWidth="2"
+//         >
+//           <path
+//             strokeLinecap="round"
+//             strokeLinejoin="round"
+//             d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z"
+//           />
+//         </svg>
+//       </button>
+//       {/* <button className="px-4 py-3 duration-200 bg-teal-700 rounded-md group-hover:rounded-none group-hover:rounded-br-md group-hover:rounded-tr-md group-hover:bg-green-600">
+//         <i className="text-3xl text-white fa-brands fa-whatsapp"></i>
+//       </button> */}
+//     </>
+//   );
+// };
 
 const HomePage = (props) => {
   const [isDisclaimer, setIsDisclaimer] = useState(false);
-  const [showNRIAdModal, setShowNRIAdModal] = useState(true);
+  // const [showNRIAdModal, setShowNRIAdModal] = useState(true);
 
   useEffect(() => {
     if (!localStorage.getItem("disclaimer")) {
@@ -87,14 +87,14 @@ const HomePage = (props) => {
       <Contact />
       <Testimonial />
       <CaseStatistics />
-      <NRIAdButton
+      {/* <NRIAdButton
         showNRIAdModal={showNRIAdModal}
         setShowNRIAdModal={setShowNRIAdModal}
       />
       <NRIAdModal
         isOpen={showNRIAdModal}
         onClose={() => setShowNRIAdModal(false)}
-      />
+      /> */}
       <Modal
         title={"Disclaimer"}
         isOpen={isDisclaimer}
@@ -135,7 +135,7 @@ const HomePage = (props) => {
                 setIsDisclaimer(false);
                 localStorage.setItem("disclaimer", "true");
               }}
-              className="w-full px-4 py-2 text-white rounded-md bg-primary-light hover:bg-primary-dark sm:w-48"
+              className="w-full rounded-md bg-primary-light px-4 py-2 text-white hover:bg-primary-dark sm:w-48"
             >
               Proceed To Website
             </button>
@@ -143,7 +143,7 @@ const HomePage = (props) => {
             <a
               type="button"
               href="https://www.google.co.in"
-              className="w-full px-4 py-2 text-center text-white rounded-md bg-primary-light hover:bg-primary-dark sm:w-48"
+              className="w-full rounded-md bg-primary-light px-4 py-2 text-center text-white hover:bg-primary-dark sm:w-48"
             >
               Decline
             </a>

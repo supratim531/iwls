@@ -51,16 +51,16 @@ const Footer = (props) => {
             </iframe>
           </div>
 
-          {/* <div className="flex h-full w-full flex-col-reverse gap-2 text-secondary">
+          {/* <div className="flex flex-col-reverse w-full h-full gap-2 text-secondary">
             <h3 className="flex items-start gap-2">
-              <i className="fa-solid fa-location-dot mt-1"></i>
+              <i className="mt-1 fa-solid fa-location-dot"></i>
               <span>22, Sukeas Lane, Kolkata 700001</span>
             </h3>
 
             <iframe
               loading="lazy"
               title="my-gmap-frame"
-              className="h-full w-full"
+              className="w-full h-full"
               referrerPolicy="no-referrer-when-downgrade"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.074709657532!2d88.34893107405951!3d22.57630893283673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277bacf3b34eb%3A0x2d3edbfdf3b15e74!2s22%2C%20Sukeas%20Ln%2C%20Murgighata%2C%20Barabazar%20Market%2C%20Kolkata%2C%20West%20Bengal%20700001!5e0!3m2!1sen!2sin!4v1742754929548!5m2!1sen!2sin"
             ></iframe>
@@ -143,9 +143,22 @@ const Footer = (props) => {
                 <a
                   href={`https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata
                   700001
+                </a>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <i className="fa-solid fa-signs-post text-secondary"></i>
+                <a
+                  href={`https://www.google.com/maps?q=${"Clockwise Linley House, Dickinson Street, Manchester M1 4LF, United Kingdom"}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Clockwise Linley House, Dickinson Street, Manchester M1 4LF,
+                  United Kingdom
                 </a>
               </div>
 
@@ -174,7 +187,7 @@ const Footer = (props) => {
               >
                 {/* <li>
                   <a href="https://x.com/Innerworkllp" target="_blank">
-                    <i className="fa-brands fa-twitter duration-200 md:hover:text-secondary"></i>
+                    <i className="duration-200 fa-brands fa-twitter md:hover:text-secondary"></i>
                   </a>
                 </li>
                 <li>
@@ -182,7 +195,7 @@ const Footer = (props) => {
                     href="https://www.facebook.com/innerworkadvisorsllp"
                     target="_blank"
                   >
-                    <i className="fa-brands fa-facebook-f duration-200 md:hover:text-secondary"></i>
+                    <i className="duration-200 fa-brands fa-facebook-f md:hover:text-secondary"></i>
                   </a>
                 </li>
                 <li>
@@ -190,13 +203,14 @@ const Footer = (props) => {
                     href="https://www.instagram.com/innerworkadvisorsllp"
                     target="_blank"
                   >
-                    <i className="fa-brands fa-instagram text-lg duration-200 md:hover:text-secondary"></i>
+                    <i className="text-lg duration-200 fa-brands fa-instagram md:hover:text-secondary"></i>
                   </a>
                 </li> */}
                 <li>
                   <a
                     href="https://www.linkedin.com/in/innerwork-legal-services-18507035b"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fa-brands fa-linkedin-in duration-200 md:hover:text-secondary"></i>
                   </a>
