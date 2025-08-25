@@ -34,9 +34,6 @@ const Hero = (props) => {
                   data-aos="fade-up"
                   className="sm:text-xg m-0 hidden text-lg font-bold capitalize md:block md:text-2xl"
                 >
-                  {/* Comprehensive Legal Solutions. Unmatched Expertise. */}
-                  {/* Legal Solutions. Unmatched Expertise. */}
-                  {/* Innovate. Build. Succeed. */}
                   Best Legal Service Provider in Kolkata
                 </h1>
 
@@ -46,8 +43,6 @@ const Hero = (props) => {
                 >
                   Upholding justice, navigating laws, safeguarding rights,
                   ensuring fairness and accountability.
-                  {/* Empowering businesses with stunning websites, seamless
-                applications, and top-notch support—crafted to perfection. */}
                 </p>
 
                 <div className="mt-1 flex flex-col items-center gap-4 sm:flex-row">
@@ -87,12 +82,11 @@ const Hero = (props) => {
                     <li>
                       <a
                         href={`https://www.google.com/maps?q=${"Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata 700001"}`}
-                        target="_blank"
+                        target="noopener"
                       >
                         1 R.N. Mukherjee Rd
                       </a>
                     </li>
-                    {/* <li>Sukeas Lane</li> */}
                   </ol>
                 </div>
 
@@ -118,43 +112,8 @@ const Hero = (props) => {
             backgroundColor: "rgba(0, 0, 0, 0.3)",
           }}
           className="absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent !bg-contain 3xl:!bg-cover"
-        >
-          {/* <video
-            className="h-full w-full object-cover brightness-[0.5]"
-            src={HeroVideo}
-            autoPlay
-            loop
-            muted
-            playsInline
-          /> */}
-        </div>
+        ></div>
       </section>
-
-      {/* <section
-        id="hero"
-        data-aos="fade-in"
-        className="flex min-h-screen w-full items-center justify-center text-white"
-        style={{
-          background: `linear-gradient(-45deg, #0000004d, #0009), url(${HeroImage}) no-repeat`,
-          backgroundSize: "cover",
-          backgroundPosition: "top",
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-        }}
-      >
-        <Container className="flex flex-col items-center justify-center">
-          <h2
-            data-aos="fade-up"
-            className="m-0 text-[32px] font-bold uppercase md:text-5xl"
-          >
-            Innovate. Build. Succeed.
-          </h2>
-
-          <p data-aos="fade-up" className="mt-[10px] text-lg md:text-2xl">
-            Empowering businesses with stunning websites, seamless applications,
-            and top-notch support—crafted to perfection.
-          </p>
-        </Container>
-      </section> */}
     </React.Fragment>
   );
 };

@@ -33,45 +33,11 @@ const Team = () => {
 
             <div className="text-secondary">
               {typeof member?.experience === "number" ? (
-                // <span>
-                //   has{" "}
-                //   <AnimatedCounter
-                //     from={0}
-                //     to={member?.experience}
-                //     once={true}
-                //     animationOptions={{
-                //       duration: 2,
-                //     }}
-                //   />
-                //   + year of experience
-                // </span>
                 <span>has {member?.experience}+ year of experience</span>
               ) : (
                 <span>{member?.experience}</span>
               )}
             </div>
-
-            {/* <div className="text-sm text-primary-light">has</div>
-            <h3 className="w-[80%] truncate text-secondary">
-              {typeof member?.experience === "number" ? (
-                <span>
-                  <strong className="text-3xl">
-                    <AnimatedCounter
-                      from={0}
-                      to={member?.experience}
-                      once={true}
-                      animationOptions={{
-                        duration: 2,
-                      }}
-                    />
-                    {"+"}
-                  </strong>{" "}
-                  year of experience
-                </span>
-              ) : (
-                <span>{member?.experience}</span>
-              )}
-            </h3> */}
 
             <p className="mt-4 pr-4 text-primary-light">{member?.extra}</p>
           </div>

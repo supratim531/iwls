@@ -4,7 +4,7 @@ import {
   AvroGhosh,
   BibaswasMukherjee,
   BhaskarDe,
-  SankhajitLalMitra,
+  // SankhajitLalMitra,
   SudipPalit,
   SujitChakraborty,
   TaniaSenChatterjee,
@@ -71,18 +71,18 @@ const teamMembers = [
     extra:
       "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
   },
-  {
-    name: "Sankhajit Lal Mitra",
-    experience: 8,
-    designation: "Senior Legal Associate",
-    details:
-      "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience...",
-    image: SankhajitLalMitra,
-    description:
-      "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience in criminal matters, practicing exclusively at the High Court at Calcutta. Having trained under Senior Advocate Mr. Sekhar Kumar Basu for over a decade, he has advised and represented notable individuals and entities, including those in the Bollywood and Tollywood film industries.",
-    extra:
-      "A seasoned advocate with over 10 years of experience in criminal matters",
-  },
+  // {
+  //   name: "Sankhajit Lal Mitra",
+  //   experience: 8,
+  //   designation: "Senior Legal Associate",
+  //   details:
+  //     "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience...",
+  //   image: SankhajitLalMitra,
+  //   description:
+  //     "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience in criminal matters, practicing exclusively at the High Court at Calcutta. Having trained under Senior Advocate Mr. Sekhar Kumar Basu for over a decade, he has advised and represented notable individuals and entities, including those in the Bollywood and Tollywood film industries.",
+  //   extra:
+  //     "A seasoned advocate with over 10 years of experience in criminal matters",
+  // },
   {
     name: "Tania Sen Chatterjee",
     experience: 6,

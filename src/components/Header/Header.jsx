@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import {
   Book,
@@ -53,32 +52,10 @@ const Header = (props) => {
       <div className="fixed top-0 z-[100] flex h-[42px] w-full items-center bg-primary-dark">
         <Container className="flex h-full items-center justify-center gap-7 md:justify-end">
           <ul className="flex items-center gap-7 text-white">
-            {/* <li>
-              <a href="https://x.com/Innerworkllp" target="_blank">
-                <i className="fa-brands fa-twitter duration-200 hover:text-secondary"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/innerworkadvisorsllp"
-                target="_blank"
-              >
-                <i className="fa-brands fa-facebook-f duration-200 hover:text-secondary"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/innerworkadvisorsllp"
-                target="_blank"
-              >
-                <i className="fa-brands fa-instagram text-lg duration-200 hover:text-secondary"></i>
-              </a>
-            </li> */}
-
             <li>
               <a
                 href="https://www.linkedin.com/in/innerwork-legal-services-18507035b"
-                target="_blank"
+                target="noopener"
               >
                 <i className="fa-brands fa-linkedin-in duration-200 hover:text-secondary"></i>
               </a>
@@ -207,7 +184,7 @@ const Header = (props) => {
                   <Book size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases"
-                    target="_blank"
+                    target="noopener"
                   >
                     Our Blogs
                   </a>
@@ -221,7 +198,7 @@ const Header = (props) => {
                   <BookOpen size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases/category/legal-insights"
-                    target="_blank"
+                    target="noopener"
                   >
                     Legal Insights
                   </a>
@@ -235,7 +212,7 @@ const Header = (props) => {
                   <File size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases/category/case-studies"
-                    target="_blank"
+                    target="noopener"
                   >
                     Case Studies
                   </a>
@@ -323,7 +300,7 @@ const Header = (props) => {
                   <Book size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases"
-                    target="_blank"
+                    target="noopener"
                   >
                     Our Blogs
                   </a>
@@ -332,7 +309,7 @@ const Header = (props) => {
                   <BookOpen size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases/category/legal-insights"
-                    target="_blank"
+                    target="noopener"
                   >
                     Legal Insights
                   </a>
@@ -341,7 +318,7 @@ const Header = (props) => {
                   <File size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases/category/case-studies"
-                    target="_blank"
+                    target="noopener"
                   >
                     Case Studies
                   </a>
