@@ -9,6 +9,8 @@ import {
   SujitChakraborty,
   TaniaSenChatterjee,
   SatabdiAdhikary,
+  BidishaChatterjee,
+  TanweerKhan,
 } from ".";
 
 const teamMembers = [
@@ -83,6 +85,32 @@ const teamMembers = [
   //   extra:
   //     "A seasoned advocate with over 10 years of experience in criminal matters",
   // },
+
+  {
+    name: "Bidisha Chatterjee",
+    experience: 0,
+    designation: "Eminent Advocate & Jurist",
+    details:
+      "A paragon of legal excellence, earning the admiration of her peers and the trust of her clients.",
+    image: BidishaChatterjee,
+    description:
+      "Bidisha Chatterjee, an eminent advocate and jurist, stands as a distinguished luminary in the legal sphere, bringing unparalleled expertise and sophistication to her practice. A proud alumna of the University of Calcutta and currently pursuing advanced studies in Criminology and Penology, she is renowned for her profound command of law, exceptional prowess in criminal matters, sensitive and professional handling of matrimonial disputes, and sharp acumen in cyber law. With unmatched analytical brilliance, commanding courtroom charisma, and tireless dedication to justice, she has earned both the admiration of her peers and the trust of her clients. As a respected member of the Calcutta High Court bar, Bidisha Chatterjee embodies legal excellence, strategic insight, and unwavering commitment, making her a true paragon of the profession.",
+    extra:
+      "A paragon of legal excellence, earning the admiration of her peers and the trust of her clients.",
+  },
+
+  {
+    name: "Tanweer Khan",
+    experience: 15,
+    designation: "Senior Legal Advocate",
+    details:
+      "Focused and dedicated Legal Assistant with exceptional work ethic and proven strengths in legal case management support",
+    image: TanweerKhan,
+    description:
+      "Advocate Tanweer Khan has been actively practicing law since 2010, beginning under the guidance of Advocate Ramji Tiwari at the Calcutta High Court, where he gained exposure to diverse civil and criminal matters. In 2011, he joined the reputed firm of A.K. Roy Chowdhury, continuing his practice in banking, civil, and criminal law before moving on to work with Advocate Md. Nasiruddin from 2012 to 2019 as a legal retainer for the Oriental Bank of Commerce. In this capacity, he handled cases before the Debts Recovery Tribunals and Appellate Tribunals, Company Law Tribunal, and City Civil Court, while also appearing before the Presidency Small Causes Court, Alipore Civil and Criminal Courts, Bankshall Court, Sealdah Courts, Barasat, Bidhannagar, Consumer Forums, Thika Controller, and the Wakf Tribunal of West Bengal, dealing with matters ranging from company law, consumer disputes, and banking litigation to bail applications, land disputes, and civil revision writs. Since 2019, he has been independently practicing under his own firm, Tanweer Associates, where he continues to represent clients in civil, criminal, arbitration, banking, conveyancing, consumer, and other legal affairs with professionalism and dedication.",
+    extra:
+      "Sharp Legal Assistant offers administrative support for prominent law firm to enhance office productivity.",
+  },
   {
     name: "Tania Sen Chatterjee",
     experience: 6,

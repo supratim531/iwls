@@ -47,6 +47,8 @@ export { default as AvroGhosh } from "./team/avro-ghosh.png";
 export { default as BibaswasMukherjee } from "./team/bibaswas-mukherjee.png";
 export { default as BhaskarDe } from "./team/bhaskar-de.png";
 // export { default as SankhajitLalMitra } from "./team/sankhajit-lal-mitra.png";
+export { default as BidishaChatterjee } from "./team/Bidisha_Chatterjee.webp";
+export { default as TanweerKhan } from "./team/Tanweer_Khan.webp";
 export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as SujitChakraborty } from "./team/sujit-chakraborty.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
