@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+/* import all the icons in Free Solid, Free Regular, and Brands styles */
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 import { Modal, Section, SubSection, Container } from "../../components";
 
@@ -13,6 +20,7 @@ import {
   OurValuesImage,
 } from "../../assets";
 
+library.add(fas, far, fab);
 const About = (props) => {
   const [isReadMore, setIsReadMore] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -34,72 +42,6 @@ const About = (props) => {
             "At our firm, we are a team of passionate legal professionals driven by an unwavering spirit of excellence—delivering swift, expert solutions across borders while safeguarding your interests with integrity and precision."
           }
         >
-          {/* <div className="flex flex-col items-start gap-4 py-10 lg:flex-row">
-            <div
-              data-aos="fade-up"
-              className="flex w-full flex-col gap-4 lg:w-[50%] lg:flex-auto"
-            >
-              <h3 className={classNames(css.subHeading)}>
-                From legal counsel to detective work: our multifaceted approach
-              </h3>
-
-              <p>
-                At Innerwork Legal Services, we provide comprehensive legal
-                solutions across various practice areas, ensuring expert
-                guidance and strategic representation for individuals and
-                businesses. Our team of experienced legal professionals is
-                committed to delivering reliable, client-focused services with
-                integrity and precision. Whether you need legal consultation,
-                dispute resolution, or investigative support, we are here to
-                protect your interests and provide effective legal solutions.{" "}
-                <span
-                  onClick={() => setIsReadMore(true)}
-                  className="cursor-pointer text-primary-light hover:text-primary-dark"
-                >
-                  Read More
-                </span>
-              </p>
-            </div>
-
-            <div data-aos="fade-up" className="w-full lg:w-[50%] lg:flex-auto">
-              <h3 className={classNames(css.subHeading, "mb-4")}>
-                Why Choose Us?
-              </h3>
-
-              <ul className={classNames(css.list, "mb-4")}>
-                <li>
-                  <i className="fa-solid fa-circle-check text-secondary"></i>
-                  <span>Expertise Across Legal Domains</span>
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check text-secondary"></i>
-                  <span>Client-Centric Approach</span>
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check text-secondary"></i>
-                  <span>Proven Results</span>
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check text-secondary"></i>
-                  <span>Integrity & Transparency</span>
-                </li>
-                <li>
-                  <i className="fa-solid fa-circle-check text-secondary"></i>
-                  <span>Strategic & Research-Driven Solutions</span>
-                </li>
-              </ul>
-
-              <div className="flex flex-col gap-4">
-                <p>
-                  At Innerwork Legal Services, we are your trusted legal
-                  partners, committed to delivering high-quality, results-driven
-                  legal solutions. Need expert legal assistance? Contact us
-                  today.
-                </p>
-              </div>
-            </div>
-          </div> */}
-
           <div className={css.threeMoto}>
             <div
               className={classNames(
@@ -181,16 +123,19 @@ const About = (props) => {
                 {/* From legal counsel to detective work: our multifaceted approach */}
               </h3>
 
-              <div>
-                Innerwork Legal Services offers comprehensive legal solutions
-                tailored to diverse needs, providing expert guidance and
-                strategic representation for individuals and businesses. Backed
-                by a team of seasoned legal professionals, we are dedicated to
-                delivering reliable, results-driven services with integrity and
-                precision. Whether you require legal consultation or dispute
-                resolution, we are committed to safeguarding your interests and
-                ensuring effective legal outcomes.
-              </div>
+              <span>
+                Innerwork Legal Services offers comprehensive, results-driven
+                legal solutions. We provide expert guidance and strategic
+                representation for individuals and businesses. We are committed
+                to safeguarding your interests with integrity. We specialize in
+                a wide range of legal areas, including:{" "}
+                <strong>
+                  {" "}
+                  Legal services, Divorce lawyer, Civil law attorney, Family
+                  lawyer, Immigration lawyer, Property lawyer, Criminal defense
+                  lawyer.
+                </strong>
+              </span>
 
               <button
                 onClick={() => setIsReadMore(true)}
@@ -210,32 +155,30 @@ const About = (props) => {
                 <ul className={css.list}>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Expertise across diverse legal domains</span>
+                    <span>
+                      <strong>Expertise across diverse legal domains</strong>
+                    </span>
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Best possible Legal Solutions</span>
+                    <span>
+                      <strong>Best possible Legal Solutions</strong>
+                    </span>
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Dedicated approach</span>
+                    <span>
+                      <strong>Dedicated approach</strong>
+                    </span>
                   </li>
-                  {/* <li>
-                    <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Integrity & Transparency</span>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check text-secondary"></i>
-                    <span>Strategic & Research-Driven Solutions</span>
-                  </li> */}
                 </ul>
 
                 <div>
-                  At Innerwork Legal Services, we are your dedicated legal
-                  partners, providing strategic, authoritative, and high-caliber
-                  legal solutions. Whether navigating complex legal challenges
-                  or seeking expert counsel, our team ensures exceptional
-                  advocacy and unwavering support to protect your interests.
+                  Innerwork Legal Services is your dedicated legal partner. We
+                  offer strategic, authoritative, and high-caliber legal
+                  solutions. Whether navigating complex legal challenges or
+                  seeking expert counsel, our team ensures exceptional advocacy
+                  and unwavering support to protect your interests.
                 </div>
               </div>
 
@@ -270,18 +213,72 @@ const About = (props) => {
                 Rooted in Kolkata, Reaching Globally
               </h3>
 
-              <p>
-                Rooted in the heart of Kolkata, Innerwork Legal Services
-                seamlessly blends deep local insight with a global perspective.
-                While we have a strong presence in India, our expertise extends
-                beyond borders, assisting international clients with legal
-                matters tied to the region. Whether you are based overseas with
-                legal interests in India or require strategic legal counsel on
-                complex, cross-jurisdictional issues, our team ensures seamless,
-                high-caliber representation. With a meticulous approach to legal
-                research and investigative precision, we provide comprehensive
-                solutions that transcend geographical boundaries.
-              </p>
+              <span>
+                Innerwork Legal Services offers{" "}
+                <strong>
+                  authoritative, high-caliber legal representation
+                </strong>{" "}
+                to NRI clients. Rooted in Kolkata, our{" "}
+                <strong>trusted team</strong> provides seamless support and
+                expert guidance, ensuring your interests are{" "}
+                <strong>securely protected </strong> across all jurisdictions.
+              </span>
+              <ul className="md:fa-ul lg:fa-ul flex items-center justify-between">
+                <li>
+                  <FontAwesomeIcon
+                    icon="fa-solid fa-circle-right"
+                    beatFade
+                    size="sm:lg md:fa-2xl lg:fa-2xl"
+                    listItem
+                    // pull="left"
+                  />
+                  <strong>
+                    NRI Legal Support by Innerwork Legal Services:
+                  </strong>
+                </li>
+              </ul>
+              <ul className={css.list}>
+                <li>
+                  <i className="fa-solid fa-circle-check text-secondary"></i>
+                  <span>
+                    <strong>
+                      Property & Inheritance: We handle property disputes,
+                      transactions, and inheritance matters, including Will
+                      drafting and succession, for NRIs in India
+                    </strong>
+                  </span>
+                </li>
+                <li>
+                  <i className="fa-solid fa-circle-check text-secondary"></i>
+                  <span>
+                    <strong>
+                      Family Law: We provide expert legal guidance on divorce,
+                      child custody, and family disputes for clients living
+                      abroad.{" "}
+                    </strong>
+                  </span>
+                </li>
+                <li>
+                  <i className="fa-solid fa-circle-check text-secondary"></i>
+                  <span>
+                    <strong>
+                      Power of Attorney: We facilitate the execution of a valid
+                      PoA, allowing us to represent you in India when you cannot
+                      be physically present.{" "}
+                    </strong>
+                  </span>
+                </li>
+                <li>
+                  <i className="fa-solid fa-circle-check text-secondary"></i>
+                  <span>
+                    <strong>
+                      Dispute Resolution: We offer strategic counsel and
+                      representation in various civil and criminal matters,
+                      ensuring your interests are protected.{" "}
+                    </strong>
+                  </span>
+                </li>
+              </ul>
 
               <Link
                 to={"nri-legal-services"}
@@ -289,13 +286,6 @@ const About = (props) => {
               >
                 NRI Support
               </Link>
-
-              {/* <button
-                onClick={() => setIsModalOpen(false)}
-                className="w-full rounded-md border-2 border-transparent bg-primary-light py-3 uppercase text-white duration-200 hover:bg-primary-dark sm:w-44"
-              >
-                Know More
-              </button> */}
             </div>
           </div>
         </Section>

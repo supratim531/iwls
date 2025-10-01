@@ -22,10 +22,14 @@ const Hero = (props) => {
                 Best Legal Service Provider in Kolkata
               </h1>
 
-              <p data-aos="fade-up" className="sm:text-lg md:hidden md:text-xl">
-                Upholding justice, navigating laws, safeguarding rights,
-                ensuring fairness and accountability.
-              </p>
+              <span
+                data-aos="fade-up"
+                className="sm:text-xl md:hidden md:text-xl"
+              >
+                Innerwork Legal Services is a leading law firm in Kolkata
+                dedicated to upholding justice and providing comprehensive legal
+                support.
+              </span>
             </div>
 
             <div className="flex flex-col-reverse gap-4 md:flex-row md:justify-between md:gap-10">
@@ -37,13 +41,14 @@ const Hero = (props) => {
                   Best Legal Service Provider in Kolkata
                 </h1>
 
-                <p
+                <span
                   data-aos="fade-up"
                   className="hidden sm:text-lg md:block md:text-xl"
                 >
-                  Upholding justice, navigating laws, safeguarding rights,
-                  ensuring fairness and accountability.
-                </p>
+                  Innerwork Legal Services is a leading law firm in Kolkata
+                  dedicated to upholding justice and providing comprehensive
+                  legal support.
+                </span>
 
                 <div className="mt-1 flex flex-col items-center gap-4 sm:flex-row">
                   <a

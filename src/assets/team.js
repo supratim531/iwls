@@ -4,13 +4,13 @@ import {
   AvroGhosh,
   BibaswasMukherjee,
   BhaskarDe,
-  // SankhajitLalMitra,
   SudipPalit,
   SujitChakraborty,
   TaniaSenChatterjee,
   SatabdiAdhikary,
   BidishaChatterjee,
   TanweerKhan,
+  ShwetaKumari,
 } from ".";
 
 const teamMembers = [
@@ -63,7 +63,6 @@ const teamMembers = [
   {
     name: "Bibaswan Mukherjee",
     experience: 7,
-    // experience: "Expertise in Cyber Law",
     designation: "Senior Legal Associate",
     details:
       "Bibaswan Mukherjee has served in cyber law and forensics department...",
@@ -73,22 +72,10 @@ const teamMembers = [
     extra:
       "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
   },
-  // {
-  //   name: "Sankhajit Lal Mitra",
-  //   experience: 8,
-  //   designation: "Senior Legal Associate",
-  //   details:
-  //     "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience...",
-  //   image: SankhajitLalMitra,
-  //   description:
-  //     "Sankhajit Lal Mitra is a seasoned advocate with over 10 years of experience in criminal matters, practicing exclusively at the High Court at Calcutta. Having trained under Senior Advocate Mr. Sekhar Kumar Basu for over a decade, he has advised and represented notable individuals and entities, including those in the Bollywood and Tollywood film industries.",
-  //   extra:
-  //     "A seasoned advocate with over 10 years of experience in criminal matters",
-  // },
 
   {
     name: "Bidisha Chatterjee",
-    experience: 0,
+    experience: 2,
     designation: "Eminent Advocate & Jurist",
     details:
       "A paragon of legal excellence, earning the admiration of her peers and the trust of her clients.",
@@ -97,6 +84,19 @@ const teamMembers = [
       "Bidisha Chatterjee, an eminent advocate and jurist, stands as a distinguished luminary in the legal sphere, bringing unparalleled expertise and sophistication to her practice. A proud alumna of the University of Calcutta and currently pursuing advanced studies in Criminology and Penology, she is renowned for her profound command of law, exceptional prowess in criminal matters, sensitive and professional handling of matrimonial disputes, and sharp acumen in cyber law. With unmatched analytical brilliance, commanding courtroom charisma, and tireless dedication to justice, she has earned both the admiration of her peers and the trust of her clients. As a respected member of the Calcutta High Court bar, Bidisha Chatterjee embodies legal excellence, strategic insight, and unwavering commitment, making her a true paragon of the profession.",
     extra:
       "A paragon of legal excellence, earning the admiration of her peers and the trust of her clients.",
+  },
+  {
+    name: "Shweta Kumari",
+    experience: 3,
+    designation:
+      "Criminal & Matrimonial Law Specialist | Advocate | Legal Rights Defender",
+    details:
+      "A dedicated defender of justice, recognized for her unwavering advocacy and deep commitment to legal empowerment.",
+    image: ShwetaKumari,
+    description:
+      "Shweta Kumari, a distinguished advocate specializing in Criminal and Matrimonial Law, has built a remarkable career rooted in compassion, precision, and justice. After completing her higher education in Jharkhand, she pursued her legal studies in Kolkata, where she developed a profound dedication to upholding the rights of individuals and communities. Currently, she practices as a Criminal Advocate at the Alipore District and Sessions Court and serves as a Panel Advocate at the District Legal Services Authority (DLSA). In addition, she extends her expertise as Legal Counsel to several Non-Governmental Organizations (NGOs) devoted to social justice and legal awareness. As the District President of the Women Cell, Human Rights Corporation of India, South 24 Parganas, she actively champions women’s rights and human dignity. Renowned for her meticulous approach to every case, her steadfast pursuit of truth, and her tireless defense of the marginalized, Shweta Kumari embodies both legal excellence and a deep sense of societal responsibility.",
+    extra:
+      "A principled advocate whose career reflects both legal brilliance and a heartfelt commitment to justice and social equity.",
   },
 
   {

@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .root {
   background-size: 400%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  --fa-width: 2rem;
 }
 
 .subHeading {
@@ -17,7 +20,7 @@
   & > li {
     gap: 10px;
     display: flex;
-    align-items: center;
+    align-items: first baseline;
   }
 }
 

@@ -13,7 +13,11 @@ const NRI = (props) => {
         label={"Holding NRI's hand"}
         // label={"HOLDING THE HAND OF AN NRI…"}
         description={
-          "Bridging Distances, Delivering Justice with expert legal services tailored for NRIs."
+          <span>
+            We blend local expertise in{" "}
+            <strong>Bridging Distance, Delivering Justice</strong> with a global
+            perspective to assist NRI clients.
+          </span>
         }
       >
         <Link

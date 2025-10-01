@@ -29,7 +29,14 @@ const Testimonial = () => {
           title={"What they Say"}
           label={"Testimonials"}
           description={
-            "With numerous successful outcomes and satisfied clients, we have established ourselves as a beacon of excellence in Kolkata's legal and investigative communities."
+            <span>
+              With a proven track record of <strong>successful outcomes</strong>{" "}
+              and a community of <strong>satisfied clients</strong>, we have
+              become a <strong>trusted beacon of excellence</strong> in
+              Kolkata's legal and investigative communities. Our reputation is
+              built on <strong>integrity, professionalism</strong>, and a deep
+              commitment to delivering <strong>reliable results</strong>.{" "}
+            </span>
           }
         >
           <div data-aos="fade-up">
