@@ -11,6 +11,7 @@ import {
   BidishaChatterjee,
   TanweerKhan,
   ShwetaKumari,
+  AnishKumarMukherjee,
 } from ".";
 
 const teamMembers = [
@@ -59,18 +60,6 @@ const teamMembers = [
       "Advocate Sudip Palit brings over 24 years of distinguished experience in the legal profession, specializing in litigation and providing strategic legal solutions to clients in complex and critical cases. He has been appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years. Advocate Palit practices across various High Courts and District Courts, and has also represented clients in the Supreme Court of India. His expertise spans a wide range of legal domains, including civil, corporate, land, and banking law, as well as drafting agreements and other facets of legal practice. His profound knowledge and extensive experience make him a trusted advisor and advocate for his clients.",
     extra:
       "Appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years.",
-  },
-  {
-    name: "Bibaswan Mukherjee",
-    experience: 7,
-    designation: "Senior Legal Associate",
-    details:
-      "Bibaswan Mukherjee has served in cyber law and forensics department...",
-    image: BibaswasMukherjee,
-    description:
-      "Mr. Bibaswan Mukherjee, holding BA LLB and LLM degrees specializing in corporate and business law, possesses specialized expertise in cyber law and cyber forensics. With a robust legal background, he has practiced at the High Court Calcutta and other esteemed High Courts. Mr. Mukherjee is recognized as a proficient advocate, having secured landmark judgments at a remarkably young age, showcasing his exceptional talent and dedication to the legal profession.",
-    extra:
-      "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
   },
 
   {
@@ -153,6 +142,17 @@ const teamMembers = [
     image: SatabdiAdhikary,
     description:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background, holds an LL.B (2024) and has cleared the AIBE (2025), becoming a certified advocate. Passionate about justice, she is dedicated to upholding the values of the legal system.",
+    extra: "Dedicated to upholding the values of the legal system...",
+  },
+  {
+    name: "Anish Kumar Mukherjee",
+    experience: 1,
+    designation: "Legal Associate",
+    details:
+      "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner...",
+    image: AnishKumarMukherjee,
+    description:
+      "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner whose work centers on the Hon'ble Calcutta High Court's writ jurisdiction and includes notable appearances in several Public Interest Litigations.",
     extra: "Dedicated to upholding the values of the legal system...",
   },
 ];

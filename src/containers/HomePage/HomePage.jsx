@@ -5,6 +5,7 @@ import {
   Hero,
   About,
   Service,
+  LegalAssociate,
   NRI,
   Team,
   Contact,
@@ -83,6 +84,7 @@ const HomePage = (props) => {
       <About />
       <Service />
       <NRI />
+      <LegalAssociate />
       <Team />
       <Contact />
       <Testimonial />

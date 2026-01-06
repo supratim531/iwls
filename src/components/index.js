@@ -26,3 +26,4 @@ export { default as CaseStatistics } from "./CaseStatistics/CaseStatistics";
 export { default as Footer } from "./Footer/Footer";
 export { default as ScrollToTop } from "./ScrollToTop/ScrollToTop";
 export { default as JsonLdSchema } from "./JsonLdSchema/JsonLdSchema";
+export { default as LegalAssociate } from "./Associates/LegalAssociate";

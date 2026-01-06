@@ -4,7 +4,6 @@
 export { default as team } from "./json/team.json";
 export { default as preloader } from "./lottie/preloader.json";
 export { default as BrandLogo } from "./logo/brand.png";
-export { default as HeroVideo } from "./video/hero.mp4";
 export { default as HeroImage } from "./image/hero.webp";
 export { default as AboutUsImage } from "./image/about-us.png";
 export { default as WhoWeAreImage } from "./image/who-we-are.png";
@@ -15,6 +14,7 @@ export { default as ContactUsImage } from "./image/contact-us.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as LargeQuoteImage } from "./image/large-quote.png";
 export { default as CaseStatisticsImage } from "./image/case-statistics.png";
+export { default as LegalAssociates } from "./image/associate.png";
 // export { default as NRIBannerImage } from "./image/nri-banner.png";
 
 export { default as NCLTImage } from "./image/nclt.png";
@@ -44,15 +44,16 @@ export { default as PreloaderLarge } from "./gif/preloader-large.gif";
 export { default as AnganaDutta } from "./team/angana-dutta.png";
 export { default as AnitDebnath } from "./team/anit-debnath.png";
 export { default as AvroGhosh } from "./team/avro-ghosh.png";
-export { default as BibaswasMukherjee } from "./team/bibaswas-mukherjee.png";
 export { default as BhaskarDe } from "./team/bhaskar-de.png";
-export { default as ShwetaKumari } from "./team/Shweta_Kumari.webp";
-export { default as BidishaChatterjee } from "./team/Bidisha_Chatterjee.webp";
-export { default as TanweerKhan } from "./team/Tanweer_Khan.webp";
+export { default as ShwetaKumari } from "./team/Shweta_Kumari.png";
+export { default as BidishaChatterjee } from "./team/Bidisha_Chatterjee.png";
+export { default as TanweerKhan } from "./team/Tanweer_Khan.png";
 export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as SujitChakraborty } from "./team/sujit-chakraborty.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
 export { default as SatabdiAdhikary } from "./team/satabdi-adhikary.png";
+export { default as AnishKumarMukherjee } from "./team/Anish_Kumar_Mukherjee.png";
+export { default as AvijitBDas } from "./team/Avijit_B_Das.png";
 
 export { default as AdityaKanodia } from "./client/ADITYA-KANODIA.png";
 export { default as KashifJamilAnsari } from "./client/KASHIF-JAMIL-ANSARI.png";

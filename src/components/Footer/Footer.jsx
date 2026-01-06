@@ -133,23 +133,6 @@ const Footer = (props) => {
             </h3>
 
             <div className="flex flex-col gap-4">
-              {/* <div className="flex items-center gap-4">
-                <i className="fa-solid fa-signs-post text-secondary"></i>
-                <span>22, Sukeas Lane, 5th Floor, Kolkata 700001</span>
-              </div> */}
-
-              <div className="flex items-center gap-4">
-                <i className="fa-solid fa-signs-post text-secondary"></i>
-                <a
-                  href={`https://www.google.com/maps?q=${"Ground Floor, Martin Burn Building 1 No, RN Mukherjee Rd, Kolkata 700001"}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata
-                  700001
-                </a>
-              </div>
-
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-signs-post text-secondary"></i>
                 <a
@@ -161,16 +144,46 @@ const Footer = (props) => {
                   United Kingdom
                 </a>
               </div>
+              <div className="flex items-center gap-4">
+                <i className="fa-solid fa-signs-post text-secondary"></i>
+                <a
+                  href={`https://www.google.com/maps/place/Innerwork+Legal+Services/@22.5721802,88.3490724,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0277fbfce91995:0xb2fec491ace6014!8m2!3d22.5721753!4d88.3516473!16s%2Fg%2F11x84szqlw?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Martin Burn House, 1 R.N. Mukherjee Rd, Gr Floor, Kolkata
+                  700001 (Working Office)
+                </a>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <i className="fa-solid fa-signs-post text-secondary"></i>
+                <a
+                  href={`https://www.google.com/maps/place/Innerwork+Advisors+LLP/@22.5920516,88.4245678,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02756337d170af:0xc673d796705545b!8m2!3d22.5920516!4d88.4245678!16s%2Fg%2F11yv0w0tbx?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  BJ-74, Salt Lake City, Sector II, Kolkata 700091 (Near Araksha
+                  Bhawan)
+                </a>
+              </div>
+
+              <div className="relative flex items-center justify-between gap-4">
+                <i className="fa-solid fa-signs-post text-secondary"></i>
+                <a
+                  href={`https://www.google.com/maps/place/Innerwork+Advisors+LLP+%7C+Security+Guard+Company+%7C+Best+Security+Agency+in+Kolkata/@22.5770291,88.3490538,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0277bac19f3641:0x165b6efe9eaeba59!8m2!3d22.5770242!4d88.3516287!16s%2Fg%2F11rglqpyvz?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  22, Sukeas Lane, 5th Floor, Kolkata 700001 (Registered Office
+                  )
+                </a>
+              </div>
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-phone text-secondary"></i>
                 <a href="tel:+919830232051">(+91) 98302 32051</a>
               </div>
-
-              {/* <div className="flex items-center gap-4">
-                <i className="fa-solid fa-phone text-secondary"></i>
-                <span>(+91) 82400 30578</span>
-              </div> */}
 
               <div className="flex items-center gap-4">
                 <i className="fa-solid fa-envelope text-secondary"></i>
@@ -185,27 +198,6 @@ const Footer = (props) => {
                   "mt-8 flex items-center justify-center gap-2 text-white md:mt-0 md:justify-start md:gap-6",
                 )}
               >
-                {/* <li>
-                  <a href="https://x.com/Innerworkllp" target="_blank">
-                    <i className="duration-200 fa-brands fa-twitter md:hover:text-secondary"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/innerworkadvisorsllp"
-                    target="_blank"
-                  >
-                    <i className="duration-200 fa-brands fa-facebook-f md:hover:text-secondary"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/innerworkadvisorsllp"
-                    target="_blank"
-                  >
-                    <i className="text-lg duration-200 fa-brands fa-instagram md:hover:text-secondary"></i>
-                  </a>
-                </li> */}
                 <li>
                   <a
                     href="https://www.linkedin.com/in/innerwork-legal-services-18507035b"
