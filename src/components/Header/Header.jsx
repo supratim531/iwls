@@ -3,8 +3,8 @@ import classNames from "classnames";
 import { HashLink } from "react-router-hash-link";
 import {
   Book,
-  BookOpen,
-  File,
+  // BookOpen,
+  // File,
   ChevronUp,
   ChevronDown,
   Users,

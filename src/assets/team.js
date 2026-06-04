@@ -1,17 +1,17 @@
 import {
-  AnganaDutta,
+  // AnganaDutta,
   AnitDebnath,
   AvroGhosh,
-  BibaswasMukherjee,
+  // BibaswasMukherjee,
   BhaskarDe,
   SudipPalit,
   SujitChakraborty,
   TaniaSenChatterjee,
   SatabdiAdhikary,
   BidishaChatterjee,
-  TanweerKhan,
+  // TanweerKhan,
   ShwetaKumari,
-  AnishKumarMukherjee,
+  // AnishKumarMukherjee,
 } from ".";
 
 const teamMembers = [
@@ -26,17 +26,17 @@ const teamMembers = [
     extra:
       "Particularly noted for his prowess in crime detection during his tenure in the detective department.",
   },
-  {
-    name: "Angana Dutta",
-    experience: 5,
-    designation: "Designated Partner",
-    details:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
-    image: AnganaDutta,
-    description:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
-    extra: "A Partner Director and graduate of Symbiosis Law School",
-  },
+  // {
+  //   name: "Angana Dutta",
+  //   experience: 5,
+  //   designation: "Designated Partner",
+  //   details:
+  //     "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
+  //   image: AnganaDutta,
+  //   description:
+  //     "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
+  //   extra: "A Partner Director and graduate of Symbiosis Law School",
+  // },
   {
     name: "Bhaskar De",
     experience: 25,
@@ -88,21 +88,21 @@ const teamMembers = [
       "A principled advocate whose career reflects both legal brilliance and a heartfelt commitment to justice and social equity.",
   },
 
-  {
-    name: "Tanweer Khan",
-    experience: 15,
-    designation: "Senior Legal Advocate",
-    details:
-      "Focused and dedicated Legal Assistant with exceptional work ethic and proven strengths in legal case management support",
-    image: TanweerKhan,
-    description:
-      "Advocate Tanweer Khan has been actively practicing law since 2010, beginning under the guidance of Advocate Ramji Tiwari at the Calcutta High Court, where he gained exposure to diverse civil and criminal matters. In 2011, he joined the reputed firm of A.K. Roy Chowdhury, continuing his practice in banking, civil, and criminal law before moving on to work with Advocate Md. Nasiruddin from 2012 to 2019 as a legal retainer for the Oriental Bank of Commerce. In this capacity, he handled cases before the Debts Recovery Tribunals and Appellate Tribunals, Company Law Tribunal, and City Civil Court, while also appearing before the Presidency Small Causes Court, Alipore Civil and Criminal Courts, Bankshall Court, Sealdah Courts, Barasat, Bidhannagar, Consumer Forums, Thika Controller, and the Wakf Tribunal of West Bengal, dealing with matters ranging from company law, consumer disputes, and banking litigation to bail applications, land disputes, and civil revision writs. Since 2019, he has been independently practicing under his own firm, Tanweer Associates, where he continues to represent clients in civil, criminal, arbitration, banking, conveyancing, consumer, and other legal affairs with professionalism and dedication.",
-    extra:
-      "Sharp Legal Assistant offers administrative support for prominent law firm to enhance office productivity.",
-  },
+  // {
+  //   name: "Tanweer Khan",
+  //   experience: 15,
+  //   designation: "Senior Legal Advocate",
+  //   details:
+  //     "Focused and dedicated Legal Assistant with exceptional work ethic and proven strengths in legal case management support",
+  //   image: TanweerKhan,
+  //   description:
+  //     "Advocate Tanweer Khan has been actively practicing law since 2010, beginning under the guidance of Advocate Ramji Tiwari at the Calcutta High Court, where he gained exposure to diverse civil and criminal matters. In 2011, he joined the reputed firm of A.K. Roy Chowdhury, continuing his practice in banking, civil, and criminal law before moving on to work with Advocate Md. Nasiruddin from 2012 to 2019 as a legal retainer for the Oriental Bank of Commerce. In this capacity, he handled cases before the Debts Recovery Tribunals and Appellate Tribunals, Company Law Tribunal, and City Civil Court, while also appearing before the Presidency Small Causes Court, Alipore Civil and Criminal Courts, Bankshall Court, Sealdah Courts, Barasat, Bidhannagar, Consumer Forums, Thika Controller, and the Wakf Tribunal of West Bengal, dealing with matters ranging from company law, consumer disputes, and banking litigation to bail applications, land disputes, and civil revision writs. Since 2019, he has been independently practicing under his own firm, Tanweer Associates, where he continues to represent clients in civil, criminal, arbitration, banking, conveyancing, consumer, and other legal affairs with professionalism and dedication.",
+  //   extra:
+  //     "Sharp Legal Assistant offers administrative support for prominent law firm to enhance office productivity.",
+  // },
   {
     name: "Tania Sen Chatterjee",
-    experience: 6,
+    experience: 8,
     designation: "Legal Associate",
     details:
       "Mrs. Tania Sen Chatterjee holds a BA LLB degree from North Bengal University...",
@@ -113,7 +113,7 @@ const teamMembers = [
   },
   {
     name: "Anit Debnath",
-    experience: 3,
+    experience: 4,
     designation: "Legal Associate",
     details: "Holding a BALLB from Calcutta University...",
     image: AnitDebnath,
@@ -123,7 +123,7 @@ const teamMembers = [
   },
   {
     name: "Avro Ghosh",
-    experience: 1,
+    experience: 2,
     designation: "Legal Associate",
     details:
       "I'm Avro Ghosh, a Criminal Advocate. I practice primarily at the Alipore Criminal Court...",
@@ -135,26 +135,50 @@ const teamMembers = [
   },
   {
     name: "Satabdi Adhikary",
-    experience: 1,
+    experience: 3,
     designation: "Legal Associate",
     details:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background...",
     image: SatabdiAdhikary,
     description:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background, holds an LL.B (2024) and has cleared the AIBE (2025), becoming a certified advocate. Passionate about justice, she is dedicated to upholding the values of the legal system.",
-    extra: "Dedicated to upholding the values of the legal system...",
+    extra: "Dedicated to upholding the values of the legal system.",
   },
   {
     name: "Anish Kumar Mukherjee",
-    experience: 1,
+    experience: 10,
     designation: "Legal Associate",
     details:
       "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner...",
-    image: AnishKumarMukherjee,
+    image: "https://innerworklegalservices.com/assets/team/Anish_Kumar_Mukherjee.webp",
     description:
       "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner whose work centers on the Hon'ble Calcutta High Court's writ jurisdiction and includes notable appearances in several Public Interest Litigations.",
-    extra: "Dedicated to upholding the values of the legal system...",
+    extra: "Dedicated to upholding the values of the legal system.",
   },
+  {
+  name: "Snehasish Chatterjee",
+  experience: 6,
+  designation: "Advocate",
+  details:
+    "Practicing advocate with experience in civil and criminal litigation across courts in West Bengal.",
+  image: "https://innerworklegalservices.com/assets/team/Snehasis_Chatterjee.webp",
+  description:
+    "Snehasish Chatterjee is a dedicated legal professional with experience in civil and criminal litigation. Enrolled with the West Bengal Bar Council and certified by the Bar Council of India, he has represented clients in various legal matters before the Barasat Judges Court and City Civil Court. He has also served as an Advocate Commissioner on multiple occasions and is an active member of several bar associations. His practical courtroom experience, combined with a strong academic foundation in law and human rights, enables him to provide effective legal representation and strategic legal support.",
+  extra:
+    "Snehasish Chatterjee is a practicing advocate handling a wide range of civil and criminal matters, with experience appearing before district and city civil courts."
+},
+{
+  name: "Punyasloka Mukhopadhyay",
+  experience: 1,
+  designation: "Legal Associate",
+  details:
+    "Legal professional with experience in legal research, litigation support, human resources, and compliance advisory.",
+  image: "https://innerworklegalservices.com/assets/team/Punyasloka_Mukhopadhya.webp",
+  description:
+    "Punyasloka Mukhopadhyay holds a B.A. LL.B. (Hons.) with specialization in International Law and a Post Graduate Diploma in Human Resource Management. He has gained diverse experience through legal internships, legal research assignments, litigation support, and corporate HR operations. Throughout his professional journey, he has worked on case law analysis, drafting legal documents, compliance-related matters, and client support activities. His multidisciplinary background in law and organizational management allows him to contribute effectively to legal advisory, research, documentation, and dispute resolution matters.",
+  extra:
+    "Punyasloka Mukhopadhyay combines legal education with practical experience in legal research, documentation, compliance, and corporate operations."
+},
 ];
 
 export { teamMembers };
