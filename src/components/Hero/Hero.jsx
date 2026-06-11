@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "../../components";
 
-import { HeroImage } from "../../assets";
+
 
 const Hero = (props) => {
   return (
@@ -112,11 +112,10 @@ const Hero = (props) => {
 
         <div
           style={{
-            background: `linear-gradient(-45deg, #0000004d, #0009), url(${HeroImage}) no-repeat`,
-            backgroundPosition: "center",
+            background: `linear-gradient(-45deg, #0000004d, #0009), url(https://www.innerworklegalservices.com/images/hero.webp) no-repeat center / cover`,
             backgroundColor: "rgba(0, 0, 0, 0.3)",
           }}
-          className="absolute right-0 top-0 z-[-1] h-full w-full bg-gradient-to-br from-black to-transparent !bg-contain 3xl:!bg-cover"
+          className="absolute right-0 top-0 z-[-1] h-full w-full"
         ></div>
       </section>
     </React.Fragment>

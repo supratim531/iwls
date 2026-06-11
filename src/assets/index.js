@@ -4,7 +4,7 @@
 
 export { default as preloader } from "./lottie/preloader.json";
 export { default as BrandLogo } from "./logo/brand.png";
-export { default as HeroImage } from "./image/hero.webp";
+
 export { default as AboutUsImage } from "./image/about-us.png";
 export { default as WhoWeAreImage } from "./image/who-we-are.png";
 export { default as OurMissionImage } from "./image/our-mission.png";
