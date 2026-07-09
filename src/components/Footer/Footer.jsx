@@ -181,6 +181,18 @@ const Footer = (props) => {
               </div>
 
               <div className="flex items-center gap-4">
+                <i className="fa-solid fa-signs-post text-secondary"></i>
+                <a
+                  href={`https://www.google.com/maps?q=CC-165+Street+No+197+New+Town+Kolkata+700156`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC-165, Street No. 197, New Town, Kolkata – 700156 (Near
+                  Fairfield & Biswa Bangla Gate)
+                </a>
+              </div>
+
+              <div className="flex items-center gap-4">
                 <i className="fa-solid fa-phone text-secondary"></i>
                 <a href="tel:+919830232051">(+91) 98302 32051</a>
               </div>
