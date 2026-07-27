@@ -5,10 +5,10 @@ import { HelmetProvider } from "react-helmet-async";
 
 import { RootProvider } from "./contexts/rootContext";
 
-import { Header, Footer, ScrollToTop, JsonLdSchema } from "./components";
+import { Header, Footer, ScrollToTop, JsonLdSchema, BannerPopup } from "./components";
 
 import "aos/dist/aos.css";
-import { preloader, PreloaderSmall, PreloaderLarge } from "./assets";
+import { PreloaderSmall} from "./assets";
 
 const Configurations = (props) => {
   const { children } = props;
@@ -53,6 +53,7 @@ export const App = (props) => {
   return (
     <Configurations>
       <HelmetProvider>
+       <BannerPopup />
         <ScrollToTop />
         <Header />
         <Outlet />
