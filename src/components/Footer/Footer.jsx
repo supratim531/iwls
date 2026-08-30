@@ -163,8 +163,17 @@ const Footer = (props) => {
               </div>
 
               <div className="flex items-center gap-4">
-                <i className="fa-solid fa-phone text-secondary"></i>
-                <a href="tel:+919830232051">(+91) 98302 32051</a>
+                <div className="">
+                  <i className="fa-solid fa-phone text-secondary"></i>
+                </div>
+                <div className="">
+                  <div>
+                    <a href="tel:+919830232051">(+91) 98302 32051</a>
+                  </div>
+                  <div>
+                    <a href="tel:+919830232051">(+91) 90739 32051</a>
+                  </div>
+                </div>
               </div>
 
               {/* <div className="flex items-center gap-4">

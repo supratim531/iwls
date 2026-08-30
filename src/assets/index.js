@@ -53,6 +53,8 @@ export { default as SudipPalit } from "./team/sudip-palit.png";
 export { default as SujitChakraborty } from "./team/sujit-chakraborty.png";
 export { default as TaniaSenChatterjee } from "./team/tania-sen-chatterjee.png";
 export { default as SatabdiAdhikary } from "./team/satabdi-adhikary.png";
+export { default as PriyaSisgar } from "./team/Priya_Sisgar.webp";
+export { default as AnkitaMondal } from "./team/Ankita_Mondal.webp";
 
 export { default as AdityaKanodia } from "./client/ADITYA-KANODIA.png";
 export { default as KashifJamilAnsari } from "./client/KASHIF-JAMIL-ANSARI.png";

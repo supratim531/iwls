@@ -11,6 +11,8 @@ import {
   BidishaChatterjee,
   TanweerKhan,
   ShwetaKumari,
+  PriyaSisgar,
+  AnkitaMondal,
 } from ".";
 
 const teamMembers = [
@@ -154,6 +156,30 @@ const teamMembers = [
     description:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background, holds an LL.B (2024) and has cleared the AIBE (2025), becoming a certified advocate. Passionate about justice, she is dedicated to upholding the values of the legal system.",
     extra: "Dedicated to upholding the values of the legal system...",
+  },
+  {
+    name: "Priya Sisgar",
+    experience: 2,
+    designation: "Advocate, High Court at Calcutta",
+    details:
+      "Priya Sisgar is an Advocate at the High Court at Calcutta specialising in constitutional litigation...",
+    image: PriyaSisgar,
+    description:
+      "Priya Sisgar is an Advocate at the High Court at Calcutta, holding an Integrated BBA-LL.B from JIS University (2024). She practises as a Junior Advocate under an Additional Government Pleader, handling Writ Petitions under Articles 226/227, criminal revisions, contempt applications, and Section 138 (NI Act) matters. She also brings corporate exposure gained while advising Non-Banking Financial Companies, along with a strong command of drafting commercial contracts, MSAs, NDAs, and precision legal notices.",
+    extra:
+      "Combines precision in legal drafting with a strong grasp of constitutional litigation and the Bhartiya Nyaya Sanhita.",
+  },
+  {
+    name: "Ankita Mondal",
+    experience: 4,
+    designation: "Advocate, Judge's Court Howrah",
+    details:
+      "Ankita Mondal is a practising Advocate at the Judge's Court, Howrah, with a First Class B.A.LL.B...",
+    image: AnkitaMondal,
+    description:
+      "Ankita Mondal is a practising Advocate at the Judge's Court, Howrah, where she has appeared in civil and criminal matters since 2022. She holds a B.A.LL.B with First Class from George School of Law under Calcutta University and is currently pursuing an LL.M in Corporate Law at JIS University. Her practice covers drafting pleadings, written statements, applications, affidavits, and written arguments, alongside legal research, case law analysis, contract review, and the drafting and registration of deeds.",
+    extra:
+      "Pairs hands-on district court litigation with a corporate law focus and disciplined legal drafting.",
   },
 ];
 

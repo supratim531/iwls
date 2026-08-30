@@ -18,6 +18,10 @@ import css from "./TeamSwiper.module.css";
 const TeamSwiper = (props) => {
   const { setMember, setSelectedMember } = props;
 
+  // Touch screens never fire the hover that drives the details panel, so there
+  // the panel has to follow whichever slide is currently active instead.
+  const followsActiveSlide = window.matchMedia("(hover: none)").matches;
+
   useEffect(() => {
     setMember(teamMembers[0]);
   }, []);
@@ -45,6 +49,11 @@ const TeamSwiper = (props) => {
           1400: {
             slidesPerView: 3,
           },
+        }}
+        onSlideChange={(swiper) => {
+          if (followsActiveSlide) {
+            setMember(teamMembers[swiper.realIndex] || teamMembers[0]);
+          }
         }}
         modules={[Autoplay, Navigation]}
         className="swiperjs-slider-ud"
