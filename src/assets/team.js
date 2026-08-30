@@ -1,15 +1,15 @@
 import {
-  AnganaDutta,
+  // AnganaDutta,
   AnitDebnath,
   AvroGhosh,
-  BibaswasMukherjee,
+  // BibaswasMukherjee,
   BhaskarDe,
   SudipPalit,
   SujitChakraborty,
   TaniaSenChatterjee,
   SatabdiAdhikary,
   BidishaChatterjee,
-  TanweerKhan,
+  // TanweerKhan,
   ShwetaKumari,
   PriyaSisgar,
   AnkitaMondal,
@@ -27,17 +27,17 @@ const teamMembers = [
     extra:
       "Particularly noted for his prowess in crime detection during his tenure in the detective department.",
   },
-  {
-    name: "Angana Dutta",
-    experience: 5,
-    designation: "Designated Partner",
-    details:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
-    image: AnganaDutta,
-    description:
-      "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
-    extra: "A Partner Director and graduate of Symbiosis Law School",
-  },
+  // {
+  //   name: "Angana Dutta",
+  //   experience: 5,
+  //   designation: "Designated Partner",
+  //   details:
+  //     "Angana Dutta, a Partner Director and graduate of Symbiosis Law School...",
+  //   image: AnganaDutta,
+  //   description:
+  //     "Angana Dutta, a Partner Director and graduate of Symbiosis Law School, Hyderabad, brings over three years of dedicated legal experience with a strong focus on High Court writ practice in Calcutta, complemented by a comprehensive understanding of commercial and intellectual property law.",
+  //   extra: "A Partner Director and graduate of Symbiosis Law School",
+  // },
   {
     name: "Bhaskar De",
     experience: 25,
@@ -61,18 +61,6 @@ const teamMembers = [
       "Advocate Sudip Palit brings over 24 years of distinguished experience in the legal profession, specializing in litigation and providing strategic legal solutions to clients in complex and critical cases. He has been appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years. Advocate Palit practices across various High Courts and District Courts, and has also represented clients in the Supreme Court of India. His expertise spans a wide range of legal domains, including civil, corporate, land, and banking law, as well as drafting agreements and other facets of legal practice. His profound knowledge and extensive experience make him a trusted advisor and advocate for his clients.",
     extra:
       "Appointed as a Senior Counsel by the Government of India, a position he has been holding since the last 12 years.",
-  },
-  {
-    name: "Bibaswan Mukherjee",
-    experience: 7,
-    designation: "Senior Legal Associate",
-    details:
-      "Bibaswan Mukherjee has served in cyber law and forensics department...",
-    image: BibaswasMukherjee,
-    description:
-      "Mr. Bibaswan Mukherjee, holding BA LLB and LLM degrees specializing in corporate and business law, possesses specialized expertise in cyber law and cyber forensics. With a robust legal background, he has practiced at the High Court Calcutta and other esteemed High Courts. Mr. Mukherjee is recognized as a proficient advocate, having secured landmark judgments at a remarkably young age, showcasing his exceptional talent and dedication to the legal profession.",
-    extra:
-      "Specialized knowledge in cyber law and cyber forensics, reflecting a keen understanding of digital legal matters.",
   },
 
   {
@@ -101,21 +89,21 @@ const teamMembers = [
       "A principled advocate whose career reflects both legal brilliance and a heartfelt commitment to justice and social equity.",
   },
 
-  {
-    name: "Tanweer Khan",
-    experience: 15,
-    designation: "Senior Legal Advocate",
-    details:
-      "Focused and dedicated Legal Assistant with exceptional work ethic and proven strengths in legal case management support",
-    image: TanweerKhan,
-    description:
-      "Advocate Tanweer Khan has been actively practicing law since 2010, beginning under the guidance of Advocate Ramji Tiwari at the Calcutta High Court, where he gained exposure to diverse civil and criminal matters. In 2011, he joined the reputed firm of A.K. Roy Chowdhury, continuing his practice in banking, civil, and criminal law before moving on to work with Advocate Md. Nasiruddin from 2012 to 2019 as a legal retainer for the Oriental Bank of Commerce. In this capacity, he handled cases before the Debts Recovery Tribunals and Appellate Tribunals, Company Law Tribunal, and City Civil Court, while also appearing before the Presidency Small Causes Court, Alipore Civil and Criminal Courts, Bankshall Court, Sealdah Courts, Barasat, Bidhannagar, Consumer Forums, Thika Controller, and the Wakf Tribunal of West Bengal, dealing with matters ranging from company law, consumer disputes, and banking litigation to bail applications, land disputes, and civil revision writs. Since 2019, he has been independently practicing under his own firm, Tanweer Associates, where he continues to represent clients in civil, criminal, arbitration, banking, conveyancing, consumer, and other legal affairs with professionalism and dedication.",
-    extra:
-      "Sharp Legal Assistant offers administrative support for prominent law firm to enhance office productivity.",
-  },
+  // {
+  //   name: "Tanweer Khan",
+  //   experience: 15,
+  //   designation: "Senior Legal Advocate",
+  //   details:
+  //     "Focused and dedicated Legal Assistant with exceptional work ethic and proven strengths in legal case management support",
+  //   image: TanweerKhan,
+  //   description:
+  //     "Advocate Tanweer Khan has been actively practicing law since 2010, beginning under the guidance of Advocate Ramji Tiwari at the Calcutta High Court, where he gained exposure to diverse civil and criminal matters. In 2011, he joined the reputed firm of A.K. Roy Chowdhury, continuing his practice in banking, civil, and criminal law before moving on to work with Advocate Md. Nasiruddin from 2012 to 2019 as a legal retainer for the Oriental Bank of Commerce. In this capacity, he handled cases before the Debts Recovery Tribunals and Appellate Tribunals, Company Law Tribunal, and City Civil Court, while also appearing before the Presidency Small Causes Court, Alipore Civil and Criminal Courts, Bankshall Court, Sealdah Courts, Barasat, Bidhannagar, Consumer Forums, Thika Controller, and the Wakf Tribunal of West Bengal, dealing with matters ranging from company law, consumer disputes, and banking litigation to bail applications, land disputes, and civil revision writs. Since 2019, he has been independently practicing under his own firm, Tanweer Associates, where he continues to represent clients in civil, criminal, arbitration, banking, conveyancing, consumer, and other legal affairs with professionalism and dedication.",
+  //   extra:
+  //     "Sharp Legal Assistant offers administrative support for prominent law firm to enhance office productivity.",
+  // },
   {
     name: "Tania Sen Chatterjee",
-    experience: 6,
+    experience: 8,
     designation: "Legal Associate",
     details:
       "Mrs. Tania Sen Chatterjee holds a BA LLB degree from North Bengal University...",
@@ -126,7 +114,7 @@ const teamMembers = [
   },
   {
     name: "Anit Debnath",
-    experience: 3,
+    experience: 4,
     designation: "Legal Associate",
     details: "Holding a BALLB from Calcutta University...",
     image: AnitDebnath,
@@ -136,7 +124,7 @@ const teamMembers = [
   },
   {
     name: "Avro Ghosh",
-    experience: 1,
+    experience: 2,
     designation: "Legal Associate",
     details:
       "I'm Avro Ghosh, a Criminal Advocate. I practice primarily at the Alipore Criminal Court...",
@@ -148,7 +136,7 @@ const teamMembers = [
   },
   {
     name: "Satabdi Adhikary",
-    experience: 1,
+    experience: 3,
     designation: "Legal Associate",
     details:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background...",

@@ -3,8 +3,8 @@ import classNames from "classnames";
 import { HashLink } from "react-router-hash-link";
 import {
   Book,
-  BookOpen,
-  File,
+  // BookOpen,
+  // File,
   ChevronUp,
   ChevronDown,
   Users,
@@ -183,13 +183,13 @@ const Header = (props) => {
                 >
                   <Book size={20} />
                   <a
-                    href="https://blog.innerworklegalservices.com/insights-cases"
+                    href="https://innerworklegalservices.com/blog/"
                     target="noopener"
                   >
                     Our Blogs
                   </a>
                 </li>
-                <li
+                {/* <li
                   style={{
                     height: drop ? "64px" : "0px",
                   }}
@@ -216,7 +216,7 @@ const Header = (props) => {
                   >
                     Case Studies
                   </a>
-                </li>
+                </li> */}
               </ul>
             </li>
           </ul>
@@ -299,13 +299,13 @@ const Header = (props) => {
                 <DropdownItem>
                   <Book size={20} />
                   <a
-                    href="https://blog.innerworklegalservices.com/insights-cases"
+                    href="https://innerworklegalservices.com/blog/"
                     target="noopener"
                   >
                     Our Blogs
                   </a>
                 </DropdownItem>
-                <DropdownItem>
+                {/* <DropdownItem>
                   <BookOpen size={20} />
                   <a
                     href="https://blog.innerworklegalservices.com/insights-cases/category/legal-insights"
@@ -322,7 +322,7 @@ const Header = (props) => {
                   >
                     Case Studies
                   </a>
-                </DropdownItem>
+                </DropdownItem> */}
               </Dropdown>
             </li>
           </ul>

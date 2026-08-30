@@ -27,7 +27,7 @@ const CaseStatistics = () => {
             </div>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded border border-white/20 bg-[#c0b59633] px-4 backdrop-blur-xl sm:h-[160px] md:h-[240px]">
               <h4 className="flex items-center text-center text-2xl font-semibold text-white sm:text-4xl">
-                <Odometer number={400} />+
+                <Odometer number={1800} />+
               </h4>
               <p className="text-center font-medium text-primary-dark sm:text-xl">
                 Trusted Client
@@ -43,7 +43,7 @@ const CaseStatistics = () => {
             </div>
             <div className="flex h-[150px] flex-col items-center justify-center gap-2 rounded border border-white/20 bg-[#c0b59633] px-4 backdrop-blur-xl sm:h-[160px] md:h-[240px]">
               <h4 className="flex items-center text-center text-2xl font-semibold text-white sm:text-4xl">
-                <Odometer number={30} />%
+                <Odometer number={35} />%
               </h4>
               <p className="text-center font-medium text-primary-dark sm:text-xl">
                 Case Dismissed
