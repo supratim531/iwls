@@ -74,7 +74,10 @@ const Hero = (props) => {
                     <i className="fa-solid fa-phone text-secondary"></i>
                   </div>
                   <div>
-                    <a href="tel:+919830232051">+91 98302 32051</a>
+                    <a href="tel:+919830232051">+91 98302 32051 </a>
+                    <div> 
+                    <a href="tel:+919073932051">+91 90739 32051 </a>
+                    </div>
                     {/* <div>+91 82400 30578</div> */}
                   </div>
                 </div>

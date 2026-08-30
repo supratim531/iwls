@@ -11,7 +11,8 @@ import {
   BidishaChatterjee,
   // TanweerKhan,
   ShwetaKumari,
-  // AnishKumarMukherjee,
+  PriyaSisgar,
+  AnkitaMondal,
 } from ".";
 
 const teamMembers = [
@@ -142,43 +143,32 @@ const teamMembers = [
     image: SatabdiAdhikary,
     description:
       "Satabdi Adhikary, a 25-year-old graduate with a strong academic background, holds an LL.B (2024) and has cleared the AIBE (2025), becoming a certified advocate. Passionate about justice, she is dedicated to upholding the values of the legal system.",
-    extra: "Dedicated to upholding the values of the legal system.",
+    extra: "Dedicated to upholding the values of the legal system...",
   },
   {
-    name: "Anish Kumar Mukherjee",
-    experience: 10,
-    designation: "Legal Associate",
+    name: "Priya Sisgar",
+    experience: 2,
+    designation: "Advocate, High Court at Calcutta",
     details:
-      "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner...",
-    image: "https://innerworklegalservices.com/assets/team/Anish_Kumar_Mukherjee.webp",
+      "Priya Sisgar is an Advocate at the High Court at Calcutta specialising in constitutional litigation...",
+    image: PriyaSisgar,
     description:
-      "Anish Kumar Mukherjee, Advocate, is a distinguished legal practitioner whose work centers on the Hon'ble Calcutta High Court's writ jurisdiction and includes notable appearances in several Public Interest Litigations.",
-    extra: "Dedicated to upholding the values of the legal system.",
+      "Priya Sisgar is an Advocate at the High Court at Calcutta, holding an Integrated BBA-LL.B from JIS University (2024). She practises as a Junior Advocate under an Additional Government Pleader, handling Writ Petitions under Articles 226/227, criminal revisions, contempt applications, and Section 138 (NI Act) matters. She also brings corporate exposure gained while advising Non-Banking Financial Companies, along with a strong command of drafting commercial contracts, MSAs, NDAs, and precision legal notices.",
+    extra:
+      "Combines precision in legal drafting with a strong grasp of constitutional litigation and the Bhartiya Nyaya Sanhita.",
   },
   {
-  name: "Snehasish Chatterjee",
-  experience: 6,
-  designation: "Advocate",
-  details:
-    "Practicing advocate with experience in civil and criminal litigation across courts in West Bengal.",
-  image: "https://innerworklegalservices.com/assets/team/Snehasis_Chatterjee.webp",
-  description:
-    "Snehasish Chatterjee is a dedicated legal professional with experience in civil and criminal litigation. Enrolled with the West Bengal Bar Council and certified by the Bar Council of India, he has represented clients in various legal matters before the Barasat Judges Court and City Civil Court. He has also served as an Advocate Commissioner on multiple occasions and is an active member of several bar associations. His practical courtroom experience, combined with a strong academic foundation in law and human rights, enables him to provide effective legal representation and strategic legal support.",
-  extra:
-    "Snehasish Chatterjee is a practicing advocate handling a wide range of civil and criminal matters, with experience appearing before district and city civil courts."
-},
-{
-  name: "Punyasloka Mukhopadhyay",
-  experience: 1,
-  designation: "Legal Associate",
-  details:
-    "Legal professional with experience in legal research, litigation support, human resources, and compliance advisory.",
-  image: "https://innerworklegalservices.com/assets/team/Punyasloka_Mukhopadhya.webp",
-  description:
-    "Punyasloka Mukhopadhyay holds a B.A. LL.B. (Hons.) with specialization in International Law and a Post Graduate Diploma in Human Resource Management. He has gained diverse experience through legal internships, legal research assignments, litigation support, and corporate HR operations. Throughout his professional journey, he has worked on case law analysis, drafting legal documents, compliance-related matters, and client support activities. His multidisciplinary background in law and organizational management allows him to contribute effectively to legal advisory, research, documentation, and dispute resolution matters.",
-  extra:
-    "Punyasloka Mukhopadhyay combines legal education with practical experience in legal research, documentation, compliance, and corporate operations."
-},
+    name: "Ankita Mondal",
+    experience: 4,
+    designation: "Advocate, Judge's Court Howrah",
+    details:
+      "Ankita Mondal is a practising Advocate at the Judge's Court, Howrah, with a First Class B.A.LL.B...",
+    image: AnkitaMondal,
+    description:
+      "Ankita Mondal is a practising Advocate at the Judge's Court, Howrah, where she has appeared in civil and criminal matters since 2022. She holds a B.A.LL.B with First Class from George School of Law under Calcutta University and is currently pursuing an LL.M in Corporate Law at JIS University. Her practice covers drafting pleadings, written statements, applications, affidavits, and written arguments, alongside legal research, case law analysis, contract review, and the drafting and registration of deeds.",
+    extra:
+      "Pairs hands-on district court litigation with a corporate law focus and disciplined legal drafting.",
+  },
 ];
 
 export { teamMembers };
